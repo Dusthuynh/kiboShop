@@ -1,1 +1,1 @@
-[click here go to kiboShop](https://dusthuynh.github.io/kiboShop/)
+[Click here go to kiboShop](https://dusthuynh.github.io/kiboShop/)
