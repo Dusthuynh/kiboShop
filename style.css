@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'font-footer' ;
+    src: url(/font/products/Product\ Sans\ Regular.otf);
+}
+footer {
+    text-decoration: none;
+    color: #fff;
+    padding: 65px 130px 65px 130px;
+    background-color: #444549;
+    font-size: 15px;
+    margin: 0 0;
+    font-family: 'font-footer' , 'Sans-serif';
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 160px;
+}
+.footer .header{
+    font-size: 18px;
+    height:30px;
+}
+
+.footer-contacts, .footer-notify {
+    width: 300px;
+}
+.footer div{
+    line-height: 30px;
+}
+.contacts_others {
+    display: flex;
+}
+.contacts_others div{
+    padding-top: 30px;
+    margin-right: 25px;
+}
+.notify_input {
+    padding-top: 20px;
+    display: flex;
+    height: 41px;
+}
+.input-text input {
+    color: #8f9196;
+    background-color: RGB(77,77,81);
+    border: 0;
+    padding-left: 12px;
+    height: 100%;
+    outline: none;
+}
+.input-button {
+    background-color: #8071b3;
+    width:  100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1px;
+}
+.hr {
+    height: 10px;
+    border-top: 1px solid #fff;
+}
