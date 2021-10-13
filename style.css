@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'font-footer' ;
+    src: url(/font/products/Product\ Sans\ Regular.otf);
+}
 footer {
     text-decoration: none;
     color: #fff;
@@ -5,6 +9,7 @@ footer {
     background-color: #444549;
     font-size: 15px;
     margin: 0 0;
+    font-family: 'font-footer' , 'Sans-serif';
 }
 footer a {
     text-decoration: none;
@@ -36,7 +41,7 @@ footer a {
     padding-top: 30px;
     margin-right: 25px;
 }
-.notify__input {
+.notify_input {
     padding-top: 20px;
     display: flex;
     height: 41px;
