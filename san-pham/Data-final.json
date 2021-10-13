@@ -1,0 +1,282 @@
+{
+	"Akko": [
+		{
+			"Tên": "AKKO 5108 World Tour Tokyo R2 SP",
+			"Switch":"AKKO CS Switch",
+			"Hotswap":"YES",
+			"Keycap": "PBT Dye-subbed",
+			"Profile": "OSA",
+			"Type": ["Lavender Purple", "Vintage White"],
+			"Giá": "2,199,000"
+		},
+		{
+			"Tên": "AKKO 3098B Multi-modes Prunus Lannesiana",
+			"Switch":"AKKO CS Switch"
+		},
+		{
+			"Tên": "AKKO 3098B Multi-modes World Tour Tokyo R2",
+			"Switch":"AKKO CS Switch"
+		},
+		{
+			"Tên": "AKKO 3098N Multi-modes Black Gold",
+			"Switch":"TTC Switch"
+		},
+		{
+			"Tên": "AKKO Designer Studio MOD001 – World Tour Tokyo",
+			"Switch": "Cherry switch"
+		},
+		{
+			"Tên": "AKKO Designer Studio MOD001 – Macaw",
+			"Switch": "Cherry switch"
+		},
+		{
+			"Tên": "AKKO Designer Studio MOD001 – Psittacus",
+			"Switch": "Cherry switch"
+		},
+		{
+			"Tên": "AKKO 3108 v2 DS Ocean Star",
+			"Switch":"AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3098 DS Ocean Star",
+			"Switch":"AKKO switch v2"
+		},
+		{
+			"Tên": "Mojike GK1 Black Red",
+			"Switch":"AKKO switch v2"	
+		},
+		{
+			"Tên": "Mojike GK1 Black Pink",
+			"Switch":"AKKO switch v2"	
+		},
+		{
+			"Tên": "AKKO 3098 v2 ASA – Los Angeles",
+			"Switch":"AKKO CS Switch"
+		},
+		{
+			"Tên": "AKKO 3084 v2 ASA – Los Angeles",
+			"Switch":"AKKO CS Switch"
+		},
+		{
+			"Tên": "AKKO 3098 v2 ASA – Black Pink",
+			"Switch":"AKKO CS Switch"
+		},
+		{
+			"Tên": "AKKO 3084 v2 ASA – Black Pink",
+			"Switch":"AKKO CS Switch"
+		},
+		{
+			"Tên": "AKKO 3108 DS Midnight R2",
+			"Switch":"AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3098 DS Midnight R2",
+			"Switch":"AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3108 Silent",
+			"Switch":"AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3108 Silent",
+			"Switch":"Cherry switch"
+		},
+		{
+			"Tên": "AKKO 3108 Silent",
+			"Switch":"Akko switch"
+		},
+		{
+			"Tên": "AKKO 3087 Silent",
+			"Switch":"Cherry switch"
+		},
+		{
+			"Tên": "AKKO 3087 Silent",
+			"Switch": "Akko switch"
+		},
+		{
+			"Tên": "AKKO 3084 Silent - Bluetooth 5.0",
+			"Switch":"AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3084 Silent - Bluetooth 5.0",
+			"Switch":"Gateron switch"
+		},
+		{
+			"Tên": "AKKO 5108 Honkai Impact 3rd – Cyberangel",
+			"Switch":""
+		},
+		{
+			"Tên": "Akko 3108 v2 Honkai Impact 3rd – Yae Sakura",
+			"Switch":"AKKO switch v2"
+		},
+		{
+			"Tên": "Akko 3108 v2 Honkai Impact 3rd – Seele Vollerei",
+			"Switch": "AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3068 v2 Year of the Ox",
+			"Switch":"AKKO CS Switch"
+		},
+		{
+			"Tên": "AKKO 3061S Neon RGB Bluetooth 5.0",
+			"Switch": "Gateron switch"
+		},
+		{
+			"Tên": "AKKO 3108 v2 Monet’s Pond",
+			"Switch": "AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3108 Dragon Ball Z – Frieza",
+			"Switch": "Akko switch"
+		},
+		{
+			"Tên": "AKKO 3108 Dragon Ball Z – Frieza",
+			"Switch": "Cherry switch"
+		},
+		{
+			"Tên": "AKKO 3108 Dragon Ball Z – Vegeta",
+			"Switch":"Cherry switch"
+		},
+		{
+			"Tên": "AKKO 3108 Dragon Ball Z – Vegeta",
+			"Switch":"Akko switch"
+		},
+		{
+			"Tên": "AKKO 3108 v2 DS Horizon",
+			"Switch":"AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3087 v2 DS Horizon",
+			"Switch":"AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3108 v2 OSA – Macaw",
+			"Switch": "Gateron switch"
+		},
+		{
+			"Tên": "AKKO 3108 v2 Steam Engine",
+			"Switch": "AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3108 v2 DS Matcha Red Bean",
+			"Switch": "AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3098 DS Matcha Red Bean",
+			"Switch": "Gateron switch"
+		},
+		{
+			"Tên": "AKKO 3098 DS Matcha Red Bean",
+			"Switch": "AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3108 v2 One Piece – Luffy",
+			"Switch": "AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3087 v2 One Piece – Luffy",
+			"Switch": "AKKO switch v2"
+		},
+		{
+			"Tên": "Akko 3087 v2 One Piece – Chopper",
+			"Switch": "AKKO switch v2"
+		},
+		{
+			"Tên": "AKKO 3108 v2 Bilibili",
+			"Switch":"Akko switch"
+		},
+		{
+			"Tên": "AKKO 3087 v2 Bilibili",
+			"Switch":"Akko switch"
+		}	
+	],
+	"Leopold" :[
+		{
+			"Tên": "Leopold FC980M PD White Blue Star",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC900R PD White Blue Star",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC750R PD White Blue Star",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC660M PD White Blue Star",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC660MPD Blue Grey",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC650MDS Blue Grey",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC980M OE White Mint",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC750R PD WhiteMint",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC900R PD Grey Purple",
+			"Switch":"Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC750R PD Grey Purple",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC750R PD White Dark Grey",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC660M PD White Dark Grey",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC980M PD White Grey",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC900R PD White Grey",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên" :"Leopold FC900R PD Sweden - White Case",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên" :"Leopold FC750R PD Sweden - White Case",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC660M PD Sweden - White Case",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC900R PD OEM Sweden",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC750R PD OEM Sweden",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC900R BlueBlack PS",
+			"Switch": "Cherry MX Switch"
+		},
+		{
+			"Tên": "Leopold FC750R PS BlueBlack",
+			"Switch": "Cherry MX Switch"
+		}
+	],
+	"Royal Kludge" :[
+		
+	]
+}
