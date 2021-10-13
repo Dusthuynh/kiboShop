@@ -4,102 +4,242 @@
 			"Tên": "AKKO 5108 World Tour Tokyo R2 SP",
 			"Switch":"AKKO CS Switch",
 			"Hotswap":"YES",
+			"Kết nối": ["USB Type C"],
 			"Keycap": "PBT Dye-subbed",
 			"Profile": "OSA",
 			"Type": ["Lavender Purple", "Vintage White"],
-			"Giá": "2,199,000"
+			"Giá": "2,199,000 ₫",
+			"Led": "RGB",
+			"Kích thước": "442x132x41 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "AKKO 3098B Multi-modes Prunus Lannesiana",
-			"Switch":"AKKO CS Switch"
+			"Switch":"AKKO CS Switch",
+			"Hotswap":"YES",
+			"Kết nối": ["USB Type C", "Bluetooth 5.0", "Wireless 2.4Ghz"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "ASA",
+			"Type": ["Radiant Red", "Lavender Purple", "Vintage White"],
+			"Giá": "2,099,000 ₫",
+			"Kích thước": "382x134x40 mm",
+			"Trọng lượng" :"1.1 kg"
 		},
 		{
 			"Tên": "AKKO 3098B Multi-modes World Tour Tokyo R2",
-			"Switch":"AKKO CS Switch"
+			"Switch":"AKKO CS Switch",
+			"Hotswap":"YES",
+			"Kết nối": ["USB Type C", "Bluetooth 5.0", "Wireless 2.4Ghz"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Radiant Red", "Lavender Purple", "Vintage White"],
+			"Giá": "2,299,000 ₫",
+			"Kích thước": "382x134x40 mm",
+			"Trọng lượng" :"1.1 kg"
 		},
 		{
 			"Tên": "AKKO 3098N Multi-modes Black Gold",
-			"Switch":"TTC Switch"
+			"Switch":"TTC Switch",
+			"Hotswap":"YES",
+			"Kết nối": ["USB Type C", "Bluetooth 5.0", "Wireless 2.4Ghz"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "ASA",
+			"Type": ["Gold Pink"],
+			"Giá": "2,899,000 ₫",
+			"Kích thước": "382x134x40 mm",
+			"Trọng lượng" :"1.1 kg"
 		},
 		{
 			"Tên": "AKKO Designer Studio MOD001 – World Tour Tokyo",
-			"Switch": "Cherry switch"
+			"Switch": "Cherry switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Brown", "Red"],
+			"Giá": "4,050,000 ₫",
+			"Kích thước": "360x140x40 mm",
+			"Trọng lượng" :"2 kg"
 		},
 		{
 			"Tên": "AKKO Designer Studio MOD001 – Macaw",
-			"Switch": "Cherry switch"
+			"Switch": "Cherry switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "OSA",
+			"Type": ["Brown", "Red"],
+			"Giá": "4,050,000 ₫",
+			"Kích thước": "360x140x40 mm",
+			"Trọng lượng" :"2 kg"
 		},
 		{
 			"Tên": "AKKO Designer Studio MOD001 – Psittacus",
-			"Switch": "Cherry switch"
+			"Switch": "Cherry switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "OSA",
+			"Type": ["Brown", "Red"],
+			"Giá": "4,050,000 ₫",
+			"Kích thước": "360x140x40 mm",
+			"Trọng lượng" :"2 kg"
 		},
 		{
 			"Tên": "AKKO 3108 v2 DS Ocean Star",
-			"Switch":"AKKO switch v2"
+			"Switch":"AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "Cherry",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,599,000 ₫",
+			"Kích thước": "440x140x40 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "AKKO 3098 DS Ocean Star",
-			"Switch":"AKKO switch v2"
+			"Switch":"AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "Cherry",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,599,000 ₫",
+			"Kích thước": "382x134x40 mm",
+			"Trọng lượng" :"0.97 kg"
 		},
 		{
 			"Tên": "Mojike GK1 Black Red",
-			"Switch":"AKKO switch v2"	
+			"Switch":"AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": [" USB, dây phím dính liền phím"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "899,000 ₫",
+			"Kích thước": "458x186x30 mm",
+			"Trọng lượng" :"1 kg"
 		},
 		{
 			"Tên": "Mojike GK1 Black Pink",
-			"Switch":"AKKO switch v2"	
+			"Switch":"AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB, dây phím dính liền phím"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "899,000 ₫",
+			"Kích thước": "458x186x30 mm",
+			"Trọng lượng" :"1 kg"
 		},
 		{
 			"Tên": "AKKO 3098 v2 ASA – Los Angeles",
-			"Switch":"AKKO CS Switch"
+			"Switch":"AKKO CS Switch",
+			"Hotswap":"YES",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "ASA",
+			"Type": ["Ocean Blue", "Rose Red", "Matcha Green"],
+			"Giá": "1,699,000 ₫",
+			"Kích thước": "382x134x40 mm",
+			"Trọng lượng" :"0.97 kg"
 		},
 		{
 			"Tên": "AKKO 3084 v2 ASA – Los Angeles",
-			"Switch":"AKKO CS Switch"
+			"Switch":"AKKO CS Switch",
+			"Hotswap":"YES",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "ASA",
+			"Type": ["Ocean Blue", "Rose Red", "Matcha Green"],
+			"Giá": "1,499,000 ₫",
+			"Kích thước": "315x127x42 mm",
+			"Trọng lượng" :"0.73 kg"
 		},
 		{
 			"Tên": "AKKO 3098 v2 ASA – Black Pink",
-			"Switch":"AKKO CS Switch"
+			"Switch":"AKKO CS Switch",
+			"Hotswap":"YES",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "ASA",
+			"Type": ["Ocean Blue", "Rose Red", "Matcha Green"],
+			"Giá": "1,699,000 ₫",
+			"Kích thước": "382x134x40 mm",
+			"Trọng lượng" :"0.97 kg"
 		},
 		{
 			"Tên": "AKKO 3084 v2 ASA – Black Pink",
-			"Switch":"AKKO CS Switch"
+			"Switch":"AKKO CS Switch",
+			"Hotswap":"YES",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "ASA",
+			"Type": ["Ocean Blue", "Rose Red", "Matcha Green"],
+			"Giá": "1,499,000 ₫",
+			"Kích thước": "315x127x42 mm",
+			"Trọng lượng" :"0.73 kg"
 		},
 		{
 			"Tên": "AKKO 3108 DS Midnight R2",
-			"Switch":"AKKO switch v2"
+			"Switch":"AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "Cherry",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,399,000 ₫",
+			"Kích thước": "440x140x40 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "AKKO 3098 DS Midnight R2",
-			"Switch":"AKKO switch v2"
+			"Switch":"AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "Cherry",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,399,000 ₫",
+			"Kích thước": "382x134x40 mm",
+			"Trọng lượng" :" 0.97 kg"
 		},
 		{
 			"Tên": "AKKO 3108 Silent",
-			"Switch":"AKKO switch v2"
-		},
-		{
-			"Tên": "AKKO 3108 Silent",
-			"Switch":"Cherry switch"
-		},
-		{
-			"Tên": "AKKO 3108 Silent",
-			"Switch":"Akko switch"
+			"Switch":"AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,599,000 ₫",
+			"Kích thước": "440x140x40 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "AKKO 3087 Silent",
-			"Switch":"Cherry switch"
-		},
-		{
-			"Tên": "AKKO 3087 Silent",
-			"Switch": "Akko switch"
+			"Switch": "Akko switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,299,000 ₫",
+			"Kích thước": "360x140x40 mm",
+			"Trọng lượng" :"0.95 kg"
 		},
 		{
 			"Tên": "AKKO 3084 Silent - Bluetooth 5.0",
-			"Switch":"AKKO switch v2"
-		},
-		{
-			"Tên": "AKKO 3084 Silent - Bluetooth 5.0",
-			"Switch":"Gateron switch"
+			"Switch":"AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C", "Bluetooth 5.0"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,599,000 ₫",
+			"Kích thước": "315x127x42 mm",
+			"Trọng lượng" :"0.73 kg"
 		},
 		{
 			"Tên": "AKKO 5108 Honkai Impact 3rd – Cyberangel",
@@ -107,87 +247,219 @@
 		},
 		{
 			"Tên": "Akko 3108 v2 Honkai Impact 3rd – Yae Sakura",
-			"Switch":"AKKO switch v2"
+			"Switch":"AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "2,099,000 ₫",
+			"Kích thước": " 440x140x40 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "Akko 3108 v2 Honkai Impact 3rd – Seele Vollerei",
-			"Switch": "AKKO switch v2"
+			"Switch": "AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,599,000 ₫",
+			"Kích thước": " 440x140x40 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "AKKO 3068 v2 Year of the Ox",
-			"Switch":"AKKO CS Switch"
+			"Switch":"AKKO CS Switch",
+			"Hotswap":"YES",
+			"Kết nối": ["USB Type C", "Bluetooth 5.0"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "JDA",
+			"Type": ["Ocean Blue", "Rose Red", "Matcha Green"],
+			"Giá": "1,999,000 ₫",
+			"Kích thước": "312x102x40 mm",
+			"Trọng lượng" :"0.59 kg"
 		},
 		{
 			"Tên": "AKKO 3061S Neon RGB Bluetooth 5.0",
-			"Switch": "Gateron switch"
+			"Switch": "Gateron switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C", "Bluetooth 5.0"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "Cherry",
+			"Type": ["Pink", "Orange"],
+			"Giá": "1,699,000 ₫",
+			"Kích thước": "292x101x370 mm",
+			"Trọng lượng" :"0.5 kg"
 		},
 		{
 			"Tên": "AKKO 3108 v2 Monet’s Pond",
-			"Switch": "AKKO switch v2"
+			"Switch": "AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,799,000 ₫",
+			"Kích thước": "440x140x40 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "AKKO 3108 Dragon Ball Z – Frieza",
-			"Switch": "Akko switch"
-		},
-		{
-			"Tên": "AKKO 3108 Dragon Ball Z – Frieza",
-			"Switch": "Cherry switch"
+			"Switch": "Akko switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,799,000 ₫",
+			"Kích thước": "440x140x40 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "AKKO 3108 Dragon Ball Z – Vegeta",
-			"Switch":"Cherry switch"
-		},
-		{
-			"Tên": "AKKO 3108 Dragon Ball Z – Vegeta",
-			"Switch":"Akko switch"
+			"Switch":"Akko switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,699,000 ₫",
+			"Kích thước": "440x140x40 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "AKKO 3108 v2 DS Horizon",
-			"Switch":"AKKO switch v2"
+			"Switch":"AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "Cherry",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,599,000 ₫",
+			"Kích thước": "440x140x40 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "AKKO 3087 v2 DS Horizon",
-			"Switch":"AKKO switch v2"
+			"Switch":"AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "Cherry",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,399,000 ₫",
+			"Kích thước": "360x140x40 mm",
+			"Trọng lượng" :"0.95 kg"
 		},
 		{
 			"Tên": "AKKO 3108 v2 OSA – Macaw",
-			"Switch": "Gateron switch"
+			"Switch": "Gateron switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "OSA",
+			"Type": ["Gateron Yellow"],
+			"Giá": "1,950,000 ₫",
+			"Kích thước": "440x140x40 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "AKKO 3108 v2 Steam Engine",
-			"Switch": "AKKO switch v2"
+			"Switch": "AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,599,000 ₫",
+			"Kích thước": "440x140x40 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "AKKO 3108 v2 DS Matcha Red Bean",
-			"Switch": "AKKO switch v2"
+			"Switch": "AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,399,000 ₫",
+			"Kích thước": "360x140x40 mm",
+			"Trọng lượng" :"0.95 kg"
 		},
 		{
 			"Tên": "AKKO 3098 DS Matcha Red Bean",
-			"Switch": "Gateron switch"
-		},
-		{
-			"Tên": "AKKO 3098 DS Matcha Red Bean",
-			"Switch": "AKKO switch v2"
+			"Switch": "AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Double-Shot",
+			"Profile": "Cherry",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,599,000 ₫",
+			"Kích thước": "382x134x40 mm",
+			"Trọng lượng" :"0.97 kg"
 		},
 		{
 			"Tên": "AKKO 3108 v2 One Piece – Luffy",
-			"Switch": "AKKO switch v2"
+			"Switch": "AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,699,000 ₫",
+			"Kích thước": "440x140x40 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "AKKO 3087 v2 One Piece – Luffy",
-			"Switch": "AKKO switch v2"
+			"Switch": "AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,499,000 ₫",
+			"Kích thước": "360x140x40 mm",
+			"Trọng lượng" :"0.95 kg"
 		},
 		{
 			"Tên": "Akko 3087 v2 One Piece – Chopper",
-			"Switch": "AKKO switch v2"
+			"Switch": "AKKO switch v2",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,499,000 ₫",
+			"Kích thước": "360x140x40 mm",
+			"Trọng lượng" :"0.95 kg"
 		},
 		{
 			"Tên": "AKKO 3108 v2 Bilibili",
-			"Switch":"Akko switch"
+			"Switch":"Akko switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,699,000 ₫",
+			"Kích thước": "440x140x40 mm",
+			"Trọng lượng" :"1.2 kg"
 		},
 		{
 			"Tên": "AKKO 3087 v2 Bilibili",
-			"Switch":"Akko switch"
+			"Switch":"Akko switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C"],
+			"Keycap": "PBT Dye-Subbed",
+			"Profile": "OEM",
+			"Type": ["Blue", "Orange", "Pink"],
+			"Giá": "1,499,000 ₫",
+			"Kích thước": "360x140x40 mm",
+			"Trọng lượng" :"0.95 kg"
 		}	
 	],
 	"Leopold" :[
