@@ -1,17 +1,7 @@
 body {
   margin: 0;
-  padding: 0;
-  background-color: rgb(172, 172, 172);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  color: aliceblue;
+  background-color: antiquewhite;
 }
-
-#img-bg {
-  position: absolute;
-  z-index: -1;
-}
-
 /* style header */
 @font-face {
   font-family: font-header-footer;
@@ -24,8 +14,8 @@ header {
   justify-content: space-between;
   align-items: center;
   font-size: 25px;
-  padding: 20px 50px 20px 50px;
-  color: #202020;
+  padding: 20px 50px 20px 30px;
+  color: #323232;
   background-color: white;
 }
 
@@ -35,9 +25,21 @@ header {
 }
 
 .logoMain > img {
-  width: 150px;
+  width: 130px;
 }
 
-.navi > img {
-  width: 35px;
+.icon-header {
+  align-self: center;
+  width: 28px;
+  height: 28px;
+  padding-left: 20px;
+}
+
+.icon-header.menu {
+  padding-top: 6px;
+  padding-right: 5px;
+}
+
+a {
+  text-decoration: none;
 }
