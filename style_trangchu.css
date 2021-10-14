@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(172, 172, 172);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: aliceblue;
+}
+
+#img-bg {
+  position: absolute;
+  z-index: -1;
+}
+
+/* style header */
+@font-face {
+  font-family: font-header-footer;
+  src: url(font/products/Product\ Sans\ Bold.otf);
+}
+
+header {
+  display: flex;
+  font-family: "font-header-footer", Courier, monospace;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  padding: 20px 50px 20px 50px;
+  color: #202020;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.logoMain > img {
+  width: 150px;
+}
+
+.navi > img {
+  width: 35px;
+}
