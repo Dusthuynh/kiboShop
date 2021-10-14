@@ -4,12 +4,12 @@ body {
 }
 @font-face {
   font-family: font-hf-B;
-  src: url(font/products/Product\ Sans\ Bold.otf);
+  src: url(/font/products/Product\ Sans\ Bold.otf);
 }
 
 @font-face {
   font-family: font-hf-R;
-  src: url(font/products/Product\ Sans\ Regular.otf);
+  src: url(/font/products/Product\ Sans\ Regular.otf);
 }
 
 
