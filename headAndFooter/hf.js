@@ -13,3 +13,11 @@ fetch("/headAndFooter/footer.html")
   .then(data => {
     document.querySelector("footer").innerHTML = data;
   });
+
+  if(!document.getElementById('hf')) {
+    var link = document.createElement('link');
+    link.id = 'hf';
+    link.rel = 'stylesheet';
+    link.href = '/headAndFooter/hf.css';
+    document.head.appendChild(link);
+}
