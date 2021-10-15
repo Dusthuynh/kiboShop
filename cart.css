@@ -1,6 +1,7 @@
 .cart{
     padding: 20px 150px 20px 150px;
     font-size: 20px;
+    /* background-color: bisque; */
 }
 .cart-header{
     font-size: 48px;
@@ -11,10 +12,44 @@
     grid-template-columns: 15% 45% 10% 10% 10% 10%;
     font-size: 24px;
     color: #B1B1B1;
-    background-color: black;
+    /* background-color: black; */
+    justify-items: center;
+    margin: 15px 0px
 }
 .cart_body-item{
     display: grid;
     grid-template-columns: 15% 45% 10% 10% 10% 10%;
-    background-color: beige;
+    /* background-color: beige; */
+    justify-items: center;
+    margin: 0px 0px 5px 0px;
+}
+.fa-arrow-left{
+    padding: 10px 10px;
+    font-size: 12px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.fa-arrow-left:active{
+    color: rgb(156, 156, 156);
+}
+.fa-arrow-right{
+    padding: 10px 10px;
+    font-size: 12px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.fa-arrow-right:active{
+    color: rgb(156, 156, 156);
+}
+.fa-trash-alt{
+    font-size: 21px;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.fa-trash-alt:active{
+    color: rgb(156, 156, 156);
 }
