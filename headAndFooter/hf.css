@@ -96,6 +96,10 @@ footer a {
   height: 35px;
 }
 
+.contacts_others a{
+  padding-left: 2%;
+}
+
 .contacts_others div{
   padding-top: 30px;
   margin-right: 25px;
@@ -131,6 +135,25 @@ footer a {
 }
 
 @media screen and (max-width:750px) {
+  /* header */
+    header{
+      padding: 2% 5%;
+    }
+    .menu.header p{
+      display: none;
+    }
+    .icon-header{
+      width: 18px;
+      height: 18px;
+    }
+    .logoMain.header img{
+      width: 100px;
+    }
+    .navi{
+      padding-left: 5px;
+    }
+
+    /* footer */
     .footer_container {
       flex-direction: column;
       align-items: center;
@@ -142,6 +165,9 @@ footer a {
       align-items: center;
       text-align: center;
 
+    }
+    .contacts_others a{
+      padding-left: 2%;
     }
     .footer-keyboard, .footer-services, .footer-policy {
       display: none;
