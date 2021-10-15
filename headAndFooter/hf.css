@@ -117,7 +117,7 @@ footer a {
   height: 100%;
   outline: none;
 }
-.input-button {
+.input-button-header {
   background-color: rgb(102,102,102);
   width:  100px;
   display: flex;
@@ -133,6 +133,7 @@ footer a {
 .keyboard {
   padding-left: 10%;
 }
+
 
 @media screen and (max-width:750px) {
   /* header */
