@@ -58,8 +58,8 @@ a, a:hover, a:active {
 footer {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  padding: 65px 150px 65px 150px;
-  background-color: #7c7c7c;
+  padding: 2% 10%;
+  background-color: rgb(209,109,38);
   font-size: 14px;
   margin: 0 0;
   font-family: "font-hf-R", Courier, monospace;
@@ -107,14 +107,14 @@ footer a {
 }
 .input-text input {
   color: #8f9196;
-  background-color: RGB(77,77,81);
+  background-color: #fff;
   border: 0;
   padding-left: 12px;
   height: 100%;
   outline: none;
 }
 .input-button {
-  background-color: #8071b3;
+  background-color: rgb(102,102,102);
   width:  100px;
   display: flex;
   justify-content: center;
@@ -125,4 +125,30 @@ footer a {
 .hr {
   height: 10px;
   border-top: 1px solid #fff;
+}
+.keyboard {
+  padding-left: 10%;
+}
+
+@media screen and (max-width:750px) {
+    .footer_container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .contacts_others {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+    }
+    .footer-keyboard, .footer-services, .footer-policy {
+      display: none;
+    }
+}
+@media screen and (max-width:1024px) {
+  .footer-keyboard, .footer-services, .footer-policy {
+    display: none;
+  }
 }
