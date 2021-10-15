@@ -90,6 +90,12 @@ footer a {
 .contacts_others {
   display: flex;
 }
+
+.contacts_others img{
+  width: 35px;
+  height: 35px;
+}
+
 .contacts_others div{
   padding-top: 30px;
   margin-right: 25px;
