@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: aliceblue;
+    color: rgb(252, 152, 30);
+}
+
+@font-face {
+    font-family: font-hf-B;
+    src: url(/font/products/Product\ Sans\ Bold.otf);
+  }
+  
+  @font-face {
+    font-family: font-hf-R;
+    src: url(/font/products/Product\ Sans\ Regular.otf);
+  }
+  
+  
+  /* style header */
+  header {
+    display: flex;
+    font-family: "font-hf-B", Courier, monospace;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding: 1.5% 10%;
+    color: aliceblue;
+}
+  
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logoMain > img {
+    width: 130px;
+  }
+  
+  .icon-header {
+    align-self: center;
+    width: 28px;
+    height: 28px;
+  }
+  
+  .icon-header.menu {
+    padding-top: 6px;
+    padding-right: 5px;
+  }
+  
+  .navi{
+    padding-left: 15px;
+  }
+  
+  a, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
+/* style other */
+.img-top img{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+}
+
+#intro-box{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.color_main{
+    width: 50vw;
+}
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin: 2% 4% 5% 15% 
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0  , 10px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+h1{
+    padding-left: 5%;
+    font-size: 110px;
+}
