@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: "mainfont";
-    src: url("/font/products/Product\ Sans\ Regular.otf");
+    src: url("../font/products/Product\ Sans\ Regular.otf");
 }
 body{
     font-family: "mainfont","sans-serif";
