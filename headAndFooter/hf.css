@@ -120,3 +120,13 @@ footer a {
   height: 10px;
   border-top: 1px solid #fff;
 }
+
+@media screen and (min-width: 320px) {
+    .footer {
+      padding: 50px;
+    }
+    .footer_container {
+      display: block;
+    }
+    
+}
