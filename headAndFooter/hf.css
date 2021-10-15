@@ -4,24 +4,23 @@ body {
 }
 @font-face {
   font-family: font-hf-B;
-  src: url(font/products/Product\ Sans\ Bold.otf);
+  src: url(/font/products/Product\ Sans\ Bold.otf);
 }
 
 @font-face {
   font-family: font-hf-R;
-  src: url(font/products/Product\ Sans\ Regular.otf);
+  src: url(/font/products/Product\ Sans\ Regular.otf);
 }
 
 
 /* style header */
 header {
-  margin: 0px 150px;
   display: flex;
   font-family: "font-hf-B", Courier, monospace;
   justify-content: space-between;
   align-items: center;
   font-size: 25px;
-  padding: 20px 0px;
+  padding: 20px 150px;
   color: #323232;
   background-color: white;
 }
@@ -91,6 +90,12 @@ footer a {
 .contacts_others {
   display: flex;
 }
+
+.contacts_others img{
+  width: 35px;
+  height: 35px;
+}
+
 .contacts_others div{
   padding-top: 30px;
   margin-right: 25px;
