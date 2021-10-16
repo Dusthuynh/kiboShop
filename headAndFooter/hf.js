@@ -18,7 +18,7 @@ fetch("/headAndFooter/footer.html")
     var link = document.createElement('link');
     link.id = 'hf';
     link.rel = 'stylesheet';
-    link.href = '/headAndFooter/hf.css';
+    link.href = 'headAndFooter/hf.css';
     document.head.appendChild(link);
   }
 
@@ -26,7 +26,7 @@ fetch("/headAndFooter/footer.html")
     var link = document.createElement('link');
     link.id = 'icon-title';
     link.rel = 'icon';
-    link.href = '/media/icon/iconTitle.png';
+    link.href = 'media/icon/iconTitle.png';
     link.type = 'image/x-icon';
     document.head.appendChild(link);
   }
