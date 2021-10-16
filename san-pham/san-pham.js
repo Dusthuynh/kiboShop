@@ -1,5 +1,9 @@
 window.onload = main();
 var data;
+$(function(){
+  $("header").load("../headAndFooter/header.html"); 
+  $("footer").load("../headAndFooter/footer.html"); 
+});
 $.getJSON("./Data-final.json", data,
     function (data, textStatus, jqXHR) {
         console.log(data);
