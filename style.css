@@ -1,94 +1,127 @@
 body {
-    margin: 0;
-    overflow-x: hidden;
-    background-color: aliceblue;
-    color: rgb(252, 152, 30);
+  margin: 0;
+  overflow-x: hidden;
+  background-color: aliceblue;
+  color: rgb(233, 233, 233);
 }
 
 @font-face {
-    font-family: font-hf-B;
-    src: url(/font/products/Product\ Sans\ Bold.otf);
-  }
-  
-  @font-face {
-    font-family: font-hf-R;
-    src: url(/font/products/Product\ Sans\ Regular.otf);
-  }
-  
-  
-  /* style header */
-  header {
-    display: flex;
-    font-family: "font-hf-B", Courier, monospace;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 25px;
-    padding: 1.5% 10%;
-    color: aliceblue;
+  font-family: font-hf-B;
+  src: url(/font/products/Product\ Sans\ Bold.otf);
 }
-  
-  .header {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .logoMain > img {
-    width: 12vw;
-  }
-  
-  .icon-header {
-    align-self: center;
-    width: 28px;
-    height: 28px;
-  }
-  
-  .icon-header.menu {
-    padding-top: 6px;
-    padding-right: 5px;
-  }
-  
-  .navi{
-    padding-left: 15px;
-  }
-  
-  a, a:hover, a:active {
-    text-decoration: none;
-    color: inherit;
-  }
+
+@font-face {
+  font-family: font-hf-R;
+  src: url(/font/products/Product\ Sans\ Regular.otf);
+}
+
+/* style header */
+header {
+  display: flex;
+  font-family: "font-hf-B", Courier, monospace;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2vw;
+  padding: 1.5% 10%;
+  color: aliceblue;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.logoMain > img {
+  width: 12vw;
+}
+
+.icon-header {
+  align-self: center;
+  width: 28px;
+  height: 28px;
+}
+
+.icon-header.menu {
+  padding-top: 7px;
+  padding-right: 5px;
+}
+
+.navi {
+  padding-left: 15px;
+}
+
+a, a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* style other */
-.img-top img{
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
+.img-top img {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
 }
 
-#intro-box{
-    display: flex;
-    justify-content: flex-end;
+.slogan-homepage h1{
+  line-height: 90%;
+  font-size: 6vw;
+  padding-left: 3vw;
 }
 
-.color_main{
-    width: 50vw;
+#intro-box {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 3vh;
+  margin-left: 4vw;
 }
 
-.floating { 
-    animation-name: floating;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 5px;
-    margin: 2% 4% 5% 15% 
+.color_main {
+  width: 50vw;
 }
- 
+
+.floating {
+  animation-name: floating;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-right: 2vw;
+}
+
 @keyframes floating {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0  , 10px); }
-    100%   { transform: translate(0, -0px); }   
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 8px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 
-h1{
-    padding-left: 5%;
-    font-size: 8vw;
+.none-homepage{
+  margin-top: 140px;
+}
+
+@media screen and (max-width: 750px) {
+  /* header */
+  header {
+    padding: 4% 5%;
+  }
+  .menu.header p {
+    display: none;
+  }
+  .icon-header {
+    width: 18px;
+    height: 18px;
+  }
+  .logoMain.header img {
+    width: 100px;
+  }
+  .navi {
+    padding-left: 5px;
+  }
+  .none-homepage{
+    margin-top: 0;
+  }
 }
