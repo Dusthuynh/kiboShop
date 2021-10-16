@@ -23,33 +23,36 @@
     justify-items: center;
     margin: 0px 0px 5px 0px;
 }
-.fa-arrow-left{
+.fa-angle-left{
     padding: 10px 10px;
     font-size: 12px;
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
-.fa-arrow-left:active{
+.fa-angle-left:active{
     color: rgb(156, 156, 156);
 }
-.fa-arrow-right{
+.fa-angle-right{
     padding: 10px 10px;
     font-size: 12px;
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
-.fa-arrow-right:active{
+.fa-angle-right:active{
     color: rgb(156, 156, 156);
 }
 .fa-trash-alt{
-    font-size: 21px;
-    padding: 10px 10px;
+    font-size: 18px;
+    padding: 0px 0px;
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 .fa-trash-alt:active{
     color: rgb(156, 156, 156);
+}
+span.valPrice,.valTotal,.valQty{
+    font-size: 21px;
 }
