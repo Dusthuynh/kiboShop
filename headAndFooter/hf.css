@@ -64,6 +64,9 @@ footer {
   margin: 0 0;
   font-family: "font-hf-R", Courier, monospace;
 }
+.contacts_logo img{
+  width: 100px;
+}
 footer a {
   text-decoration: none;
   color: rgb(255, 255, 255);
