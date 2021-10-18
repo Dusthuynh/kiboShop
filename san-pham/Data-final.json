@@ -2,6 +2,7 @@
 	"Akko": [
 		{
 			"Tên": "AKKO 5108 World Tour Tokyo R2 SP",
+			"Model": "Full size",
 			"Switch":"AKKO CS Switch",
 			"Hotswap":"YES",
 			"Kết nối": ["USB Type C"],
@@ -15,6 +16,7 @@
 		},
 		{
 			"Tên": "AKKO 3098B Multi-modes Prunus Lannesiana",
+			"Model": "3098",
 			"Switch":"AKKO CS Switch",
 			"Hotswap":"YES",
 			"Kết nối": ["USB Type C", "Bluetooth 5.0", "Wireless 2.4Ghz"],
@@ -27,6 +29,7 @@
 		},
 		{
 			"Tên": "AKKO 3098B Multi-modes World Tour Tokyo R2",
+			"Model": "3098",
 			"Switch":"AKKO CS Switch",
 			"Hotswap":"YES",
 			"Kết nối": ["USB Type C", "Bluetooth 5.0", "Wireless 2.4Ghz"],
@@ -39,6 +42,7 @@
 		},
 		{
 			"Tên": "AKKO 3098N Multi-modes Black Gold",
+			"Model": "3098",
 			"Switch":"TTC Switch",
 			"Hotswap":"YES",
 			"Kết nối": ["USB Type C", "Bluetooth 5.0", "Wireless 2.4Ghz"],
@@ -51,6 +55,7 @@
 		},
 		{
 			"Tên": "AKKO Designer Studio MOD001 – World Tour Tokyo",
+			"Model": "3087",
 			"Switch": "Cherry switch",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -63,6 +68,7 @@
 		},
 		{
 			"Tên": "AKKO Designer Studio MOD001 – Macaw",
+			"Model": "3087",
 			"Switch": "Cherry switch",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -75,6 +81,7 @@
 		},
 		{
 			"Tên": "AKKO Designer Studio MOD001 – Psittacus",
+			"Model": "3087",
 			"Switch": "Cherry switch",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -87,6 +94,7 @@
 		},
 		{
 			"Tên": "AKKO 3108 v2 DS Ocean Star",
+			"Model": "Full size",
 			"Switch":"AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -99,6 +107,7 @@
 		},
 		{
 			"Tên": "AKKO 3098 DS Ocean Star",
+			"Model": "3098",
 			"Switch":"AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -111,6 +120,7 @@
 		},
 		{
 			"Tên": "Mojike GK1 Black Red",
+			"Model": "Full size",
 			"Switch":"AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": [" USB, dây phím dính liền phím"],
@@ -123,6 +133,7 @@
 		},
 		{
 			"Tên": "Mojike GK1 Black Pink",
+			"Model": "Full size",
 			"Switch":"AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB, dây phím dính liền phím"],
@@ -135,6 +146,7 @@
 		},
 		{
 			"Tên": "AKKO 3098 v2 ASA – Los Angeles",
+			"Model": "3098",
 			"Switch":"AKKO CS Switch",
 			"Hotswap":"YES",
 			"Kết nối": ["USB Type C"],
@@ -147,6 +159,7 @@
 		},
 		{
 			"Tên": "AKKO 3084 v2 ASA – Los Angeles",
+			"Model": "3084",
 			"Switch":"AKKO CS Switch",
 			"Hotswap":"YES",
 			"Kết nối": ["USB Type C"],
@@ -159,6 +172,7 @@
 		},
 		{
 			"Tên": "AKKO 3098 v2 ASA – Black Pink",
+			"Model": "3098",
 			"Switch":"AKKO CS Switch",
 			"Hotswap":"YES",
 			"Kết nối": ["USB Type C"],
@@ -171,6 +185,7 @@
 		},
 		{
 			"Tên": "AKKO 3084 v2 ASA – Black Pink",
+			"Model": "3084",
 			"Switch":"AKKO CS Switch",
 			"Hotswap":"YES",
 			"Kết nối": ["USB Type C"],
@@ -183,6 +198,7 @@
 		},
 		{
 			"Tên": "AKKO 3108 DS Midnight R2",
+			"Model": "Full size",
 			"Switch":"AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -195,6 +211,7 @@
 		},
 		{
 			"Tên": "AKKO 3098 DS Midnight R2",
+			"Model": "3098",
 			"Switch":"AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -207,6 +224,7 @@
 		},
 		{
 			"Tên": "AKKO 3108 Silent",
+			"Model": "Full size",
 			"Switch":"AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -219,6 +237,7 @@
 		},
 		{
 			"Tên": "AKKO 3087 Silent",
+			"Model": "3087",
 			"Switch": "Akko switch",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -231,6 +250,7 @@
 		},
 		{
 			"Tên": "AKKO 3084 Silent - Bluetooth 5.0",
+			"Model": "3084",
 			"Switch":"AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C", "Bluetooth 5.0"],
@@ -243,10 +263,12 @@
 		},
 		{
 			"Tên": "AKKO 5108 Honkai Impact 3rd – Cyberangel",
+			"Model": "Full size",
 			"Switch":""
 		},
 		{
 			"Tên": "Akko 3108 v2 Honkai Impact 3rd – Yae Sakura",
+			"Model": "Full size",
 			"Switch":"AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -259,6 +281,7 @@
 		},
 		{
 			"Tên": "Akko 3108 v2 Honkai Impact 3rd – Seele Vollerei",
+			"Model": "Full size",
 			"Switch": "AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -271,6 +294,7 @@
 		},
 		{
 			"Tên": "AKKO 3068 v2 Year of the Ox",
+			"Model": "3068",
 			"Switch":"AKKO CS Switch",
 			"Hotswap":"YES",
 			"Kết nối": ["USB Type C", "Bluetooth 5.0"],
@@ -283,6 +307,7 @@
 		},
 		{
 			"Tên": "AKKO 3061S Neon RGB Bluetooth 5.0",
+			"Model": "3061",
 			"Switch": "Gateron switch",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C", "Bluetooth 5.0"],
@@ -295,6 +320,7 @@
 		},
 		{
 			"Tên": "AKKO 3108 v2 Monet’s Pond",
+			"Model": "Full size",
 			"Switch": "AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -307,6 +333,7 @@
 		},
 		{
 			"Tên": "AKKO 3108 Dragon Ball Z – Frieza",
+			"Model": "Full size",
 			"Switch": "Akko switch",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -319,6 +346,7 @@
 		},
 		{
 			"Tên": "AKKO 3108 Dragon Ball Z – Vegeta",
+			"Model": "Full size",
 			"Switch":"Akko switch",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -331,6 +359,7 @@
 		},
 		{
 			"Tên": "AKKO 3108 v2 DS Horizon",
+			"Model": "Full size",
 			"Switch":"AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -343,6 +372,7 @@
 		},
 		{
 			"Tên": "AKKO 3087 v2 DS Horizon",
+			"Model": "3087",
 			"Switch":"AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -355,6 +385,7 @@
 		},
 		{
 			"Tên": "AKKO 3108 v2 OSA – Macaw",
+			"Model": "Full size",
 			"Switch": "Gateron switch",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -367,6 +398,7 @@
 		},
 		{
 			"Tên": "AKKO 3108 v2 Steam Engine",
+			"Model": "Full size",
 			"Switch": "AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -379,6 +411,7 @@
 		},
 		{
 			"Tên": "AKKO 3108 v2 DS Matcha Red Bean",
+			"Model": "Full size",
 			"Switch": "AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -391,6 +424,7 @@
 		},
 		{
 			"Tên": "AKKO 3098 DS Matcha Red Bean",
+			"Model": "3098",
 			"Switch": "AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -403,6 +437,7 @@
 		},
 		{
 			"Tên": "AKKO 3108 v2 One Piece – Luffy",
+			"Model": "Full size",
 			"Switch": "AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -415,6 +450,7 @@
 		},
 		{
 			"Tên": "AKKO 3087 v2 One Piece – Luffy",
+			"Model": "3087",
 			"Switch": "AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -427,6 +463,7 @@
 		},
 		{
 			"Tên": "Akko 3087 v2 One Piece – Chopper",
+			"Model": "3087",
 			"Switch": "AKKO switch v2",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -439,6 +476,7 @@
 		},
 		{
 			"Tên": "AKKO 3108 v2 Bilibili",
+			"Model": "Full size",
 			"Switch":"Akko switch",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],
@@ -451,6 +489,7 @@
 		},
 		{
 			"Tên": "AKKO 3087 v2 Bilibili",
+			"Model": "3087",
 			"Switch":"Akko switch",
 			"Hotswap":"NO",
 			"Kết nối": ["USB Type C"],

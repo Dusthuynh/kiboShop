@@ -1,20 +1,31 @@
 :root{
-    --img-width: 15vw;
-    --img-height: 25vw;
+    --img-width: 200px;
+    --img-height: 250px;
     --column-gap: 20px;
-    --row-gap: 20px;
+    --row-gap: calc(20px);
+    /* --background-item: rgb(223, 223, 223); */
 }
 @font-face {
     font-family: "mainfont";
-    src: url("../font/products/Product\ Sans\ Regular.otf");
+    src: url("../font/Lato\ Việt\ Hoá/Lato Medium.ttf");
+}
+@font-face {
+    font-family: "mainfont-light";
+    src: url("../font/Lato\ Việt\ Hoá/Lato Light.ttf");
+}
+@font-face {
+    font-family: "mainfont-bold";
+    src: url("../font/Lato\ Việt\ Hoá/Lato Bold.ttf");
+}
+header{
+    background: transparent;
 }
 body{
+    /* background: url("../keyboard-unsplash.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;  */
     font-family: "mainfont","sans-serif";
     overflow-x: hidden;
-}
-#title-picture{
-    width: 100%;
-    height: auto;
 }
 .wholepage-sort{
     display: flex;
@@ -31,6 +42,11 @@ body{
     justify-content: space-around;
     padding-bottom: 20px;
 }
+#menu{
+    height: 100%;
+    padding: 10px;
+    background: var(--background-item);
+}
 .menu-item{
     cursor: pointer;
     display: flex;
@@ -40,19 +56,29 @@ body{
 #sanpham{
     display: grid;
     grid-template-columns: repeat(4, calc(var(--img-width) + 20px));
-    grid-template-rows: repeat(3, var(--img-height));
+    grid-template-rows: repeat(3, calc(var(--img-height) + calc(250px / 2)));
     column-gap: var(--column-gap);
     row-gap: var(--row-gap);
     margin-bottom: 20px;
 }
-img{
-   
+.hinh-sanpham{
     width: var(--img-width);
-    height: auto;
+    height: var(--img-height);
+    
+}
+.div-hinh-sanpham{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 2px 2px 4px;
+    width: calc(var(--img-width) + 20px);
+    height: calc(var(--img-height) + 20px);
+}
+hr{
+    border: 1px solid black;
 }
 .sanpham-item{
+    background: var(--background-item);
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     justify-self: center;
     display: flex;
     flex-direction: column;
@@ -66,12 +92,21 @@ img{
     align-items: center;
     text-align: center;
 }
-.content, .tiensanpham{
+.content{
     display: none;
 }
 
+.tien-sanpham, .ten-sanpham, h3{
+    font-family: "mainfont-bold", "sans-serif";
+}
+.model-sanpham, h2{
+    font-family: "mainfont", "sans-serif";
+}
 .content >p {
     cursor:pointer
+}
+.content >p:hover{
+    color: red;
 }
 .fas{
     padding: 10px;
