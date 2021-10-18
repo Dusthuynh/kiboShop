@@ -16,53 +16,66 @@
         <div class="cart-header">
             <div>Shopping</div>
             <div>Cart</div>
+            <div class="_producttext"></div>
         </div>
         <div class="cart-body">
 
-            <div class="cart_body-title">
-                <div class="cart_body_title-product">PRODUCT</div>
-                <div class="cart_body_title-empty"></div>
-                <div class="cart_body_title-qty">QTY</div>
-                <div class="cart_body_title-price">PRICE</div>
-                <div class="cart_body_title-total">TOTAL</div>
-                <div class="cart_body_title-delete">DELETE</div>
+            <div class="cart_body-items">
+
+                <div class="cart_body-item">
+                    <div class="cart_body_item-info1">
+                        <div class="cart_body_item-img"><img class="imgItem"
+                                src="/san-pham/AKKO 3061S Neon RGB Bluetooth 5.0/AKKO 3061S Neon RGB Bluetooth 5.0 1.jpg"
+                                alt="" width="170" height="150" style="border: 1px solid;"></div>
+                        <div class="cart_body_item-description">
+                            <div class="cart_body_item_description-name">
+                                <a class="linkItem" href="">AKKO 3061S Neon RGB Bluetooth 5.0 1</a>
+                            </div>
+                            <div class="cart_body_item_description-overview">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart_body_item-info2">
+                        <div class="cart_body_item_info2-qty">
+                            <div class="cart_body_item_info2_qty title">
+                                QTY
+                            </div>
+                            <div class="cart_body_item_info2_qty content">
+                                <button class="fas fa-angle-left" style="height:20px;width:25px" onclick=""></button>
+                                <span class="valQty">3</span>
+                                <button class="fas fa-angle-right" style="height:20px;width:25px" onclick=""></button>
+                            </div>
+                        </div>
+                        <div class="cart_body_item_info2-price">
+                            <div class="cart_body_item_info2_price title">Price</div>
+                            <span class="cart_body_item_info2_price content">6$/1</span>
+                        </div>
+                        <div class="cart_body_item_info2-total">
+                            <div class="cart_body_item_info2_total title">Total</div>
+                            <span class="cart_body_item_info2_total content">18$</span>
+                        </div>
+                        <div class="cart_body_item_info2-delete">
+                            <div class="cart_body_item_info2_delete title">Delete</div>
+                            <div class="cart_body_item_info2_delete content">
+                                <button class="far fa-trash-alt"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="cart_body-item">
-                <div class="cart_body_item-img"><img class="imgItem"
-                        src="/san-pham/AKKO 3061S Neon RGB Bluetooth 5.0/AKKO 3061S Neon RGB Bluetooth 5.0 1.jpg" alt=""
-                        width="170" height="150" style="border: 1px solid;"></div>
+        </div>
 
-                <div class="cart_body_item-description">
-                    <div class="cart_body_item_description-name">
-                        <a class="linkItem" href="">AKKO 3061S Neon RGB Bluetooth 5.0 1</a>
-                    </div>
-                    <div class="cart_body_item_description-overview">
-                        <p></p>
-                    </div>
-                </div>
-
-                <div class="cart_body_item-qty">
-                    <div>
-                        <button class="fas fa-angle-left" style="height:20px;width:25px" onclick=""></button>
-                        <span class="valQty">3</span>
-                        <button class="fas fa-angle-right" style="height:20px;width:25px" onclick=""></button>
-                    </div>
-                </div>
-
-                <div class="cart_body_item-price">
-                    <span class="valPrice">6</span>
-                </div>
-
-                <div class="cart_body_item-total">
-                    <span class="valTotal">9</span>
-                </div>
-
-                <div class="cart_body_item-delete">
-                    <button class="far fa-trash-alt"></button>
-                </div>
+        <div class="cart-footer">
+            <div class="cart_footer-buyer">
+                <p class="cart_footer_buyer-total">
+                    <span>Total</span>
+                    <span class="total_price">369$</span>
+                </p>
+                <button class="cart_buybutton">Buy</button>
+                <button class="cart_continuebutton">Continue shipping</button>
             </div>
-
         </div>
     </div>
     <!-- How to get data from json to html -->
