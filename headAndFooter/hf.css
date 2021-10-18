@@ -4,12 +4,12 @@ body {
 }
 @font-face {
   font-family: font-hf-B;
-  src: url(/font/products/Product\ Sans\ Bold.otf);
+  src: url(../font/products/Product\ Sans\ Bold.otf);
 }
 
 @font-face {
   font-family: font-hf-R;
-  src: url(/font/products/Product\ Sans\ Regular.otf);
+  src: url(../font/products/Product\ Sans\ Regular.otf);
 }
 
 
@@ -20,7 +20,7 @@ header {
   justify-content: space-between;
   align-items: center;
   font-size: 25px;
-  padding: 20px 150px;
+  padding: 2% 10%;
   color: #323232;
   background-color: white;
 }
@@ -58,11 +58,14 @@ a, a:hover, a:active {
 footer {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  padding: 65px 150px 65px 150px;
-  background-color: #7c7c7c;
+  padding: 2% 10%;
+  background-color: rgb(209,109,38);
   font-size: 14px;
   margin: 0 0;
   font-family: "font-hf-R", Courier, monospace;
+}
+.contacts_logo img{
+  width: 100px;
 }
 footer a {
   text-decoration: none;
@@ -96,6 +99,10 @@ footer a {
   height: 35px;
 }
 
+.contacts_others a{
+  padding-left: 2%;
+}
+
 .contacts_others div{
   padding-top: 30px;
   margin-right: 25px;
@@ -107,14 +114,14 @@ footer a {
 }
 .input-text input {
   color: #8f9196;
-  background-color: RGB(77,77,81);
+  background-color: #fff;
   border: 0;
   padding-left: 12px;
   height: 100%;
   outline: none;
 }
-.input-button {
-  background-color: #8071b3;
+.input-button-header {
+  background-color: rgb(102,102,102);
   width:  100px;
   display: flex;
   justify-content: center;
@@ -125,4 +132,53 @@ footer a {
 .hr {
   height: 10px;
   border-top: 1px solid #fff;
+}
+.keyboard {
+  padding-left: 10%;
+}
+
+
+@media screen and (max-width:750px) {
+  /* header */
+    header{
+      padding: 4% 5%;
+    }
+    .menu.header p{
+      display: none;
+    }
+    .icon-header{
+      width: 18px;
+      height: 18px;
+    }
+    .logoMain.header img{
+      width: 100px;
+    }
+    .navi{
+      padding-left: 5px;
+    }
+
+    /* footer */
+    .footer_container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .contacts_others {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+    }
+    .contacts_others a{
+      padding-left: 2%;
+    }
+    .footer-keyboard, .footer-services, .footer-policy {
+      display: none;
+    }
+}
+@media screen and (max-width:1024px) {
+  .footer-keyboard, .footer-services, .footer-policy {
+    display: none;
+  }
 }
