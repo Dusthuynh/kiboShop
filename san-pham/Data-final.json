@@ -24,6 +24,7 @@
 			"Profile": "ASA",
 			"Type": ["Radiant Red", "Lavender Purple", "Vintage White"],
 			"Giá": "2,099,000 ₫",
+			"Led": "RGB",
 			"Kích thước": "382x134x40 mm",
 			"Trọng lượng" :"1.1 kg"
 		},
@@ -37,6 +38,7 @@
 			"Profile": "OEM",
 			"Type": ["Radiant Red", "Lavender Purple", "Vintage White"],
 			"Giá": "2,299,000 ₫",
+			"Led": "RGB",
 			"Kích thước": "382x134x40 mm",
 			"Trọng lượng" :"1.1 kg"
 		},
@@ -50,6 +52,7 @@
 			"Profile": "ASA",
 			"Type": ["Gold Pink"],
 			"Giá": "2,899,000 ₫",
+			"Led": "RGB",
 			"Kích thước": "382x134x40 mm",
 			"Trọng lượng" :"1.1 kg"
 		},
@@ -63,6 +66,7 @@
 			"Profile": "OEM",
 			"Type": ["Brown", "Red"],
 			"Giá": "4,050,000 ₫",
+			"Led": "",
 			"Kích thước": "360x140x40 mm",
 			"Trọng lượng" :"2 kg"
 		},
@@ -76,6 +80,7 @@
 			"Profile": "OSA",
 			"Type": ["Brown", "Red"],
 			"Giá": "4,050,000 ₫",
+			"Led": "",
 			"Kích thước": "360x140x40 mm",
 			"Trọng lượng" :"2 kg"
 		},
@@ -89,6 +94,7 @@
 			"Profile": "OSA",
 			"Type": ["Brown", "Red"],
 			"Giá": "4,050,000 ₫",
+			"Led": "",
 			"Kích thước": "360x140x40 mm",
 			"Trọng lượng" :"2 kg"
 		},
@@ -102,6 +108,7 @@
 			"Profile": "Cherry",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,599,000 ₫",
+			"Led": "",
 			"Kích thước": "440x140x40 mm",
 			"Trọng lượng" :"1.2 kg"
 		},
@@ -115,6 +122,7 @@
 			"Profile": "Cherry",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,599,000 ₫",
+			"Led": "",
 			"Kích thước": "382x134x40 mm",
 			"Trọng lượng" :"0.97 kg"
 		},
@@ -128,6 +136,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "899,000 ₫",
+			"Led": "Trắng",
 			"Kích thước": "458x186x30 mm",
 			"Trọng lượng" :"1 kg"
 		},
@@ -141,6 +150,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "899,000 ₫",
+			"Led": "Trắng",
 			"Kích thước": "458x186x30 mm",
 			"Trọng lượng" :"1 kg"
 		},
@@ -154,6 +164,7 @@
 			"Profile": "ASA",
 			"Type": ["Ocean Blue", "Rose Red", "Matcha Green"],
 			"Giá": "1,699,000 ₫",
+			"Led": "",
 			"Kích thước": "382x134x40 mm",
 			"Trọng lượng" :"0.97 kg"
 		},
@@ -167,6 +178,7 @@
 			"Profile": "ASA",
 			"Type": ["Ocean Blue", "Rose Red", "Matcha Green"],
 			"Giá": "1,499,000 ₫",
+			"Led": "",
 			"Kích thước": "315x127x42 mm",
 			"Trọng lượng" :"0.73 kg"
 		},
@@ -180,6 +192,7 @@
 			"Profile": "ASA",
 			"Type": ["Ocean Blue", "Rose Red", "Matcha Green"],
 			"Giá": "1,699,000 ₫",
+			"Led": "",
 			"Kích thước": "382x134x40 mm",
 			"Trọng lượng" :"0.97 kg"
 		},
@@ -193,6 +206,7 @@
 			"Profile": "ASA",
 			"Type": ["Ocean Blue", "Rose Red", "Matcha Green"],
 			"Giá": "1,499,000 ₫",
+			"Led": "",
 			"Kích thước": "315x127x42 mm",
 			"Trọng lượng" :"0.73 kg"
 		},
@@ -206,6 +220,7 @@
 			"Profile": "Cherry",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,399,000 ₫",
+			"Led": "",
 			"Kích thước": "440x140x40 mm",
 			"Trọng lượng" :"1.2 kg"
 		},
@@ -219,6 +234,7 @@
 			"Profile": "Cherry",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,399,000 ₫",
+			"Led": "",
 			"Kích thước": "382x134x40 mm",
 			"Trọng lượng" :" 0.97 kg"
 		},
@@ -232,6 +248,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,599,000 ₫",
+			"Led": "",
 			"Kích thước": "440x140x40 mm",
 			"Trọng lượng" :"1.2 kg"
 		},
@@ -245,6 +262,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,299,000 ₫",
+			"Led": "",
 			"Kích thước": "360x140x40 mm",
 			"Trọng lượng" :"0.95 kg"
 		},
@@ -258,13 +276,16 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,599,000 ₫",
+			"Led": "Trắng",
 			"Kích thước": "315x127x42 mm",
 			"Trọng lượng" :"0.73 kg"
 		},
 		{
 			"Tên": "AKKO 5108 Honkai Impact 3rd – Cyberangel",
 			"Model": "Full size",
-			"Switch":""
+			"Switch":"",
+			"Giá": "2,199,000 ₫",
+			"Led": ""
 		},
 		{
 			"Tên": "Akko 3108 v2 Honkai Impact 3rd – Yae Sakura",
@@ -276,6 +297,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "2,099,000 ₫",
+			"Led": "",
 			"Kích thước": " 440x140x40 mm",
 			"Trọng lượng" :"1.2 kg"
 		},
@@ -289,6 +311,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,599,000 ₫",
+			"Led": "",
 			"Kích thước": " 440x140x40 mm",
 			"Trọng lượng" :"1.2 kg"
 		},
@@ -302,6 +325,7 @@
 			"Profile": "JDA",
 			"Type": ["Ocean Blue", "Rose Red", "Matcha Green"],
 			"Giá": "1,999,000 ₫",
+			"Led": "RGB",
 			"Kích thước": "312x102x40 mm",
 			"Trọng lượng" :"0.59 kg"
 		},
@@ -315,6 +339,7 @@
 			"Profile": "Cherry",
 			"Type": ["Pink", "Orange"],
 			"Giá": "1,699,000 ₫",
+			"Led": "RGB",
 			"Kích thước": "292x101x370 mm",
 			"Trọng lượng" :"0.5 kg"
 		},
@@ -328,6 +353,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,799,000 ₫",
+			"Led": "",
 			"Kích thước": "440x140x40 mm",
 			"Trọng lượng" :"1.2 kg"
 		},
@@ -341,6 +367,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,799,000 ₫",
+			"Led": "",
 			"Kích thước": "440x140x40 mm",
 			"Trọng lượng" :"1.2 kg"
 		},
@@ -354,6 +381,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,699,000 ₫",
+			"Led": "",
 			"Kích thước": "440x140x40 mm",
 			"Trọng lượng" :"1.2 kg"
 		},
@@ -367,6 +395,7 @@
 			"Profile": "Cherry",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,599,000 ₫",
+			"Led": "",
 			"Kích thước": "440x140x40 mm",
 			"Trọng lượng" :"1.2 kg"
 		},
@@ -380,6 +409,7 @@
 			"Profile": "Cherry",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,399,000 ₫",
+			"Led": "",
 			"Kích thước": "360x140x40 mm",
 			"Trọng lượng" :"0.95 kg"
 		},
@@ -393,6 +423,7 @@
 			"Profile": "OSA",
 			"Type": ["Gateron Yellow"],
 			"Giá": "1,950,000 ₫",
+			"Led": "",
 			"Kích thước": "440x140x40 mm",
 			"Trọng lượng" :"1.2 kg"
 		},
@@ -406,6 +437,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,599,000 ₫",
+			"Led": "",
 			"Kích thước": "440x140x40 mm",
 			"Trọng lượng" :"1.2 kg"
 		},
@@ -419,6 +451,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,399,000 ₫",
+			"Led": "",
 			"Kích thước": "360x140x40 mm",
 			"Trọng lượng" :"0.95 kg"
 		},
@@ -432,6 +465,7 @@
 			"Profile": "Cherry",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,599,000 ₫",
+			"Led": "",
 			"Kích thước": "382x134x40 mm",
 			"Trọng lượng" :"0.97 kg"
 		},
@@ -445,6 +479,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,699,000 ₫",
+			"Led": "",
 			"Kích thước": "440x140x40 mm",
 			"Trọng lượng" :"1.2 kg"
 		},
@@ -458,6 +493,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,499,000 ₫",
+			"Led": "",
 			"Kích thước": "360x140x40 mm",
 			"Trọng lượng" :"0.95 kg"
 		},
@@ -471,6 +507,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,499,000 ₫",
+			"Led": "",
 			"Kích thước": "360x140x40 mm",
 			"Trọng lượng" :"0.95 kg"
 		},
@@ -484,6 +521,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,699,000 ₫",
+			"Led": "",
 			"Kích thước": "440x140x40 mm",
 			"Trọng lượng" :"1.2 kg"
 		},
@@ -497,6 +535,7 @@
 			"Profile": "OEM",
 			"Type": ["Blue", "Orange", "Pink"],
 			"Giá": "1,499,000 ₫",
+			"Led": "",
 			"Kích thước": "360x140x40 mm",
 			"Trọng lượng" :"0.95 kg"
 		}	

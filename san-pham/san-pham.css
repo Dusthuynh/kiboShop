@@ -3,6 +3,7 @@
     --img-height: 250px;
     --column-gap: 20px;
     --row-gap: calc(20px);
+    
     /* --background-item: rgb(223, 223, 223); */
 }
 @font-face {
@@ -17,20 +18,24 @@
     font-family: "mainfont-bold";
     src: url("../font/Lato\ Việt\ Hoá/Lato Bold.ttf");
 }
-header{
-    background: transparent;
-}
 body{
-    /* background: url("../keyboard-unsplash.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;  */
+    /* background: rgb(255, 174, 0); */
+     /* background: url("../background.jpg");  */
+    /* background-size: ; */
+    /* background-repeat: no-repeat; */
     font-family: "mainfont","sans-serif";
     overflow-x: hidden;
+}
+#topcover{
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    width: 100vw;
 }
 .wholepage-sort{
     display: flex;
     justify-content: flex-end;
     padding-right: 60px;
+    
 }
 .sort-by{
     font-family: "mainfont","sans-serif";
@@ -64,21 +69,26 @@ body{
 .hinh-sanpham{
     width: var(--img-width);
     height: var(--img-height);
-    
 }
 .div-hinh-sanpham{
+    background: white;
+    cursor: pointer;
     border: 1px solid black;
     margin-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 2px 2px 4px;
     width: calc(var(--img-width) + 20px);
     height: calc(var(--img-height) + 20px);
 }
+.div-hinh-sanpham:hover{
+    transform: scale(1.05);
+    transition-duration: .4s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 hr{
     border: 1px solid black;
 }
 .sanpham-item{
     background: var(--background-item);
-    cursor: pointer;
     justify-self: center;
     display: flex;
     flex-direction: column;
@@ -105,7 +115,7 @@ hr{
 .content >p {
     cursor:pointer
 }
-.content >p:hover{
+.content >p:hover, .tien-sanpham{
     color: red;
 }
 .fas{
