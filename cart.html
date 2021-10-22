@@ -13,20 +13,22 @@
 <body>
     <header></header>
     <div class="cart">
+
         <div class="cart-header">
             <div>Shopping</div>
             <div>Cart</div>
-            <div class="_producttext"></div>
+            <div class="_producttext">product</div>
         </div>
+
         <div class="cart-body">
 
             <div class="cart_body-items">
 
                 <div class="cart_body-item">
                     <div class="cart_body_item-info1">
-                        <div class="cart_body_item-img"><img class="imgItem"
-                                src="/san-pham/AKKO 3061S Neon RGB Bluetooth 5.0/AKKO 3061S Neon RGB Bluetooth 5.0 1.jpg"
-                                alt="" width="170" height="150" style="border: 1px solid;"></div>
+                        <div class="cart_body_item-img"><img class="cart_imgItem" src="/san-pham/AKKO 3061S Neon RGB Bluetooth 5.0/AKKO 3061S Neon RGB Bluetooth 5.0 1.jpg" alt="name's product" width="170" height="150" style="border: none;">
+                            <div class="cart_body_item_info1-price">$600</div>
+                        </div>
                         <div class="cart_body_item-description">
                             <div class="cart_body_item_description-name">
                                 <a class="linkItem" href="">AKKO 3061S Neon RGB Bluetooth 5.0 1</a>
@@ -46,13 +48,17 @@
                                 <button class="fas fa-angle-right" style="height:20px;width:25px" onclick=""></button>
                             </div>
                         </div>
-                        <div class="cart_body_item_info2-price">
+                        <!-- <div class="cart_body_item_info2-price">
                             <div class="cart_body_item_info2_price title">Price</div>
-                            <span class="cart_body_item_info2_price content">6$/1</span>
-                        </div>
+                            <div class="cart_body_item_info2_price content">
+                                <span class="valPrice">$6</span>
+                            </div>
+                        </div> -->
                         <div class="cart_body_item_info2-total">
                             <div class="cart_body_item_info2_total title">Total</div>
-                            <span class="cart_body_item_info2_total content">18$</span>
+                            <div class="cart_body_item_info2_total content">
+                                <span class="valTotal">$1800</span>
+                            </div>
                         </div>
                         <div class="cart_body_item_info2-delete">
                             <div class="cart_body_item_info2_delete title">Delete</div>
@@ -63,6 +69,8 @@
                     </div>
                 </div>
 
+
+
             </div>
 
         </div>
@@ -71,12 +79,13 @@
             <div class="cart_footer-buyer">
                 <p class="cart_footer_buyer-total">
                     <span>Total</span>
-                    <span class="total_price">369$</span>
+                    <span class="valTotalFooter">369$</span>
                 </p>
                 <button class="cart_buybutton">Buy</button>
                 <button class="cart_continuebutton">Continue shipping</button>
             </div>
         </div>
+
     </div>
     <!-- How to get data from json to html -->
     <footer></footer>
