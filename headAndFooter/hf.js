@@ -31,3 +31,49 @@ fetch("../headAndFooter/footer.html")
     document.head.appendChild(link);
   }
 
+  if(!document.getElementById('fontawesome')) {
+    var script = document.createElement('script');
+    script.id = 'fontawesome';
+    script.src = 'https://kit.fontawesome.com/31ed4068a5.js';
+    script.crossOrigin = 'anonymous';
+    document.head.appendChild(script);
+  }
+
+
+  window.onload = main;
+  function main(){
+      var btnnav = document.getElementById("btn-navLink");
+      btnnav.onclick = tognav;
+      window.onclick = outTogNav;
+      unclicktitle();
+      
+  }
+  
+  function tognav(e){
+      e.preventDefault();
+      var navLink = document.getElementsByClassName("nav-link")[0];
+      var iconnav = document.getElementsByClassName("fa-chevron-circle-down")[0];
+      if(!navLink.classList.contains('hidden')){
+          navLink.classList.add('hidden');
+          iconnav.classList.remove("rotate90deg");
+      }else{
+          navLink.classList.remove('hidden');
+          iconnav.classList.add("rotate90deg");
+      }
+  }
+
+  function outTogNav(){
+    var navLink = document.getElementsByClassName("nav-link")[0];
+    if(!navLink.classList.contains('hidden')){
+      tognav;
+    }
+  }
+  
+  function unclicktitle(){
+      var a = document.getElementsByClassName("a-navLink");
+      for(let i=0;i<a.length;i++){
+          if(document.title == a[i].innerHTML){
+              a[i].classList.add("hightlightHeader");
+          }
+      }
+  }

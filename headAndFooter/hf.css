@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-color: rgb(255, 255, 255);
 }
 @font-face {
   font-family: font-hf-B;
@@ -12,46 +11,86 @@ body {
   src: url(../font/products/Product\ Sans\ Regular.otf);
 }
 
-
-/* style header */
 header {
   display: flex;
-  font-family: "font-hf-B", Courier, monospace;
   justify-content: space-between;
   align-items: center;
-  font-size: 25px;
-  padding: 2% 10%;
-  color: #323232;
-  background-color: white;
-}
-
-.header {
-  display: flex;
-  justify-content: center;
-}
-
-.logoMain > img {
-  width: 130px;
+  text-align: start;
+  margin: 3vh 5vw 2vh 3vw;
+  color: rgb(235, 176, 14);
+  font-size: 1.5rem;
 }
 
 .icon-header {
-  align-self: center;
-  width: 28px;
-  height: 28px;
+  height: 2rem;
+  padding-left: 1vw;
 }
 
-.icon-header.menu {
-  padding-top: 6px;
-  padding-right: 5px;
+.logo-header img {
+  height: 3rem;
 }
 
-.navi{
-  padding-left: 15px;
+.navigation{
+  padding-right: 3rem;
 }
 
-a, a:hover, a:active {
+#btn-navLink,
+.nav-link {
+  position: absolute;
+  text-align: right;
+  right: 0;
+}
+
+.nav-link {
+  top: 10vh;
+}
+
+#btn-navLink {
+  top: 2vh;
+  right: 5px;
+  padding: 1vh;
+}
+
+.fa-chevron-circle-down {
+  font-size: 3rem;
+  transform: rotate(-90deg);
+  transition-duration: 0.5s;
+}
+
+.rotate90deg {
+  transform: rotate(0deg);
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 3px;
+  height: 30vh;
+  text-align: right;
+  font-size: 1.8rem;
+  border-right: 3px solid rgb(231, 174, 60);
+  background-color: #d8922a71;
+}
+
+.a-navLink {
   text-decoration: none;
-  color: inherit;
+  color: rgb(212, 212, 212);
+  padding: 5px;
+  transition-duration: 0.3s;
+}
+
+.nav-link a:hover {
+  background-color: rgb(231, 174, 60);
+  color: rgb(255, 255, 255);
+}
+
+.hightlightHeader {
+  color: orange;
+}
+
+.hidden {
+  display: none;
 }
 
 /* Footer */
@@ -59,12 +98,12 @@ footer {
   text-decoration: none;
   color: rgb(255, 255, 255);
   padding: 2% 10%;
-  background-color: rgb(209,109,38);
+  background-color: rgb(209, 109, 38);
   font-size: 14px;
   margin: 0 0;
   font-family: "font-hf-R", Courier, monospace;
 }
-.contacts_logo img{
+.contacts_logo img {
   width: 100px;
 }
 footer a {
@@ -79,31 +118,32 @@ footer a {
 .footer {
   width: 160px;
 }
-.footer .header{
+.footer .header {
   font-size: 18px;
-  height:30px;
+  height: 30px;
 }
 
-.footer-contacts, .footer-notify {
+.footer-contacts,
+.footer-notify {
   width: 300px;
 }
-.footer div{
+.footer div {
   line-height: 30px;
 }
 .contacts_others {
   display: flex;
 }
 
-.contacts_others img{
+.contacts_others img {
   width: 35px;
   height: 35px;
 }
 
-.contacts_others a{
+.contacts_others a {
   padding-left: 2%;
 }
 
-.contacts_others div{
+.contacts_others div {
   padding-top: 30px;
   margin-right: 25px;
 }
@@ -121,8 +161,8 @@ footer a {
   outline: none;
 }
 .input-button-header {
-  background-color: rgb(102,102,102);
-  width:  100px;
+  background-color: rgb(102, 102, 102);
+  width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,48 +177,34 @@ footer a {
   padding-left: 10%;
 }
 
-
-@media screen and (max-width:750px) {
+@media screen and (max-width: 750px) {
   /* header */
-    header{
-      padding: 4% 5%;
-    }
-    .menu.header p{
-      display: none;
-    }
-    .icon-header{
-      width: 18px;
-      height: 18px;
-    }
-    .logoMain.header img{
-      width: 100px;
-    }
-    .navi{
-      padding-left: 5px;
-    }
 
-    /* footer */
-    .footer_container {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    .contacts_others {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-
-    }
-    .contacts_others a{
-      padding-left: 2%;
-    }
-    .footer-keyboard, .footer-services, .footer-policy {
-      display: none;
-    }
+  /* footer */
+  .footer_container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .contacts_others {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contacts_others a {
+    padding-left: 2%;
+  }
+  .footer-keyboard,
+  .footer-services,
+  .footer-policy {
+    display: none;
+  }
 }
-@media screen and (max-width:1024px) {
-  .footer-keyboard, .footer-services, .footer-policy {
+@media screen and (max-width: 1024px) {
+  .footer-keyboard,
+  .footer-services,
+  .footer-policy {
     display: none;
   }
 }
