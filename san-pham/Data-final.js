@@ -1,4 +1,4 @@
-{
+const data ={
 	"Akko": [
 		{
 			"Tên": "AKKO 5108 World Tour Tokyo R2 SP",
