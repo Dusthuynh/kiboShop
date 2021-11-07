@@ -52,7 +52,7 @@ body{
     padding: 10px;
     background: var(--background-item);
 }
-.menu-item{
+.menu-item, .menu-item-special{
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -112,10 +112,10 @@ hr{
 .model-sanpham, h2{
     font-family: "mainfont", "sans-serif";
 }
-.content >p {
+.content >p, .ten-sanpham {
     cursor:pointer
 }
-.content >p:hover, .tien-sanpham{
+.filter:hover,.ten-sanpham:hover, .tien-sanpham{
     color: red;
 }
 .fas{
