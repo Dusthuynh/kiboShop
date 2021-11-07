@@ -57,26 +57,24 @@ function filter(e){ //  bo loc filter
     var array=[];
     filterType = filterType.slice(filterType.indexOf("-")+1,filterType.length);
     contentFilter = e.target.innerHTML;
-
-    if (filterType == "Hotswap"){
+    if (filterType == "Hotswap"){ // loc hotswap
         for (let i=0; i<fulldata.length; i++){
             if (fulldata[i]["Hotswap"] == "YES"){
                 array = array.concat(fulldata[i]);
             }
         }
-        console.log(array);
         passInfo(array);
-    } else if (filterType == "Bluetooth"){
+    } else if (filterType == "Bluetooth"){ //loc bluetooth
         for (let i=0; i<fulldata.length; i++){
             if (fulldata[i]["Kết nối"].includes("Bluetooth 5.0")){
                 array = array.concat(fulldata[i]);
             }
         }
         passInfo(array);
-    } else if (filterType == "brand"){
+    } else if (filterType == "brand"){ //loc hang
         var brand = e.target.innerHTML;
         passInfo(data[brand]);
-    } else {
+    } else { //loc nhung cai con lai
         for (let i=0; i<fulldata.length; i++){
             if (fulldata[i][filterType].includes(contentFilter)){
                 array = array.concat(fulldata[i]);
