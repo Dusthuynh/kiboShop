@@ -42,12 +42,11 @@ fetch("../headAndFooter/footer.html")
   }
 
 
-  window.onload = mainheader;
-  function mainheader(){
-      var btnnav = document.getElementById("btn-navLink");
-      btnnav.onclick = tognav;
+  function mainheader(e){
+      // var btnnav = document.getElementById("btn-navLink");
+      // btnnav.onclick = tognav;
+      tognav(e);
       unclicktitle();
-
   }
   
   function tognav(e){
