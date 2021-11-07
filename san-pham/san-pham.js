@@ -26,7 +26,7 @@ function main() { // ham chinh de goi cac ham khac
         sortItem(fulldata, vanilData, sortOption.value);
     }
 }
-function filterProduct(data){
+function filterProduct(data){// truyen filter
     var profile = document.getElementsByClassName("filter-Profile");
     var keycap = document.getElementsByClassName("filter-Keycap");
     var swi = document.getElementsByClassName("filter-Switch");
@@ -45,14 +45,14 @@ function filterProduct(data){
     addListener(hotswap, "\"click\"", data);
 }
 
-function addListener(collection, functionType, data){
+function addListener(collection, functionType, data){ ///them event functionType cho bo collection
 
     for (let i=0; i<collection.length; i++){
         collection[i].onclick = filter;
     }
 }
 
-function filter(e){
+function filter(e){ //  bo loc filter
     var filterType = e.target.className.slice(0,e.target.className.indexOf(" "));
     var array=[];
     filterType = filterType.slice(filterType.indexOf("-")+1,filterType.length);
@@ -106,7 +106,7 @@ function compareDown(a, b){ // ham so sanh de sap xep theo thu tu giam
         }
         return 0;  
 }
-function sortItem(data, vanilData, type){
+function sortItem(data, vanilData, type){  // sap xep
     if (type==1){
         passInfo(vanilData);
     } else if (type==2){
@@ -119,36 +119,59 @@ function sortItem(data, vanilData, type){
 }
 
 
-function passInfo(Brand) {
+function passInfo(Brand) { // truyen noi dung vao html
     clearData();
-    var tenSanPham = document.getElementsByClassName("ten-sanpham");
-    var tienSanPham = document.getElementsByClassName("tien-sanpham");
-    var modelSanPham = document.getElementsByClassName("model-sanpham");
-    var hinhSanPham = document.getElementsByClassName("hinh-sanpham");
-    
-    for (let i = 0; i < Math.min(rowsNum*colsNum, Brand.length); i++) {
+
+    for (let i = 0; i < Brand.length; i++) {
         let item = Brand[i];
-        tenSanPham[i].innerHTML = item["Tên"];
-        tienSanPham[i].innerHTML = item["Giá"];
-        modelSanPham[i].innerHTML = item["Model"];
-        hinhSanPham[i].src = "./san-pham-img/" + item["Tên"]+"/" + item["Tên"] +" 1.jpg";
+        let sanphamitem = document.createElement("div");
+        let hinhsanpham = document.createElement('img');
+        let tensanpham = document.createElement('div');
+        let modelsanpham = document.createElement('div');
+        let tiensanpham = document.createElement('div');
+        let stridesanpham = document.createElement('div');
+
+        sanphamitem.className = 'sanpham-item';
+        hinhsanpham.className = 'hinh-sanpham';
+        tensanpham.className = 'ten-sanpham';
+        modelsanpham.className = 'model-sanpham';
+        tiensanpham.className = 'tien-sanpham';
+        stridesanpham.className = 'stride';
+        
+        tensanpham.onclick = pastDataLocalStorage;
+
+        hinhsanpham.src = "./san-pham-img/" + item["Tên"]+"/" + item["Tên"] +" 1.jpg";
+        stridesanpham.innerHTML = '- - - - - - -';
+        tensanpham.innerHTML = item["Tên"];
+        tiensanpham.innerHTML = item["Giá"];
+        modelsanpham.innerHTML = item["Model"];
+
+        sanphamitem.appendChild(hinhsanpham);
+        sanphamitem.appendChild(tensanpham);
+        sanphamitem.appendChild(stridesanpham);
+        sanphamitem.appendChild(tiensanpham);
+        sanphamitem.appendChild(modelsanpham);
+
+        document.getElementById('sanpham').appendChild(sanphamitem);
     }
 }
-function clearData(){
-    var tenSanPham = document.getElementsByClassName("ten-sanpham");
-    var tienSanPham = document.getElementsByClassName("tien-sanpham");
-    var modelSanPham = document.getElementsByClassName("model-sanpham");
-    var hinhSanPham = document.getElementsByClassName("hinh-sanpham");
 
-    for (let i = 0; i < rowsNum*colsNum; i++) {
-        tenSanPham[i].innerHTML = "";
-        tienSanPham[i].innerHTML = "";
-        modelSanPham[i].innerHTML = "";
-        hinhSanPham[i].src = "";
+function clearData(){ // xoa noi dung html
+    document.getElementById("sanpham").innerHTML="";
+}
+
+function pastDataLocalStorage(e){ // truyen ten san pham vao local storage
+    var name = e.target.innerHTML;
+    e.preventDefault();
+    if (typeof localStorage['name'] == undefined){
+        window.localStorage.setItem('name', name);
+    } else{
+        window.localStorage.removeItem('name');
+        window.localStorage.setItem('name', name);
     }
 }
 
-function menuStyling() {
+function menuStyling() { // them hieu ung cho menu
     $(".menu-item").click(function (e) {
         e.preventDefault();
         let nameClass = this.className;
