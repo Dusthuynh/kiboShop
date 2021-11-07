@@ -14,6 +14,8 @@ fetch("../headAndFooter/footer.html")
     document.querySelector("footer").innerHTML = data;
   });
 
+
+
   if(!document.getElementById('hf')) {
     var link = document.createElement('link');
     link.id = 'hf';
@@ -40,13 +42,12 @@ fetch("../headAndFooter/footer.html")
   }
 
 
-  window.onload = main;
-  function main(){
+  window.onload = mainheader;
+  function mainheader(){
       var btnnav = document.getElementById("btn-navLink");
       btnnav.onclick = tognav;
-      window.onclick = outTogNav;
       unclicktitle();
-      
+
   }
   
   function tognav(e){
@@ -60,13 +61,6 @@ fetch("../headAndFooter/footer.html")
           navLink.classList.remove('hidden');
           iconnav.classList.add("rotate90deg");
       }
-  }
-
-  function outTogNav(){
-    var navLink = document.getElementsByClassName("nav-link")[0];
-    if(!navLink.classList.contains('hidden')){
-      tognav;
-    }
   }
   
   function unclicktitle(){
