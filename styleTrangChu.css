@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "mainfont";
+  src: url("../font/Lato\ Việt\ Hoá/Lato Medium.ttf");
+}
+@font-face {
+  font-family: "mainfont-light";
+  src: url("../font/Lato\ Việt\ Hoá/Lato Light.ttf");
+}
+@font-face {
+  font-family: "mainfont-bold";
+  src: url("../font/Lato\ Việt\ Hoá/Lato Bold.ttf");
+}
+
+body{
+    background-image: url(media/banner/keyboard_main.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: aliceblue;
+    color: aliceblue;
+    font-size: 2rem;
+    font-family:'mainfont-light', Times, serif;
+    margin:0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
+    margin: 5vh 5vw 0vh 3vw;
+    color:rgb(235, 176, 14);
+    font-size: 1.5rem;
+}
+
+.icon-header{
+    width: 2vw;
+    padding-left: 1vw;
+}
+
+.logo-header img{
+    width: 18vw;
+}
+
+#btn-navLink, .nav-link{
+  position: absolute;
+  text-align: right;
+  padding: 1vh;
+  right: 0;
+}
+
+.nav-link{
+  top: 10vh;
+}
+
+#btn-navLink{
+  top: 3.5vh;
+}
+
+.fa-chevron-circle-down{
+  font-size: 40px;
+  transition-duration: 0.5s;
+}
+
+.rotate90deg{
+  transform: rotate(-90deg);
+}
+
+.nav-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30vh;
+  text-align:right;
+  font-size: 1.8rem;
+  border-right: 2px solid rgb(231, 174, 60);
+}
+
+.a-navLink{
+  text-decoration: none;
+  color: rgb(212, 212, 212);
+  padding: 5px;
+  transition-duration: 0.3s;
+}
+
+.nav-link a:hover{
+  background-color: rgb(231, 174, 60);
+  color: rgb(34, 34, 34);
+}
+
+.hightlightHeader{
+  color:orange;
+}
+
+.loiDan{
+    width: 40vw;
+    font-size: 1.5rem
+}
+
+.slogan{
+    width: 30vw;
+    height: 15vh;
+    background-color: rgb(201, 116, 5);
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+}
+
+.loiDan{
+    padding: 2vw;
+}
+
+.section {
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+  }
+  .child {
+    scroll-snap-align: start;
+  }
+
+  .more-homepage {
+    z-index: 1;
+    position: relative;
+    font-size: inherit;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(87, 86, 86);
+    margin: 0vh 10vw 5vh 15vw;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background-color: rgb(210, 203, 195);
+    font-size: 1.5rem;
+  }
+  
+  .more-homepage::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(201,116,5);
+    transform-origin: center right;
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+  }
+  
+  .more-homepage:hover {
+    cursor: pointer;
+  }
+  
+  .more-homepage:hover::before {
+    transform-origin: center left;
+    transform: scaleX(1);
+  }
+
+  .intro{
+      background-image: url(/intro-bg7.png);
+      background-repeat: no-repeat;
+      /* background-color: rgb(210, 203, 195); */
+      color: rgb(240, 240, 240);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      height: 100vh;
+      padding-top: 2vh;
+      text-align: center;
+  }
+
+  .intro1, .intro2, .intro2{
+    position:absolute;
+  }
+  .intro1{
+    position:absolute;
+    z-index: 0;
+  }
+  .intro2{
+    position:absolute;
+    z-index: 1;
+  }
+  .intro3{
+    position:absolute;
+    z-index: 2;
+  }
+  .hidden{
+    display: none;
+  }
+
+  .trangchu-wellcome{
+    margin: 15vh 0;
+    padding: 1vh 10vw;
+    background-color:  rgba(228, 148, 28, 0.932);
+    /* border-radius: 20px; */
+    
+  }
+
+  .trangchu-wellcome > h3{
+    text-align: center;
+  }
