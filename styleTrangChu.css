@@ -33,7 +33,7 @@ header{
 }
 
 .icon-header{
-    width: 2vw;
+    width: 2.5vw;
     padding-left: 1vw;
 }
 
@@ -42,6 +42,7 @@ header{
 }
 
 #btn-navLink, .nav-link{
+  font-family: mainfont;
   position: absolute;
   text-align: right;
   padding: 1vh;
@@ -93,20 +94,18 @@ header{
 
 .loiDan{
     width: 40vw;
-    font-size: 1.5rem
+    font-size: 1.7rem;
+    padding: 2vw;
 }
 
 .slogan{
     width: 30vw;
     height: 15vh;
     background-color: rgb(201, 116, 5);
+    font-family: mainfont-bold;
     display: flex;
     align-items: center;
     padding-left: 1vw;
-}
-
-.loiDan{
-    padding: 2vw;
 }
 
 .section {
@@ -166,27 +165,8 @@ header{
       text-align: center;
   }
 
-  .intro1, .intro2, .intro2{
-    position:absolute;
-  }
-  .intro1{
-    position:absolute;
-    z-index: 0;
-  }
-  .intro2{
-    position:absolute;
-    z-index: 1;
-  }
-  .intro3{
-    position:absolute;
-    z-index: 2;
-  }
-  .hidden{
-    display: none;
-  }
-
   .trangchu-wellcome{
-    margin: 15vh 0;
+    margin: 15vh 0 5vh 0;
     padding: 1vh 10vw;
     background-color:  rgba(228, 148, 28, 0.932);
     /* border-radius: 20px; */
@@ -195,4 +175,21 @@ header{
 
   .trangchu-wellcome > h3{
     text-align: center;
+  }
+
+  #bannerTrangChu{
+    width: (100vw-26px);
+    height: 694px;
+    border-top: 10px solid rgb(210, 203, 195);
+    border-bottom: 10px solid rgb(210, 203, 195);
+    background-color: rgb(210, 203, 195);
+  }
+
+  .title-hot-sp h3{
+    font-family: mainfont-bold;
+    margin: 0;
+    padding-top: 1%;
+    text-align: center;
+    color: rgb(87, 86, 86);
+    background-color: rgb(210, 203, 195);
   }
