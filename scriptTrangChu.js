@@ -42,12 +42,10 @@ function animaBanner(){
         res.append(img);
     }
 
-
-
     $("#bannerTrangChu img:gt(0)").hide()
     var loop = setInterval( () =>{
-        $("#bannerTrangChu img:first-child").fadeOut("3000");
-        $("#bannerTrangChu img:first-child").next().fadeIn("3000");
+        $("#bannerTrangChu img:first-child").hide();
+        $("#bannerTrangChu img:first-child").next().fadeIn("slow");
         $("#bannerTrangChu").append($("#bannerTrangChu img:first-child"));
     },5000);
 

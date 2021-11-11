@@ -165,12 +165,14 @@ header{
       text-align: center;
   }
 
+  .hidden{
+    display: none;
+  }
+
   .trangchu-wellcome{
-    margin: 15vh 0 5vh 0;
+    margin: 15vh 0 10vh 0;
     padding: 1vh 10vw;
-    background-color:  rgba(228, 148, 28, 0.932);
-    /* border-radius: 20px; */
-    
+    background-color:  rgba(228, 148, 28, 0.932);    
   }
 
   .trangchu-wellcome > h3{
@@ -180,16 +182,204 @@ header{
   #bannerTrangChu{
     width: (100vw-26px);
     height: 694px;
-    border-top: 10px solid rgb(210, 203, 195);
-    border-bottom: 10px solid rgb(210, 203, 195);
     background-color: rgb(210, 203, 195);
+    border-top: 10px solid rgb(218, 128, 26);
+    border-bottom: 10px solid rgb(218, 128, 26);
   }
 
-  .title-hot-sp h3{
+  .title-trangchu{
+    display: flex;
+  }
+
+  .title-trangchu h3{
+    border-top-left-radius: 5px;
+    width: 30vw;
     font-family: mainfont-bold;
+    font-size: 40px;
     margin: 0;
-    padding-top: 1%;
+    padding: 5px;
     text-align: center;
-    color: rgb(87, 86, 86);
-    background-color: rgb(210, 203, 195);
+    color: rgb(233, 233, 233);
+    background-color: rgb(218, 128, 26);
+  }
+
+  .left{
+    justify-content: flex-end;
+  }
+
+  #hot-akko{
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5vh;
+    text-align: center;
+  }
+
+  .sp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 20vw;
+    border: 5px solid orange;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    transition: transform .5s;
+  }
+
+  .sp:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+
+  .bestsellerPr{
+    color:black;
+    font-family: mainfont-bold;
+  }
+
+  .hinh-sanpham{
+    width: 20vw;
+    overflow: hidden;
+  }
+
+  .ten-sanpham, .gia-sanpham{
+    line-height: 1.5rem;
+    padding-top: 5px;
+    font-family: mainfont;
+    font-size: 1.5rem;
+    color: rgb(50, 50, 50);
+  }
+
+  .gia-sanpham{
+    padding: 1rem;
+    color: rgb(192, 71, 71);
+  }
+
+  .list-sp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5vh;
+  }
+
+
+
+
+
+
+
+
+
+
+  footer {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 2% 10%;
+    background-color: rgb(209, 109, 38);
+    font-size: 14px;
+    margin: 0 0;
+    font-family: "mainfont", Courier, monospace;
+  }
+  .contacts_logo img {
+    width: 100px;
+  }
+  footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  .footer_container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer {
+    width: 160px;
+  }
+  .footer .header {
+    font-size: 18px;
+    height: 30px;
+  }
+  
+  .footer-contacts,
+  .footer-notify {
+    width: 300px;
+  }
+  .footer div {
+    line-height: 30px;
+  }
+  .contacts_others {
+    display: flex;
+  }
+  
+  .contacts_others img {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .contacts_others a {
+    padding-left: 2%;
+  }
+  
+  .contacts_others div {
+    padding-top: 30px;
+    margin-right: 25px;
+  }
+  .notify_input {
+    padding-top: 20px;
+    display: flex;
+    height: 41px;
+  }
+  .input-text input {
+    color: #8f9196;
+    background-color: #fff;
+    border: 0;
+    padding-left: 12px;
+    height: 100%;
+    outline: none;
+  }
+  .input-button-header {
+    background-color: rgb(102, 102, 102);
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1px;
+  }
+  .hr {
+    height: 10px;
+    border-top: 1px solid #fff;
+  }
+  .keyboard {
+    padding-left: 10%;
+  }
+  
+  @media screen and (max-width: 750px) {
+    /* footer */
+    .footer_container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .contacts_others {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .contacts_others a {
+      padding-left: 2%;
+    }
+    .footer-keyboard,
+    .footer-services,
+    .footer-policy {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .footer-keyboard,
+    .footer-services,
+    .footer-policy {
+      display: none;
+    }
   }
