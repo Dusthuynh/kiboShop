@@ -1,0 +1,126 @@
+@font-face {
+    font-family: font-hf-B;
+    src: url(../font/products/Product\ Sans\ Bold.otf);
+}
+.container a {
+    width: 100%;
+}
+.container {  
+    padding: 2% 10%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    font-family: "font-hf-R", Courier, monospace;
+}
+.product-img {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.col_1 img {
+    width: 100%;
+    height: 100%;
+}
+.img_main img{
+    height: 600px;
+}
+.col_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+} 
+.row-container div, .box {
+    width: 99%;
+    height: 30px;
+    background-color:rgb(50,50,50);
+    color: #ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-addCart {
+    background-color:#fb6e2e;
+    width: 100%;
+}
+select {
+    width: 100%;
+    height: 100%;
+}
+
+.col_2 .hr {
+    border-top: 1px solid #000;
+}  
+.infor_table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.product-infor {
+    width: 70%;
+}
+.table-row {
+    display: flex;
+    justify-content: space-between;
+}
+.product-name {
+    font-size: 20px;
+    font-weight: bold;
+    height: 60px;
+    text-align: center;
+}
+.product-order {
+    text-align: center;
+    width: 60%;
+}
+.order-box {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.order-box div {
+    margin-top: 1px;
+}
+.order_price {
+    height: 40px;
+}
+.order_price #price {
+    color:#d0021c;
+    font-size:20px;
+    font-weight:700;
+}
+.choose {
+    display: flex;
+    align-items: center;
+}
+.order_choose div {
+    margin: 5px 0  ;
+}
+.option {
+    padding: 0;
+    border: 1px solid  rgb(231,231,231);
+    border-radius: 0; 
+    outline: none;
+}
+.choose-number  .option{
+    width: 30px;
+    height: 30px;
+}
+.choose input {
+    height: 30px;
+    width: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.choose .lable{
+    margin-right: 10px;
+}
