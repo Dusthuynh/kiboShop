@@ -4,9 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title id="title"></title>
         <link rel="stylesheet" href="style.css" type="text/css">
         <script type="text/javascript" src="../headAndFooter/jquery-3.6.0.js"></script>
+        <script type="text/javascript" src="../san-pham/Data-final.js"></script>
     </head>
     <body>
         <header></header>
@@ -32,14 +33,12 @@
                     <div class = "order_choose">
                         <div class = "choose choose-number"> 
                                 <div class = "lable">Số lượng: </div>
-                                <button id = "add" class = "option">+</button>
-                                <div class = "input"><input type= "number" id="soluong" class="option" value = "1"></div>
-                                <button id = "sub" class = "option sub">-</button>
+                                <button id = "add" class = "btn">+</button>
+                                <input type= "number" id="soluong"  value = "1" min="1" max="100">
+                                <button id = "sub" class = "btn">-</button>
                         </div>
                         <div class = "choose choose-option">
-                            <div class="option">Blue</div>
-                            <div class="option">Red</div>
-                            <div class="option">Brown</div>
+                           
                         </div>
                     </div> 
                     <div class = "order-box">
