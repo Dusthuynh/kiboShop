@@ -1,9 +1,8 @@
 :root{
     --img-width: 200px;
     --img-height: 250px;
-    --column-gap: 20px;
-    --row-gap: calc(20px);
-    
+    --column-gap: 5px;
+    --border: 1px solid rgba(218, 210, 210, 0.9);
     /* --background-item: rgb(223, 223, 223); */
 }
 @font-face {
@@ -19,7 +18,7 @@
     src: url("../font/Lato\ Việt\ Hoá/Lato Bold.ttf");
 }
 body{
-    /* background: rgb(255, 174, 0); */
+    background: rgba(192, 187, 187, 0.1);
      /* background: url("../background.jpg");  */
     /* background-size: ; */
     /* background-repeat: no-repeat; */
@@ -27,8 +26,8 @@ body{
     overflow-x: hidden;
 }
 #topcover{
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    border-top: 5px solid rgb(50, 50, 50);
+    border-bottom: 5px solid rgb(50, 50, 50);
     width: 100vw;
 }
 .wholepage-sort{
@@ -37,10 +36,21 @@ body{
     padding-right: 60px;
     
 }
+.h1{
+    left: 50%;
+    font-style: italic;
+    font-family: "mainfont-bold","sans-serif";
+    color: rgb(129, 76, 11);
+    font-weight: 1000;
+    font-size: 50px;
+    position: absolute;
+    transform: translate(-50%, 0);
+}
 .sort-by{
+    font-weight: bold;
     font-family: "mainfont","sans-serif";
     cursor: pointer;
-    padding: 5px;
+    padding: 10px;
 }
 #wholepage-sanpham{
     display: flex;
@@ -48,11 +58,14 @@ body{
     padding-bottom: 20px;
 }
 #menu{
+    border: var(--border);
     height: 100%;
     padding: 10px;
     background: var(--background-item);
 }
 .menu-item, .menu-item-special{
+    transition-duration: .1s;
+    padding-left: 5px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -60,26 +73,24 @@ body{
 }
 #sanpham{
     display: grid;
-    grid-template-columns: repeat(4, calc(var(--img-width) + 20px));
-    grid-template-rows: repeat(3, calc(var(--img-height) + calc(250px / 2)));
+    grid-template-columns: repeat(4, calc(var(--img-width) + 17px));
+    grid-template-rows: max-content;
     column-gap: var(--column-gap);
-    row-gap: var(--row-gap);
-    margin-bottom: 20px;
+    row-gap: 0;
 }
 .hinh-sanpham{
+    border: var(--border);
     width: var(--img-width);
     height: var(--img-height);
     cursor: pointer;
-    border: 1px solid black;
     margin-bottom: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 2px 2px 4px;
     width: calc(var(--img-width) + 20px);
     height: calc(var(--img-height) + 20px);
 }
 
 .hinh-sanpham:hover{
     transform: scale(1.05);
-    transition-duration: .4s;
+    transition-duration: .3s;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 hr{
@@ -92,6 +103,7 @@ hr{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-bottom: 10px;
 }
 #choose-bar{
     font-size: 20px;
@@ -104,6 +116,15 @@ hr{
     display: none;
 }
 
+.tien-sanpham{
+    color: red;
+}
+.ten-sanpham, .menu-item, .filter{
+    color: rgb(50, 50, 50);
+}
+.filter:hover,.ten-sanpham:hover{
+    color: rgb(179, 106, 18);
+}
 .tien-sanpham, .ten-sanpham, h3{
     font-family: "mainfont-bold", "sans-serif";
 }
@@ -113,9 +134,7 @@ hr{
 .content >p, .ten-sanpham {
     cursor:pointer
 }
-.filter:hover,.ten-sanpham:hover, .tien-sanpham{
-    color: red;
-}
+
 .fas{
     padding: 10px;
 }

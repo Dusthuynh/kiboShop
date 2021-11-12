@@ -1,20 +1,8 @@
-const rowsNum = 3;  // so hang cua grid trong css
-const colsNum = 4;  // so cot cua grid trong css
 const sortType = 1;
 var fulldata = data.Akko.concat(data.Leopold);
 var vanilData =  JSON.parse(JSON.stringify(fulldata));
 
 window.onload = main();
-// window.onload = () => {
-//     var data;
-//     $.getJSON("./Data-final.json", data,
-//         function (data, textStatus, jqXHR) {
-//             main(data);
-//         }
-//     );
-// };// load file data json vao main de su dung
-
-
 
 function main() { // ham chinh de goi cac ham khac
     
@@ -25,6 +13,7 @@ function main() { // ham chinh de goi cac ham khac
     sortOption.onchange = () =>{
         sortItem(fulldata, vanilData, sortOption.value);
     }
+    
 }
 function filterProduct(data){// truyen filter
     var profile = document.getElementsByClassName("filter-Profile");
@@ -127,26 +116,22 @@ function passInfo(Brand) { // truyen noi dung vao html
         let tensanpham = document.createElement('div');
         let modelsanpham = document.createElement('div');
         let tiensanpham = document.createElement('div');
-        let stridesanpham = document.createElement('div');
 
         sanphamitem.className = 'sanpham-item';
         hinhsanpham.className = 'hinh-sanpham';
         tensanpham.className = 'ten-sanpham';
         modelsanpham.className = 'model-sanpham';
         tiensanpham.className = 'tien-sanpham';
-        stridesanpham.className = 'stride';
         
         tensanpham.onclick = pastDataLocalStorage;
 
         hinhsanpham.src = "./san-pham-img/" + item["Tên"]+"/" + item["Tên"] +" 1.jpg";
-        stridesanpham.innerHTML = '- - - - - - -';
         tensanpham.innerHTML = item["Tên"];
         tiensanpham.innerHTML = item["Giá"];
         modelsanpham.innerHTML = item["Model"];
 
         sanphamitem.appendChild(hinhsanpham);
         sanphamitem.appendChild(tensanpham);
-        sanphamitem.appendChild(stridesanpham);
         sanphamitem.appendChild(tiensanpham);
         sanphamitem.appendChild(modelsanpham);
 
@@ -167,6 +152,7 @@ function pastDataLocalStorage(e){ // truyen ten san pham vao local storage
         window.localStorage.removeItem('name');
         window.localStorage.setItem('name', name);
     }
+    window.location.href = "../one-san-pham/OneProduct.html";
 }
 
 function menuStyling() { // them hieu ung cho menu
@@ -178,9 +164,12 @@ function menuStyling() { // them hieu ung cho menu
 
         $("." + nameClassCut + "-content").slideToggle();
         $("div." + nameClassCut + "> i").toggleClass("rotate");
-
-        if (textColor == "black" || textColor == "") {
+        if (textColor == "rgb(50, 50, 50)" || textColor == "") {
             document.getElementsByClassName(nameClassCut)[0].style.color = "rgb(179, 106, 18)";
-        } else document.getElementsByClassName(nameClassCut)[0].style.color = "black";
+            document.getElementsByClassName(nameClassCut)[0].style.borderLeft = "5px solid rgb(179, 106, 18)";
+        } else {
+            document.getElementsByClassName(nameClassCut)[0].style.color = "rgb(50, 50, 50)";
+            document.getElementsByClassName(nameClassCut)[0].style.borderLeft = "0px solid rgb(50, 50, 50)";
+        }
     });
 }
