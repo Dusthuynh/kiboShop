@@ -56,7 +56,7 @@ function animaBanner(){
 var hotList = {
  "Akko" : [
     {"src":"san-pham/san-pham-img/AKKO 3084 v2 ASA – Los Angeles/AKKO 3084 v2 ASA – Los Angeles 2.jpg",
-     "name":"AKKO 3084 v2 ASA Los Angeles",
+     "name":"AKKO 3098 v2 ASA – Los Angeles",
      "price":"1,499,000 ₫"},
     {"src":"san-pham/san-pham-img/AKKO 3098 DS Midnight R2/AKKO 3098 DS Midnight R2 2.jpg",
      "name":"AKKO 3098 DS Midnight R2",
