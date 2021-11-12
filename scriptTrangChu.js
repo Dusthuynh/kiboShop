@@ -3,7 +3,7 @@ var btnnav = document.getElementById("btn-navLink");
 window.onload = main;
 function main(){
     btnnav.onclick = tognav;
-    unclicktitle();
+    highlightTitle();
 
     animaBanner();
 
@@ -23,7 +23,7 @@ function tognav(e){
     }
 }
 
-function unclicktitle(){
+function highlightTitle(){
     var a = document.getElementsByClassName("a-navLink");
     for(let i=0;i<a.length;i++){
         if(document.title == a[i].innerHTML){

@@ -256,6 +256,10 @@ header{
     color: rgb(50, 50, 50);
   }
 
+  .ten-sanpham:hover{
+    color:rgb(170, 122, 49);
+  }
+
   .gia-sanpham{
     padding: 1vw;
     color: rgb(192, 71, 71);

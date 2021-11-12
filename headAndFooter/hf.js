@@ -46,7 +46,7 @@ fetch("../headAndFooter/footer.html")
       // var btnnav = document.getElementById("btn-navLink");
       // btnnav.onclick = tognav;
       tognav(e);
-      unclicktitle();
+      highlightTitle();
   }
   
   function tognav(e){
@@ -62,7 +62,7 @@ fetch("../headAndFooter/footer.html")
       }
   }
   
-  function unclicktitle(){
+  function highlightTitle(){
       var a = document.getElementsByClassName("a-navLink");
       for(let i=0;i<a.length;i++){
           if(document.title == a[i].innerHTML){
