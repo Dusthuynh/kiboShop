@@ -1,14 +1,14 @@
 @font-face {
   font-family: "mainfont";
-  src: url("../font/Lato\ Việt\ Hoá/Lato Medium.ttf");
+  src: url("font/Lato\ Việt\ Hoá/Lato Medium.ttf");
 }
 @font-face {
   font-family: "mainfont-light";
-  src: url("../font/Lato\ Việt\ Hoá/Lato Light.ttf");
+  src: url("font/Lato\ Việt\ Hoá/Lato Light.ttf");
 }
 @font-face {
   font-family: "mainfont-bold";
-  src: url("../font/Lato\ Việt\ Hoá/Lato Bold.ttf");
+  src: url("font/Lato\ Việt\ Hoá/Lato Bold.ttf");
 }
 
 body{
