@@ -96,6 +96,8 @@ header{
     width: 40vw;
     font-size: 1.7rem;
     padding: 2vw;
+    border-left: 5px solid orange;
+    
 }
 
 .slogan{
@@ -121,7 +123,7 @@ header{
     z-index: 1;
     position: relative;
     font-size: inherit;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: mainfont, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(87, 86, 86);
     margin: 0vh 10vw 5vh 15vw;
     padding: 0.5em 1em;
@@ -170,9 +172,10 @@ header{
   }
 
   .trangchu-wellcome{
-    margin: 15vh 0 10vh 0;
+    margin: 8vh 0 10vh 0;
     padding: 1vh 10vw;
     background-color:  rgba(228, 148, 28, 0.932);    
+    font-size: 2rem;
   }
 
   .trangchu-wellcome > h3{
@@ -181,10 +184,13 @@ header{
 
   #bannerTrangChu{
     width: (100vw-26px);
-    height: 694px;
-    background-color: rgb(210, 203, 195);
+    height: fit-content;
+    background-color: rgb(218, 128, 26);
     border-top: 10px solid rgb(218, 128, 26);
-    border-bottom: 10px solid rgb(218, 128, 26);
+  }
+
+  #bannerTrangChu > img{
+    width: 100%;
   }
 
   .title-trangchu{
@@ -195,7 +201,7 @@ header{
     border-top-left-radius: 5px;
     width: 30vw;
     font-family: mainfont-bold;
-    font-size: 40px;
+    font-size: 2.5vw;
     margin: 0;
     padding: 5px;
     text-align: center;
@@ -207,7 +213,7 @@ header{
     justify-content: flex-end;
   }
 
-  #hot-akko{
+  .hot-sp{
     height: 70vh;
     background-color: rgb(255, 255, 255);
     padding-top: 5vh;
@@ -230,6 +236,7 @@ header{
   .sp:hover{
     cursor: pointer;
     transform: scale(1.03);
+    opacity: 0.8;
   }
 
   .bestsellerPr{
@@ -238,38 +245,28 @@ header{
   }
 
   .hinh-sanpham{
-    width: 20vw;
     overflow: hidden;
   }
 
   .ten-sanpham, .gia-sanpham{
     line-height: 1.5rem;
-    padding-top: 5px;
+    padding: 5px;
     font-family: mainfont;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     color: rgb(50, 50, 50);
   }
 
   .gia-sanpham{
-    padding: 1rem;
+    padding: 1vw;
     color: rgb(192, 71, 71);
   }
 
   .list-sp{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 5vh;
   }
-
-
-
-
-
-
-
-
-
 
   footer {
     text-decoration: none;
@@ -354,7 +351,29 @@ header{
     padding-left: 10%;
   }
   
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 768px) {
+    header{
+      margin: 5vh 8vw 0 3vw;
+    }
+    .loiDan{
+      width: 60vw;
+    }
+    .icon-header{
+      width: 3vw;
+    }
+    .sp{
+      width: 25vw;
+    }
+    .hot-sp{
+      height: 60vh;
+    }
+    .trangchu-wellcome{
+      font-size: 1.5rem;
+    }
+    .ten-sanpham, .gia-sanpham{
+      font-size: 1.2rem;
+    }
+
     /* footer */
     .footer_container {
       flex-direction: column;
@@ -376,10 +395,37 @@ header{
       display: none;
     }
   }
+
   @media screen and (max-width: 1024px) {
+    .slogan{
+      font-size: 1.8rem;
+    }
     .footer-keyboard,
     .footer-services,
     .footer-policy {
       display: none;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .sp{
+      width: 40vw;
+    }
+    .hot-sp{
+      height: 55vh;
+    }
+    #bannerTrangChu, .title-trangchu{
+      display: none;
+    }
+    .slogan{
+      width: 40vw;
+      font-size: 1rem;
+    }
+    .loiDan{
+      font-size: 1rem;
+    }
+    .more-homepage{
+      width: 40vw;
+      font-size: 1rem;
     }
   }
