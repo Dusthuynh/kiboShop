@@ -236,11 +236,10 @@ header{
   .sp:hover{
     cursor: pointer;
     transform: scale(1.03);
-    opacity: 0.8;
   }
 
   .bestsellerPr{
-    color:rgb(236, 160, 18);
+    color:rgb(218, 146, 52);
     font-family: mainfont-bold;
   }
 
@@ -431,5 +430,11 @@ header{
     .more-homepage{
       width: 40vw;
       font-size: 1rem;
+    }
+    .navigation{
+      padding-right: 2rem;
+    }
+    .navigation > a >img{
+      width: 5vw;
     }
   }

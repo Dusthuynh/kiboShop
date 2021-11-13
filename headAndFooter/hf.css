@@ -28,6 +28,15 @@ header {
 
 .logo-header img {
   height: 3rem;
+  cursor: pointer;
+}
+
+.logo-header{
+  transition: transform .5s;
+}
+
+.logo-header:hover{
+  transform: scale(1.03);
 }
 
 .navigation{
