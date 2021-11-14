@@ -126,5 +126,5 @@ function pastDataLocalStorage(e){
         window.localStorage.removeItem('name');
         window.localStorage.setItem('name', name);
     }
-    window.location.href = "../one-san-pham/OneProduct.html";
+    window.location.href = "one-san-pham/OneProduct.html";
 }
