@@ -226,6 +226,7 @@ header{
     justify-content: center;
     text-align: center;
     width: 20vw;
+    height: auto;
     border-radius: 5px;
     color: black;
     background-color: rgb(255, 255, 255);
