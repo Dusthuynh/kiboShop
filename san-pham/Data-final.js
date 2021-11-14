@@ -1,4 +1,5 @@
-const data ={
+const data=
+{
 	"Akko": [
 		{
 			"Tên": "AKKO 5108 World Tour Tokyo R2 SP",
@@ -841,6 +842,92 @@ const data ={
 			"Led": "",
 			"Kích thước": "360x140x40 mm",
 			"Trọng lượng" :"0.95 kg"
+		}
+	],
+	"Keychron":[
+		{
+			"Tên": "Keychron K1v4",
+			"Model": "3087",
+			"Switch":"Gateron switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C", "Bluetooth 5.1"],
+			"Keycap": "ABS",
+			"Profile": "Low profile",
+			"Type": ["Blue", "Brown", "Red"],
+			"Giá": "2,190,000 ₫",
+			"Led": "RGB",
+			"Kích thước": "355x120x18 mm",
+			"Trọng lượng" :"0.65 kg"
+		},
+		{
+			"Tên": "Keychron K2v2",
+			"Model": "3084",
+			"Switch": "Gateron switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C", "Bluetooth 5.1"],
+			"Keycap": "ABS",
+			"Profile": "Low profile",
+			"Type": ["Blue", "Brown", "Red"],
+			"Giá": "1,690,000 ₫",
+			"Led": "RGB",
+			"Kích thước": "313x123x18 mm",
+			"Trọng lượng" :"0.65 kg"
+		},
+		{
+			"Tên": "Keychron K3v2",
+			"Model": "3084",
+			"Switch": "Gateron switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C", "Bluetooth 5.1"],
+			"Keycap": "ABS",
+			"Profile": "Low profile",
+			"Type": ["Blue", "Brown", "Red"],
+			"Giá": "2,190,000 ₫",
+			"Led": "RGB",
+			"Kích thước": "306x116x22 mm",
+			"Trọng lượng" :"0.395 kg"
+		},
+		{
+			"Tên": "Keychron K4v2",
+			"Model": "3100",
+			"Switch": "Gateron switch",
+			"Hotswap":"NO",
+			"Kết nối": ["USB Type C", "Bluetooth 5.1"],
+			"Keycap": "ABS",
+			"Profile": "Low profile",
+			"Type": ["Blue", "Brown", "Red"],
+			"Giá": "1,850,000 ₫",
+			"Led": "RGB",
+			"Kích thước": "371x124x38 mm",
+			"Trọng lượng" :"0.77 kg"
+		},
+		{
+			"Tên": "Keychron K6",
+			"Model": "3068",
+			"Switch": "Gateron switch",
+			"Hotswap":"YES",
+			"Kết nối": ["USB Type C", "Bluetooth 5.1"],
+			"Keycap": "ABS",
+			"Profile": "Low profile",
+			"Type": ["Blue", "Brown", "Red"],
+			"Giá": "1,690,000 ₫",
+			"Led": "RGB",
+			"Kích thước": "313x104x38 mm",
+			"Trọng lượng" :"0.53 kg"
+		},
+		{
+			"Tên": "Keychron K8",
+			"Model": "3087",
+			"Switch": "Gateron switch",
+			"Hotswap":"YES",
+			"Kết nối": ["USB Type C", "Bluetooth 5.1"],
+			"Keycap": "ABS",
+			"Profile": "Low profile",
+			"Type": ["Blue", "Brown", "Red"],
+			"Giá": "1,790,000 ₫",
+			"Led": "RGB",
+			"Kích thước": "355x123x38 mm",
+			"Trọng lượng" :"0.74 kg"
 		}
 	]
 }

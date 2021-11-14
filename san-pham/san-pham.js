@@ -1,5 +1,5 @@
 const sortType = 1;
-var fulldata = data.Akko.concat(data.Leopold);
+var fulldata = data.Akko.concat(data.Leopold.concat(data.Keychron));
 var vanilData =  JSON.parse(JSON.stringify(fulldata));
 
 window.onload = main();
@@ -55,7 +55,7 @@ function filter(e){ //  bo loc filter
         passInfo(array);
     } else if (filterType == "Bluetooth"){ //loc bluetooth
         for (let i=0; i<fulldata.length; i++){
-            if (fulldata[i]["Kết nối"].includes("Bluetooth 5.0")){
+            if (fulldata[i]["Kết nối"].includes("Bluetooth 5.0") || fulldata[i]["Kết nối"].includes("Bluetooth 5.1")){
                 array = array.concat(fulldata[i]);
             }
         }
