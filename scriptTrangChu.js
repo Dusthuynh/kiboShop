@@ -106,25 +106,21 @@ function createDivSP(hang,div){
     for(let i=0;i<n;i++){
         var sp = $("<div></div>").addClass("sp");
         var hinh = $("<img></img>").addClass("hinh-sanpham");
-        var ten = $("<div></div>").addClass("ten-sanpham").click(pastDataLocalStorage);
+        var ten = $("<div></div>").addClass("ten-sanpham");
         var gia = $("<div></div>").addClass("gia-sanpham");
 
         hinh.attr("src",hotList[hang][i].src);
         ten.text(hotList[hang][i].name);
         gia.text(hotList[hang][i].price);
         div.append(sp.append(hinh, ten, gia));
+        sp.click(()=>{
+            if (typeof localStorage['name'] == undefined){
+                window.localStorage.setItem('name', hotList[hang][i].name);
+            } else{
+                window.localStorage.removeItem('name');
+                window.localStorage.setItem('name', hotList[hang][i].name);
+            }
+            window.location.href = "one-san-pham/OneProduct.html";
+        });
     }
-}
-
-function pastDataLocalStorage(e){ 
-    console.log(e);
-    var name = e.target.innerHTML;
-    e.preventDefault();
-    if (typeof localStorage['name'] == undefined){
-        window.localStorage.setItem('name', name);
-    } else{
-        window.localStorage.removeItem('name');
-        window.localStorage.setItem('name', name);
-    }
-    window.location.href = "one-san-pham/OneProduct.html";
 }
