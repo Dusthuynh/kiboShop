@@ -1,7 +1,16 @@
 window.onload = main();
 
-function main(){
+function main() {
 
+    var testObject = { 'one': 1, 'two': 2, 'three': 3 };
+
+    // Put the object into storage
+    localStorage.setItem('testObject', JSON.stringify(testObject));
+
+    // Retrieve the object from storage
+    var retrievedObject = localStorage.getItem('testObject');
+
+    console.log('retrievedObject: ', JSON.parse(retrievedObject));
 }
 // Lấy data set tất cả sản phẩm
 // Lấy dữ liệu từ local Storage
