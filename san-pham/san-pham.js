@@ -5,15 +5,14 @@ var vanilData =  JSON.parse(JSON.stringify(fulldata));
 window.onload = main();
 
 function main() { // ham chinh de goi cac ham khac
-    
-    passInfo(fulldata); // truyen du lieu
+    passInfo(fulldata) // truyen du lieu
     menuStyling(); //hieu ung cho thanh menu ben trai
     var sortOption = document.getElementsByClassName('sort-by')[0];
     filterProduct(fulldata);
     sortOption.onchange = () =>{
         sortItem(fulldata, vanilData, sortOption.value);
     }
-    
+
 }
 function filterProduct(data){// truyen filter
     var profile = document.getElementsByClassName("filter-Profile");
@@ -123,8 +122,6 @@ function passInfo(Brand) { // truyen noi dung vao html
         modelsanpham.className = 'model-sanpham';
         tiensanpham.className = 'tien-sanpham';
         
-        tensanpham.onclick = pastDataLocalStorage;
-
         hinhsanpham.src = "./san-pham-img/" + item["Tên"]+"/" + item["Tên"] +" 1.jpg";
         tensanpham.innerHTML = item["Tên"];
         tiensanpham.innerHTML = item["Giá"];
@@ -134,13 +131,28 @@ function passInfo(Brand) { // truyen noi dung vao html
         sanphamitem.appendChild(tensanpham);
         sanphamitem.appendChild(tiensanpham);
         sanphamitem.appendChild(modelsanpham);
-
+        
         document.getElementById('sanpham').appendChild(sanphamitem);
+        tensanpham.onclick = pastDataLocalStorage;
+        hinhsanpham.onclick = pastDataLocalStorageImg;
     }
 }
 
 function clearData(){ // xoa noi dung html
     document.getElementById("sanpham").innerHTML="";
+}
+
+function pastDataLocalStorageImg(e){
+
+    var name = e.target.nextSibling.innerHTML;
+    e.preventDefault();
+    if (typeof localStorage['name'] == undefined){
+        window.localStorage.setItem('name', name);
+    } else{
+        window.localStorage.removeItem('name');
+        window.localStorage.setItem('name', name);
+    }
+    window.location.href = "../one-san-pham/OneProduct.html";
 }
 
 function pastDataLocalStorage(e){ // truyen ten san pham vao local storage
