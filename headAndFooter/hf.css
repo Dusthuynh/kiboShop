@@ -78,7 +78,7 @@ header {
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   margin-right: 3px;
-  height: 30vh;
+  height: fit-content;
   text-align: right;
   font-size: 1.6rem;
   border-right: 5px solid rgb(231, 174, 60);
