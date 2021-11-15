@@ -4,7 +4,8 @@ const name = localStorage.getItem("name");
 
 window.onload = () => {
     console.log(localStorage);
-    var fulldata = data.Akko.concat(data.Leopold);
+    var fulldata = data.Akko.concat(data.Leopold.concat(data.Keychron));
+
     main(fulldata); 
     $("#title").text(name);
 }
@@ -38,7 +39,12 @@ function getElement(Object) {
     $("#price").text(Object['Giá']);
 
     for (var i = 1; i <5; i++) {
-        document.getElementsByClassName('product-img'+i)[0].src = `../san-pham/san-pham-img/${name}/${name} ${i}.jpg`;
+        var img = `<div class = "img img_preview${i}"><img class="product-img${i}" src="../san-pham/san-pham-img/${name}/${name} ${i}.jpg"></div>`;
+        $('.preview').append(img);
+        console.log($(`.product-img${i}`).attr('src'));
+        if (!$(`.product-img${i}`).attr('src')) {
+            $(`.product-img${i}`).remove();
+        };
     }
      // get Image
     document.getElementsByClassName('main-img')[0].src = getSrc(1);
