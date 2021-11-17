@@ -62,6 +62,7 @@
 .box-addCart {
     background-color:#fb6e2e;
     width: 100%;
+    cursor: pointer;
 }
 
 .col_2 .hr {

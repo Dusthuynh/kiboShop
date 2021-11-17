@@ -35,7 +35,7 @@ function showCart() {
             // Tạo thẻ lưu ảnh sản phẩm bao gồm đường link tên class của ảnh
             var imgPr = document.createElement("img");
             imgPr.classList.add("cart_imgItem");
-            imgPr.src = `/san-pham/san-pham-img/${getFromData["Tên"]}/${getFromData["Tên"]} 1.jpg`;
+            imgPr.src = `../san-pham/san-pham-img/${getFromData["Tên"]}/${getFromData["Tên"]} 1.jpg`;
             imgPr.alt = "name of product";
 
             // Tạo thẻ lưu tên sản phẩm
