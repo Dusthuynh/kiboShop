@@ -33,17 +33,6 @@ body{
     display: flex;
     justify-content: flex-end;
     padding-right: 60px;
-    
-}
-.h1{
-    left: 50%;
-    font-style: italic;
-    font-family: "mainfont-bold","sans-serif";
-    color: rgb(129, 76, 11);
-    font-weight: 1000;
-    font-size: 50px;
-    position: absolute;
-    transform: translate(-50%, 0);
 }
 .sort-by{
     font-weight: bold;
@@ -240,12 +229,6 @@ i{
     }
     #menu>h2, .menu-item-special, #last-hr{
         display: none;
-    }
-    .h1{
-        left: 50%;
-        font-size: 50px;
-        position: absolute;
-        transform: translate(-100%, 0);
     }
 }
 @media only screen and (max-width: 650px) {
