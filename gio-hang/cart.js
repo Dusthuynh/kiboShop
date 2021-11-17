@@ -8,12 +8,10 @@ const formatter = new Intl.NumberFormat('vi-VN', {
 window.onload = () => {
     showCart();
     changeQty();
-    removeItem();
 }
 window.onstorage = () => {
     showCart();
     changeQty();
-    removeItem();
 }
 // Lấy các key addToCart trên localStorage đưa vào mảng
 function getKey() {
@@ -25,7 +23,7 @@ function getKey() {
     }
 }
 function showCart() {
-    getKey(); changeQty();
+    getKey();
     document.getElementsByClassName("cart_body-items")[0].innerHTML = "";
     var ItemsClass = document.getElementsByClassName("cart_body-items")[0];
 
@@ -129,6 +127,8 @@ function showCart() {
         ItemsClass.append(divItem);
         ChangeTotalFooter();
     });
+    changeQty();
+    removeItem();
 }
 // Hàm tìm đối tượng sản phẩm từ DataSet dựa trên dữ liệu namePr là tên trên local
 function findInDataSet(namePr) {
@@ -175,11 +175,11 @@ function ChangeTotalFooter() {
 // Hàm xóa sản phẩm
 function removeItem() {
     var getButtonDel = document.getElementsByClassName("far fa-trash-alt");
-    var getProduct = document.getElementsByClassName("cart_body-item");
     var getNamePr = document.getElementsByClassName("linkItem");
     for (let i = 0; i < getButtonDel.length; i++) {
         getButtonDel[i].onclick = function () {
             window.localStorage.removeItem(`addToCart ${getNamePr[i].textContent}`);
+            document.getElementsByClassName("cart_body-items")[0].innerHTML = "";
             showCart();
             ChangeTotalFooter();
         }
