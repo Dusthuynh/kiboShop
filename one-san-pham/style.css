@@ -11,7 +11,7 @@
     padding: 2% 10%;
     display: grid;
     grid-template-columns: 60% 40%;
-    font-family: "font-hf-R", Courier, monospace;
+    font-family: "font-hf-B", Courier, monospace;
 }
 .product-img {
     background-color: #ffffff;
