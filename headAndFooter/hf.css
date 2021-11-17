@@ -118,7 +118,7 @@ footer {
   background-color: rgb(209, 109, 38);
   font-size: 14px;
   margin: 0 0;
-  font-family: "font-hf-R", Courier, monospace;
+  font-family: "mainfont", Courier, monospace;
 }
 .contacts_logo img {
   width: 100px;
