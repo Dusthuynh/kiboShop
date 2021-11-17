@@ -1,8 +1,15 @@
 @font-face {
-    font-family: font-hf-B;
-    src: url(../font/products/Product\ Sans\ Bold.otf);
-}
-
+    font-family: "mainfont";
+    src: url("../font/Lato\ Việt\ Hoá/Lato Medium.ttf");
+  }
+  @font-face {
+    font-family: "mainfont-light";
+    src: url("../font/Lato\ Việt\ Hoá/Lato Light.ttf");
+  }
+  @font-face {
+    font-family: "mainfont-bold";
+    src: url("../font/Lato\ Việt\ Hoá/Lato Bold.ttf");
+  }
 .container a {
     width: 100%;
 }
@@ -11,7 +18,7 @@
     padding: 2% 10%;
     display: grid;
     grid-template-columns: 60% 40%;
-    font-family: "font-hf-B", Courier, monospace;
+    font-family: "mainfont", Courier, monospace;
 }
 .product-img {
     background-color: #ffffff;
