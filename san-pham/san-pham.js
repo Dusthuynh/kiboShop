@@ -184,3 +184,4 @@ function menuStyling() { // them hieu ung cho menu
         }
     });
 }
+// fix loi sửa số lượng trên local storage khi out ra vô lại 

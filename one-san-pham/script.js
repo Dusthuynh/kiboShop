@@ -1,6 +1,7 @@
 // const brand = "Akko";
-
 const name = localStorage.getItem("name");
+
+
 
 window.onload = () => {
     console.log(localStorage);
@@ -41,10 +42,6 @@ function getElement(Object) {
     for (var i = 1; i <5; i++) {
         var img = `<div class = "img img_preview${i}"><img class="product-img${i}" src="../san-pham/san-pham-img/${name}/${name} ${i}.jpg"></div>`;
         $('.preview').append(img);
-        console.log($(`.product-img${i}`).attr('src'));
-        if (!$(`.product-img${i}`).attr('src')) {
-            $(`.product-img${i}`).remove();
-        };
     }
      // get Image
     document.getElementsByClassName('main-img')[0].src = getSrc(1);
@@ -61,7 +58,7 @@ function getElement(Object) {
     //get switch 
     for (let i = 0; i < Object["Type"].length; i++) {
         var sw = Object["Type"][i];
-        var div = `<div class="option">${sw}</div>`;
+        var div = `<option class="option" value = "${sw}" >${sw}</option>`;
         $(".choose-option").append(div);
     }
 }
@@ -70,4 +67,11 @@ function getSrc(i) {
     var img = document.getElementsByClassName('product-img'+i)[0];
     return img.src;
 }
+function addCart() {
 
+    var product = {
+       "value": document.getElementById("soluong").value,
+       "switch": document.getElementById("select").value
+    }
+    localStorage.setItem(`addToCart ${name}`,JSON.stringify(product));
+}

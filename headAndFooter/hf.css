@@ -2,13 +2,16 @@ body {
   margin: 0;
 }
 @font-face {
-  font-family: font-hf-B;
-  src: url(../font/products/Product\ Sans\ Bold.otf);
+  font-family: "mainfont";
+  src: url("../font/Lato\ Việt\ Hoá/Lato Medium.ttf");
 }
-
 @font-face {
-  font-family: font-hf-R;
-  src: url(../font/products/Product\ Sans\ Regular.otf);
+  font-family: "mainfont-light";
+  src: url("../font/Lato\ Việt\ Hoá/Lato Light.ttf");
+}
+@font-face {
+  font-family: "mainfont-bold";
+  src: url("../font/Lato\ Việt\ Hoá/Lato Bold.ttf");
 }
 
 header {
@@ -19,6 +22,7 @@ header {
   margin: 3vh 5vw 2vh 3vw;
   color: rgb(235, 176, 14);
   font-size: 1.5rem;
+  font-family: mainfont;
 }
 
 .icon-header {
@@ -31,15 +35,15 @@ header {
   cursor: pointer;
 }
 
-.logo-header{
-  transition: transform .5s;
+.logo-header {
+  animation-duration: 0.5s;
 }
 
-.logo-header:hover{
+.logo-header:hover {
   transform: scale(1.03);
 }
 
-.navigation{
+.navigation {
   padding-right: 3rem;
 }
 
@@ -48,8 +52,8 @@ header {
   position: fixed;
   text-align: right;
   right: 0;
+  z-index: 5;
 }
-
 .nav-link {
   top: 10vh;
 }
@@ -78,7 +82,7 @@ header {
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   margin-right: 3px;
-  height: 30vh;
+  height: fit-content;
   text-align: right;
   font-size: 1.6rem;
   border-right: 5px solid rgb(231, 174, 60);
@@ -114,7 +118,7 @@ footer {
   background-color: rgb(209, 109, 38);
   font-size: 14px;
   margin: 0 0;
-  font-family: "font-hf-R", Courier, monospace;
+  font-family: "mainfont", Courier, monospace;
 }
 .contacts_logo img {
   width: 100px;
