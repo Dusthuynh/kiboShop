@@ -215,7 +215,7 @@ header{
 
   .hot-sp{
     height: 70vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(46, 46, 46);
     padding-top: 5vh;
     text-align: center;
   }
@@ -246,6 +246,7 @@ header{
 
   .hinh-sanpham{
     overflow: hidden;
+    border-radius: 5px;
   }
 
   .ten-sanpham, .gia-sanpham{
