@@ -2,16 +2,19 @@
     font-family: font-hf-B;
     src: url(../font/products/Product\ Sans\ Bold.otf);
 }
+
 .container a {
     width: 100%;
 }
 .container {  
+    background-color: rgb(243,243, 243);
     padding: 2% 10%;
     display: grid;
     grid-template-columns: 60% 40%;
     font-family: "font-hf-R", Courier, monospace;
 }
 .product-img {
+    background-color: #ffffff;
     display: grid;
     grid-template-columns: 20% 80%;
     padding-bottom: 50px;
@@ -131,6 +134,7 @@
   overflow: hidden;
   height: 44px;
   outline: none;
+  background-color: rgb(243,243, 243);
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -142,7 +146,11 @@ input[type=number]::-webkit-outer-spin-button {
 .img {
     cursor: pointer;
 }
-
+.preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 @media(max-width: 800px) {
     .container {
         display: flex;

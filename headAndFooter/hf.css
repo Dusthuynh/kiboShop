@@ -31,15 +31,15 @@ header {
   cursor: pointer;
 }
 
-.logo-header{
-  transition: transform .5s;
+.logo-header {
+  transition: transform 0.5s;
 }
 
-.logo-header:hover{
+.logo-header:hover {
   transform: scale(1.03);
 }
 
-.navigation{
+.navigation {
   padding-right: 3rem;
 }
 
@@ -47,9 +47,7 @@ header {
 .nav-link {
   position: fixed;
   text-align: right;
-  right: 0;
 }
-
 .nav-link {
   top: 10vh;
 }
