@@ -26,109 +26,110 @@ function showCart() {
     getKey();
     document.getElementsByClassName("cart_body-items")[0].innerHTML = "";
     var ItemsClass = document.getElementsByClassName("cart_body-items")[0];
+    if(ArrayProduct.length > 0){
+        ArrayProduct.forEach((element) => {
+            var keyLocal = element; // Lấy phần tử trong mảng
+            var keyLocalReal = keyLocal.substr(10); //xóa ký tự addToCart
+            var valLocal = JSON.parse(localStorage.getItem(keyLocal)); // lấy value và chuyển thành đôi tượng
+            var getFromData = findInDataSet(keyLocalReal); // lấy dữ liệu tương ứng trong dataset
 
-    ArrayProduct.forEach((element) => {
-        var keyLocal = element; // Lấy phần tử trong mảng
-        var keyLocalReal = keyLocal.substr(10); //xóa ký tự addToCart
-        var valLocal = JSON.parse(localStorage.getItem(keyLocal)); // lấy value và chuyển thành đôi tượng
-        var getFromData = findInDataSet(keyLocalReal); // lấy dữ liệu tương ứng trong dataset
+            // Tạo thẻ lưu ảnh sản phẩm bao gồm đường link tên class của ảnh
+            var imgPr = document.createElement("img");
+            imgPr.classList.add("cart_imgItem");
+            imgPr.src = `/san-pham/san-pham-img/${getFromData["Tên"]}/${getFromData["Tên"]} 1.jpg`;
+            imgPr.alt = "name of product";
 
-        // Tạo thẻ lưu ảnh sản phẩm bao gồm đường link tên class của ảnh
-        var imgPr = document.createElement("img");
-        imgPr.classList.add("cart_imgItem");
-        imgPr.src = `/san-pham/san-pham-img/${getFromData["Tên"]}/${getFromData["Tên"]} 1.jpg`;
-        imgPr.alt = "name of product";
+            // Tạo thẻ lưu tên sản phẩm
+            var namePr = document.createElement("a");
+            namePr.classList.add("linkItem");
+            namePr.href = "../one-san-pham/OneProduct.html";
+            namePr.textContent = getFromData["Tên"];
 
-        // Tạo thẻ lưu tên sản phẩm
-        var namePr = document.createElement("a");
-        namePr.classList.add("linkItem");
-        namePr.href = "../one-san-pham/OneProduct.html";
-        namePr.textContent = getFromData["Tên"];
+            // Tạo thẻ lưu loại sản phẩm
+            var typePr = document.createElement("div");
+            typePr.classList.add("typeItemCart");
+            typePr.textContent = valLocal.switch;
 
-        // Tạo thẻ lưu loại sản phẩm
-        var typePr = document.createElement("div");
-        typePr.classList.add("typeItemCart");
-        typePr.textContent = valLocal.switch;
+            // Tạo thẻ lưu đơn giá sản phẩm
+            var pricePr = document.createElement("div");
+            pricePr.classList.add("cart_body_item_info1-price");
+            pricePr.textContent = formatter.format(getFromData["Giá"].slice(0, getFromData["Giá"].search(" ₫")).replace(/\,/g, ''));
 
-        // Tạo thẻ lưu đơn giá sản phẩm
-        var pricePr = document.createElement("div");
-        pricePr.classList.add("cart_body_item_info1-price");
-        pricePr.textContent = formatter.format(getFromData["Giá"].slice(0, getFromData["Giá"].search(" ₫")).replace(/\,/g, ''));
+            // Tạo thẻ lưu số lượng sản phẩm
+            var qtyPr = document.createElement("span");
+            qtyPr.classList.add("valQty");
+            qtyPr.textContent = parseInt(valLocal.value);
 
-        // Tạo thẻ lưu số lượng sản phẩm
-        var qtyPr = document.createElement("span");
-        qtyPr.classList.add("valQty");
-        qtyPr.textContent = parseInt(valLocal.value);
+            // Tính giá thành cho từng sản phẩm
+            var valOneTotalPr = document.createElement("span");
+            valOneTotalPr.classList.add("valTotal");
+            var priceTemp = getFromData["Giá"].slice(0, getFromData["Giá"].search(" ₫")).replace(/\,/g, '');
+            valOneTotalPr.textContent = formatter.format(parseInt(priceTemp) * valLocal.value);
+            // ItemsClass.append(valOneTotalPr);
 
-        // Tính giá thành cho từng sản phẩm
-        var valOneTotalPr = document.createElement("span");
-        valOneTotalPr.classList.add("valTotal");
-        var priceTemp = getFromData["Giá"].slice(0, getFromData["Giá"].search(" ₫")).replace(/\,/g, '');
-        valOneTotalPr.textContent = formatter.format(parseInt(priceTemp) * valLocal.value);
-        // ItemsClass.append(valOneTotalPr);
+            var divItem = document.createElement("div");
+            divItem.classList.add("cart_body-item");
 
-        var divItem = document.createElement("div");
-        divItem.classList.add("cart_body-item");
+            var divInfo1 = document.createElement("div");
+            divInfo1.classList.add("cart_body_item-info1")
 
-        var divInfo1 = document.createElement("div");
-        divInfo1.classList.add("cart_body_item-info1")
+            var divDescription1 = document.createElement("div");
+            divDescription1.classList.add("cart_body_item_info1-description1");
 
-        var divDescription1 = document.createElement("div");
-        divDescription1.classList.add("cart_body_item_info1-description1");
+            var divDescription2 = document.createElement("div");
+            divDescription2.classList.add("cart_body_item_info1-description2");
 
-        var divDescription2 = document.createElement("div");
-        divDescription2.classList.add("cart_body_item_info1-description2");
+            var divInfo2 = document.createElement("div");
+            divInfo2.classList.add("cart_body_item-info2");
 
-        var divInfo2 = document.createElement("div");
-        divInfo2.classList.add("cart_body_item-info2");
+            var divQty = document.createElement("div");
+            divQty.classList.add("cart_body_item_info2_qty");
+            divQty.classList.add("content");
 
-        var divQty = document.createElement("div");
-        divQty.classList.add("cart_body_item_info2_qty");
-        divQty.classList.add("content");
+            var divTotal = document.createElement("div");
+            divTotal.classList.add("cart_body_item_info2_total");
+            divTotal.classList.add("content");
 
-        var divTotal = document.createElement("div");
-        divTotal.classList.add("cart_body_item_info2_total");
-        divTotal.classList.add("content");
+            var divDel = document.createElement("div");
+            divDel.classList.add("cart_body_item_info2_total");
+            divDel.classList.add("content");
 
-        var divDel = document.createElement("div");
-        divDel.classList.add("cart_body_item_info2_total");
-        divDel.classList.add("content");
+            var buttonLeft = document.createElement("button");
+            buttonLeft.classList.add("fas");
+            buttonLeft.classList.add("fa-angle-left");
 
-        var buttonLeft = document.createElement("button");
-        buttonLeft.classList.add("fas");
-        buttonLeft.classList.add("fa-angle-left");
+            var buttonRight = document.createElement("button");
+            buttonRight.classList.add("fas");
+            buttonRight.classList.add("fa-angle-right");
+            var buttonDel = document.createElement("button");
+            buttonDel.classList.add("far");
+            buttonDel.classList.add("fa-trash-alt");
 
-        var buttonRight = document.createElement("button");
-        buttonRight.classList.add("fas");
-        buttonRight.classList.add("fa-angle-right");
-        var buttonDel = document.createElement("button");
-        buttonDel.classList.add("far");
-        buttonDel.classList.add("fa-trash-alt");
-
-        // info1
-        divDescription1.append(pricePr);
-        divDescription1.append(imgPr);
-        divDescription2.append(namePr);
-        divDescription2.append(typePr);
-        divInfo1.append(divDescription1);
-        divInfo1.append(divDescription2);
-        // infor2
-        divQty.append(buttonLeft);
-        divQty.append(qtyPr);
-        divQty.append(buttonRight);
-        divTotal.append(valOneTotalPr);
-        divDel.append(buttonDel);
-        divInfo2.append(divQty);
-        divInfo2.append(divTotal);
-        divInfo2.append(divDel);
-        //combine infor
-        divItem.append(divInfo1);
-        divItem.append(divInfo2);
-        ItemsClass.append(divItem);
-        ChangeTotalFooter();
-    });
-    changeQty();
-    removeItem();
+            // info1
+            divDescription1.append(imgPr);
+            divDescription1.append(pricePr);
+            divDescription2.append(namePr);
+            divDescription2.append(typePr);
+            divInfo1.append(divDescription1);
+            divInfo1.append(divDescription2);
+            // infor2
+            divQty.append(buttonLeft);
+            divQty.append(qtyPr);
+            divQty.append(buttonRight);
+            divTotal.append(valOneTotalPr);
+            divDel.append(buttonDel);
+            divInfo2.append(divQty);
+            divInfo2.append(divTotal);
+            divInfo2.append(divDel);
+            //combine infor
+            divItem.append(divInfo1);
+            divItem.append(divInfo2);
+            ItemsClass.append(divItem);
+            ChangeTotalFooter();
+        });
+        changeQty();
+        removeItem();
+    }
 }
 // Hàm tìm đối tượng sản phẩm từ DataSet dựa trên dữ liệu namePr là tên trên local
 function findInDataSet(namePr) {
