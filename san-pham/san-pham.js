@@ -12,8 +12,8 @@ function main() { // ham chinh de goi cac ham khac
     sortOption.onchange = () =>{
         sortItem(fulldata, vanilData, sortOption.value);
     }
-
 }
+
 function filterProduct(data){// truyen filter
     var profile = document.getElementsByClassName("filter-Profile");
     var keycap = document.getElementsByClassName("filter-Keycap");
@@ -22,7 +22,6 @@ function filterProduct(data){// truyen filter
     var brand = document.getElementsByClassName("filter-brand");
     var bluetooth = document.getElementsByClassName("filter-Bluetooth");
     var hotswap = document.getElementsByClassName("filter-Hotswap");
-
 
     addListener(profile, "\"click\"", data);
     addListener(keycap, "\"click\"", data);
