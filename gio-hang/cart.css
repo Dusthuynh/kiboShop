@@ -17,6 +17,7 @@
 
 .cart-header {
     font-size: 3vw;
+    text-align: center;
 }
 
 ._productText {
@@ -24,6 +25,7 @@
     margin-bottom: 3vw;
     color:rgba(153, 153, 153, 0.9);
     border-bottom: 5px solid #ff8800;
+    text-align: left;
 }
 
 .cart_body-items {
