@@ -213,7 +213,6 @@ function linkToDetailPr() {
             getNamePr[i].onclick = function(){
                 window.localStorage.removeItem("name");
                 window.localStorage.setItem("name", `${getNamePr[i].innerHTML}`);
-                console.log("Asd");
             }
         }
     }
