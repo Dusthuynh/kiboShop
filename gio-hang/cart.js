@@ -7,10 +7,12 @@ const formatter = new Intl.NumberFormat('vi-VN', {
 window.onload = () => {
     showCart();
     changeQty();
+    linkToDetailPr();
 }
 window.onstorage = () => {
     showCart();
     changeQty();
+    linkToDetailPr();
 }
 // Lấy các key addToCart trên localStorage đưa vào mảng
 function getKey() {
@@ -25,7 +27,7 @@ function showCart() {
     getKey();
     document.getElementsByClassName("cart_body-items")[0].innerHTML = "";
     var ItemsClass = document.getElementsByClassName("cart_body-items")[0];
-    if(ArrayProduct.length > 0){
+    if (ArrayProduct.length > 0) {
         ArrayProduct.forEach((element) => {
             var keyLocal = element; // Lấy phần tử trong mảng
             var keyLocalReal = keyLocal.substr(10); //xóa ký tự addToCart
@@ -190,15 +192,29 @@ function removeItem() {
     }
 }
 // Hàm set lại value của sản phẩm
-function resetOnLocal(Qty, namePr, typePr){
+function resetOnLocal(Qty, namePr, typePr) {
     var name = window.localStorage.getItem(`addToCart ${namePr}`);
-    if(name){
+    if (name) {
         var product = {
             "value": Qty,
             "switch": typePr
-         }
+        }
         console.log("asd");
         window.localStorage.removeItem(`addToCart ${namePr}`);
-        window.localStorage.setItem(`addToCart ${namePr}`,JSON.stringify(product));
+        window.localStorage.setItem(`addToCart ${namePr}`, JSON.stringify(product));
+    }
+}
+// Hàm xử lý click vào link để xem chi tiết sản phẩm
+function linkToDetailPr() {
+    var checkLocal = window.localStorage.getItem("name");
+    var getNamePr = document.getElementsByClassName("linkItem");
+    if (checkLocal) {
+        for (let i = 0; i < getNamePr.length; i++) {
+            getNamePr[i].onclick = function(){
+                window.localStorage.removeItem("name");
+                window.localStorage.setItem("name", `${getNamePr[i].innerHTML}`);
+                console.log("Asd");
+            }
+        }
     }
 }
