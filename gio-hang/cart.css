@@ -18,6 +18,9 @@
 .cart-header {
     font-size: 3vw;
     text-align: center;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    border-radius: 20px;
 }
 
 ._productText {
@@ -26,6 +29,7 @@
     color:rgba(153, 153, 153, 0.9);
     border-bottom: 5px solid #ff8800;
     text-align: left;
+    background-color: white;
 }
 
 .cart_body-items {
