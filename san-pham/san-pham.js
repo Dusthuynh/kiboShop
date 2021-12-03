@@ -2,7 +2,7 @@ const sortType = 1;
 var fulldata = data.Akko.concat(data.Leopold.concat(data.Keychron));
 var vanilData =  JSON.parse(JSON.stringify(fulldata));
 
-window.onload = main();
+window.onload = main;
 
 function main() { // ham chinh de goi cac ham khac
     passInfo(fulldata) // truyen du lieu
@@ -109,31 +109,41 @@ function passInfo(Brand) { // truyen noi dung vao html
 
     for (let i = 0; i < Brand.length; i++) {
         let item = Brand[i];
+        let includespitem = document.createElement("div");
         let sanphamitem = document.createElement("div");
         let hinhsanpham = document.createElement('img');
         let tensanpham = document.createElement('div');
         let modelsanpham = document.createElement('div');
         let tiensanpham = document.createElement('div');
+        let buttonsanpham = document.createElement('button');
 
+        includespitem.className ='card';
         sanphamitem.className = 'sanpham-item';
-        hinhsanpham.className = 'hinh-sanpham';
+        hinhsanpham.className = 'w-100 hinh-sanpham';
         tensanpham.className = 'ten-sanpham';
         modelsanpham.className = 'model-sanpham';
         tiensanpham.className = 'tien-sanpham';
+        buttonsanpham.className = 'btn btn-warning';
+        
         
         hinhsanpham.src = "./san-pham-img/" + item["Tên"]+"/" + item["Tên"] +" 1.jpg";
         tensanpham.innerHTML = item["Tên"];
         tiensanpham.innerHTML = item["Giá"];
         modelsanpham.innerHTML = item["Model"];
-
+        buttonsanpham.href = '#';
+        buttonsanpham.innerHTML = 'Đặt hàng';
+        
         sanphamitem.appendChild(hinhsanpham);
         sanphamitem.appendChild(tensanpham);
         sanphamitem.appendChild(tiensanpham);
         sanphamitem.appendChild(modelsanpham);
-        
-        document.getElementById('sanpham').appendChild(sanphamitem);
+        includespitem.appendChild(sanphamitem);
+        includespitem.appendChild(buttonsanpham);
+
+        document.getElementById('sanpham').appendChild(includespitem);
         tensanpham.onclick = pastDataLocalStorage;
         hinhsanpham.onclick = pastDataLocalStorageImg;
+        buttonsanpham.onclick = pastDataLocalStorageButton;
     }
 }
 
@@ -141,22 +151,24 @@ function clearData(){ // xoa noi dung html
     document.getElementById("sanpham").innerHTML="";
 }
 
-function pastDataLocalStorageImg(e){
+function pastDataLocalStorageButton(e){
+    var name = e.target.parentElement.children[0].children[1].innerHTML;
+    e.preventDefault();
+    localStorageUpdate(name);
+}
 
+function pastDataLocalStorageImg(e){
     var name = e.target.nextSibling.innerHTML;
     e.preventDefault();
-    if (typeof localStorage['name'] == undefined){
-        window.localStorage.setItem('name', name);
-    } else{
-        window.localStorage.removeItem('name');
-        window.localStorage.setItem('name', name);
-    }
-    window.location.href = "../one-san-pham/OneProduct.html";
+    localStorageUpdate(name);
 }
 
 function pastDataLocalStorage(e){ // truyen ten san pham vao local storage
     var name = e.target.innerHTML;
     e.preventDefault();
+    localStorageUpdate(name)
+}
+function localStorageUpdate(name){ // thay doi key name tren local storage
     if (typeof localStorage['name'] == undefined){
         window.localStorage.setItem('name', name);
     } else{

@@ -5,7 +5,7 @@ function main(){
     btnnav.onclick = tognav;
     highlightTitle();
 
-    animaBanner();
+    // animaBanner();
 
     hotSP();
 }
@@ -32,26 +32,26 @@ function highlightTitle(){
     }
 }
 
-var imgBannerList =[
-    {"src":"media/banner/akko_tokyo.png"},
-    {"src":"media/banner/leopolo_fc980m.png"},
-    {"src":"media/banner/keychron_k3v2.png"}];
+// var imgBannerList =[
+//     {"src":"media/banner/akko_tokyo.png"},
+//     {"src":"media/banner/leopolo_fc980m.png"},
+//     {"src":"media/banner/keychron_k3v2.png"}];
 
-function animaBanner(){
-    var res = $("#bannerTrangChu");
-    for(let i=0;i<imgBannerList.length;i++){
-        var img = $("<img></img>").attr("src",imgBannerList[i].src);
-        res.append(img);
-    }
+// function animaBanner(){
+//     var res = $("#bannerTrangChu");
+//     for(let i=0;i<imgBannerList.length;i++){
+//         var img = $("<img></img>").attr("src",imgBannerList[i].src);
+//         res.append(img);
+//     }
 
-    $("#bannerTrangChu img:gt(0)").hide()
-    var loop = setInterval( () =>{
-        $("#bannerTrangChu img:first-child").hide();
-        $("#bannerTrangChu img:first-child").next().fadeIn("slow");
-        $("#bannerTrangChu").append($("#bannerTrangChu img:first-child"));
-    },5000);
+//     $("#bannerTrangChu img:gt(0)").hide()
+//     var loop = setInterval( () =>{
+//         $("#bannerTrangChu img:first-child").hide();
+//         $("#bannerTrangChu img:first-child").next().fadeIn("slow");
+//         $("#bannerTrangChu").append($("#bannerTrangChu img:first-child"));
+//     },5000);
 
-}
+// }
 
 var hotList = {
  "Akko" : [
