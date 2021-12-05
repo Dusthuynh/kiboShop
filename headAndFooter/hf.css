@@ -19,7 +19,7 @@ header {
   justify-content: space-between;
   align-items: center;
   text-align: start;
-  margin: 3vh 5vw 2vh 3vw;
+  margin: 3vh 3vw 2vh 3vw;
   color: rgb(235, 176, 14);
   font-size: 1.5rem;
   font-family: mainfont;
@@ -43,71 +43,16 @@ header {
   transform: scale(1.03);
 }
 
-.navigation {
-  padding-right: 3rem;
-}
-
-#btn-navLink,
-.nav-link {
-  position: fixed;
-  text-align: right;
-  right: 0;
-  z-index: 5;
-}
-.nav-link {
-  top: 10vh;
-}
-
-#btn-navLink {
-  top: 2vh;
-  right: 5px;
-  padding: 1vh;
-  cursor: pointer;
-}
-
-.fa-chevron-circle-down {
-  font-size: 3rem;
-  transform: rotate(-90deg);
-  transition-duration: 0.5s;
-}
-
-.rotate90deg {
-  transform: rotate(0deg);
-}
-
-.nav-link {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-  margin-right: 3px;
-  height: fit-content;
-  text-align: right;
-  font-size: 1.6rem;
-  border-right: 5px solid rgb(231, 174, 60);
-  background-color: #2e2e2ee5;
-  padding: 0.5% 0 0.5% 1%;
-}
-
-.a-navLink {
+.link-header > a{
   text-decoration: none;
-  color: rgb(209, 209, 209);
-  padding: 5px;
-  transition-duration: 0.3s;
+  color:rgb(50, 50, 50);
+  font-size: 1.7rem;
+  padding: 0 5px;
 }
 
-.nav-link a:hover {
-  background-color: rgb(231, 174, 60);
-  color: rgb(255, 255, 255);
-}
 
-.hightlightHeader {
-  color: orange;
-}
-
-.hidden {
-  display: none;
+.link-header > a:hover{
+  color: rgb(231, 169, 55);
 }
 
 /* Footer */
