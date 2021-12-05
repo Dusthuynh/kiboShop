@@ -10,26 +10,33 @@
     font-family: "mainfont-Regular";
     src: url("../font/Lato\ Việt\ Hoá/Lato Regular.ttf");
 }
-._cart {
+.cart {
     padding: 1vw 9.9vw 1vw 9.9vw;
     font-family: "mainfont-Regular";
 }
 
-.cart-header {
-    font-size: 3vw;
-    text-align: center;
+._productText1 {
     background-color: rgb(255, 166, 0);
+    text-align: center;
+    font-size: 3vw;
     color: white;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 30px 0px;
+    font-family: "mainfont";
 }
-
-._productText {
-    margin-top: 2vw;
-    margin-bottom: 3vw;
+.cart-header:nth-child(1){
+    /* align-items: center; */
+}
+._productText2{
+    font-size: 3vw;
+    /* margin-top: 2vw;
+    margin-bottom: 3vw; */
+    margin: 2vw 0vw 3vw 0vw;
     color:rgba(153, 153, 153, 0.9);
     border-bottom: 5px solid #ff8800;
     text-align: left;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .cart_body-items {
