@@ -173,13 +173,14 @@ header{
 
   .trangchu-wellcome{
     margin: 8vh 0 10vh 0;
-    padding: 1vh 10vw;
+    padding: 7vh 10vw;
     background-color:  rgba(228, 148, 28, 0.932);    
     font-size: 2rem;
   }
 
-  .trangchu-wellcome > h3{
+  .trangchu-wellcome > h1{
     text-align: center;
+    padding-bottom: 10px;
   }
 
   #bannerTrangChu{
@@ -371,7 +372,18 @@ header{
   .keyboard {
     padding-left: 10%;
   }
-  
+
+  @media screen and (max-width: 1024px) {
+    .slogan{
+      font-size: 1.8rem;
+    }
+    .footer-keyboard,
+    .footer-services,
+    .footer-policy {
+      display: none;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     header{
       margin: 5vh 8vw 0 3vw;
@@ -380,7 +392,7 @@ header{
       width: 60vw;
     }
     .icon-header{
-      width: 3vw;
+      width: 4vw;
     }
     .sp{
       width: 25vw;
@@ -393,6 +405,16 @@ header{
     }
     .ten-sanpham, .gia-sanpham{
       font-size: 1.2rem;
+    }
+    .slogan, .loiDan, .more-homepage{
+      font-size: 1.3rem;
+    }
+    .title-trangchu > h3{
+      font-size: 1.5rem;
+      width: 40vw;
+    }
+    .a-navLink{
+      font-size: 1.5rem;
     }
 
     /* footer */
@@ -417,18 +439,10 @@ header{
     }
   }
 
-  @media screen and (max-width: 1024px) {
-    .slogan{
-      font-size: 1.8rem;
-    }
-    .footer-keyboard,
-    .footer-services,
-    .footer-policy {
-      display: none;
-    }
-  }
-
   @media screen and (max-width: 450px) {
+    .logo-header img {
+      width: 25vw;
+    }
     .sp{
       width: 40vw;
       height: 38vh;
@@ -454,6 +468,9 @@ header{
       padding-right: 2rem;
     }
     .navigation > a >img{
-      width: 5vw;
+      width: 6vw;
+    }
+    #carouselExampleIndicators, .trangchu-wellcome{
+      display: none;
     }
   }
