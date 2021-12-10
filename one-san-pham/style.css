@@ -148,11 +148,7 @@
   background-color: rgb(243,243, 243);
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
-}
+
 
 .img {
     cursor: pointer;
