@@ -32,7 +32,7 @@ function showCart() {
             var keyLocal = element; // Lấy phần tử trong mảng
             var keyLocalReal = keyLocal.substr(10); //xóa ký tự addToCart
             var valLocal = JSON.parse(window.localStorage.getItem(keyLocal)); // lấy value và chuyển thành đôi tượng
-            var getFromData = findInDataSet(keyLocalReal); // lấy dữ liệu tương ứng trong dataset
+            var getFromData = findInDataSet(keyLocalReal); // lấy tên tương ứng đối tượng trong dataset
 
             // Tạo thẻ lưu ảnh sản phẩm bao gồm đường link tên class của ảnh
             var imgPr = document.createElement("img");
@@ -126,9 +126,9 @@ function showCart() {
             divItem.append(divInfo1);
             divItem.append(divInfo2);
             ItemsClass.append(divItem);
-            ChangeTotalFooter();
+            ChangeTotalFooter(); //khởi tạo giá trị đại diện tổng giá trị tất cả sản phẩm
         });
-        changeQty();
+        changeQty(); 
         removeItem();
     }
 }
