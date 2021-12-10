@@ -353,7 +353,7 @@ header{
     background-color: #fff;
     border: 0;
     padding-left: 12px;
-    height: 100%;
+    height: 23px;
     outline: none;
   }
   .input-button-header {
@@ -362,7 +362,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 23px;
+    margin-top: 3px;
     padding: 1px;
   }
   .hr {
