@@ -41,13 +41,16 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
+    margin-top: 50px;;
+}
+.row_2 div {
+    display: flex;
+    justify-content: space-between;
 }
  .row-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    
 } 
 .row-container div, .box {
     width: 99%;
@@ -109,6 +112,7 @@
     display: flex;
     align-items: center;
     padding-bottom: 10px;
+
 }
 .order_choose div {
     margin: 5px 0  ;
@@ -119,9 +123,13 @@
     display: inline-block;
     cursor: pointer;
     border:rgb(204, 109, 0) solid 1px;
-    border-radius: 5px;
+    border-radius: 3px;
     color: rgb(29, 29, 25);
     margin-right: 10px ;
+    padding: 4px;
+}
+.option:checked {
+    background-color: rgb(235, 238, 70);
 }
 .choose-number  .option{
     width: 30px;
@@ -129,12 +137,10 @@
 }
 .choose input {
     width: 30px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 
 .choose .lable{
@@ -145,13 +151,22 @@
   overflow: hidden;
   height: 44px;
   outline: none;
-  background-color: rgb(243,243, 243);
+  background-color: rgb(243, 243, 243);
 }
 
 
 
 .img {
     cursor: pointer;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+.img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 .preview {
     display: flex;

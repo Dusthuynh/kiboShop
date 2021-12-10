@@ -43,6 +43,7 @@ function getElement(Object) {
         var img = `<div class = "img img_preview${i}"><img class="product-img${i}" src="../san-pham/san-pham-img/${name}/${name} ${i}.jpg"></div>`;
         $('.preview').append(img);
     }
+    $('.modal').text(Object['Model']);
      // get Image
     document.getElementsByClassName('main-img')[0].src = getSrc(1);
     for (let i = 1; i < 5; i++) {
@@ -61,6 +62,7 @@ function getElement(Object) {
         var div = `<option class="option" value = "${sw}" >${sw}</option>`;
         $(".choose-option").append(div);
     }
+
 }
 
 function getSrc(i) {
