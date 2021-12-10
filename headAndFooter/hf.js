@@ -1,6 +1,8 @@
   $(document).ready(function(){
     addfile();
     hlHeader();
+    var btnnav = document.getElementById("btn-navLink");
+    btnnav.onclick = tognav;
   });
   
   function addfile(){
@@ -11,10 +13,18 @@
         <a class="a-navLink a3" href="#">Giới thiệu</a>
         <a class="a-navLink a4" href="#">Liên hệ</a>
     </div>
+
     <div class="navigation">
-            <!-- <a href="#"><img class="icon-header search" src="../media/icon/nav-search-cam.png"></a> -->
         <a href="../gio-hang/cart.html"><img class="icon-header cart" src="../media/icon/nav-cart-cam.png"></a>
         <a href="#"><img class="icon-header user" src="../media/icon/nav-user-cam.png"></a>
+    </div>
+    <a href="" id="btn-navLink"><i class="fas fa-chevron-circle-down rotate90deg" style="color:orange;"></i></a>
+    <div class="nav-link1 hidden">
+        <a class="a-navLink1" href="">Trang chủ</a>
+        <a class="a-navLink1" href="san-pham/san-pham.html">Sản phẩm</a>
+        <a class="a-navLink1" href="#">Tin tức</a>
+        <a class="a-navLink1" href="#">Giới thiệu</a>
+        <a class="a-navLink1" href="#">Liên hệ</a>
     </div>`);
     $("footer").html(`        <div class="footer_container">
     <div class="footer footer-contacts">
@@ -94,3 +104,16 @@
           }
       }
   }
+
+  function tognav(e){
+    e.preventDefault();
+    var navLink = document.getElementsByClassName("nav-link1")[0];
+    var iconnav = document.getElementsByClassName("fa-chevron-circle-down")[0];
+    if(!navLink.classList.contains('hidden')){
+        navLink.classList.add('hidden');
+        iconnav.classList.add("rotate90deg");
+    }else{
+        navLink.classList.remove('hidden');
+        iconnav.classList.remove("rotate90deg");
+    }
+}
