@@ -50,7 +50,9 @@
         <div class="notify_p">Nhận thông tin sản phẩm mới nhất, tin khuyến mãi và nhiều hơn nữa.</div> 
         <div class="notify_input">
               
-            <div class="input-text"> <input type="text" name="contacts_email" value="" placeholder="Enter your email address"></div> 
+            <div class="input-text"> 
+                <input type="text" name="contacts_email" value="" placeholder="Enter your email address">
+            </div> 
             <div class = "input-button-header">Submit</div>
         </div>
     </div>
