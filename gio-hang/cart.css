@@ -49,6 +49,10 @@
     padding: 2vw;
     box-shadow: rgb(38, 57, 77) 0px 10px 12px -10px;
     border-radius: 5px;
+    transition: transform 0.1s;
+}
+.cart_body-item:hover{
+    transform: scale(1.02);
 }
 /* --------------------------info 1 */
 .cart_body_item-info1 {
