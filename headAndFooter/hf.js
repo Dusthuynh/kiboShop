@@ -6,11 +6,11 @@
   });
   
   function addfile(){
-    $("header").html(`<div class="logo-header" onclick="window.location.href='../index.html'"><img src="../media/icon_logo/icon_kibo-bla_org.png"></div>
+    $("header").html(`   <div class="logo-header" onclick="window.location.href='../index.html'"><img src="../media/icon_logo/icon_kibo-bla_org.png"></div>
     <div class="link-header">
         <a class="a-navLink a1" href="../index.html">Trang chủ</a>
         <a class="a-navLink a2" href="../san-pham/san-pham.html">Sản phẩm</a>
-        <a class="a-navLink a3" href="#">Giới thiệu</a>
+        <a class="a-navLink a3" href="../gioi-thieu/gioi-thieu.html">Giới thiệu</a>
         <a class="a-navLink a4" href="#">Liên hệ</a>
     </div>
 
@@ -22,8 +22,7 @@
     <div class="nav-link1 hidden">
         <a class="a-navLink1" href="">Trang chủ</a>
         <a class="a-navLink1" href="san-pham/san-pham.html">Sản phẩm</a>
-        <a class="a-navLink1" href="#">Tin tức</a>
-        <a class="a-navLink1" href="#">Giới thiệu</a>
+        <a class="a-navLink1" href="../gioi-thieu/gioi-thieu.html">Giới thiệu</a>
         <a class="a-navLink1" href="#">Liên hệ</a>
     </div>`);
     $("footer").html(`        <div class="footer_container">

@@ -1,7 +1,6 @@
 :root{
     --width-the: 247.5px;
     --height-the: 350px;
-    /* 283, 400 */
 }
 @font-face {
     font-family: "mainfont-bold";
@@ -66,8 +65,7 @@ main{
     text-align: center;
     width: var(--width-the);
 }
-.content-the > img{
-    cursor: pointer;
+.content-the > a > img{
     width: 50px;
     padding: 0 3px;
 }
@@ -83,5 +81,26 @@ main{
     width: calc(var(--width-the) - (var(--width-the)*0.4));
     height: var(--height-the);
     transition-duration: 0.5s;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .grid-gioithieu{
+        grid-template-columns: repeat(2,var(--width-the));
+    }
+}
+
+@media screen and (max-width: 630px) {
+    :root{
+        --width-the: 150px;
+        --height-the: 212px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    :root{
+        --width-the: 100px;
+        --height-the: 141px;
+    }
 }
 
