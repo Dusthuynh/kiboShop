@@ -1,0 +1,85 @@
+:root{
+    --width-the: 247.5px;
+    --height-the: 350px;
+    /* 283, 400 */
+}
+@font-face {
+    font-family: "mainfont-bold";
+    src: url("font/Lato\ Việt\ Hoá/Lato Bold.ttf");
+}
+main{
+    padding: 5vh 0;
+    font-family: mainfont-bold;
+    background-color: #da7c39;
+}
+.grid-gioithieu{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,var(--width-the));
+    padding: 0 5vw;
+    column-gap: 40px;
+    row-gap: 20px;
+}
+.the-gioithieu{
+    display: flex;
+    background-color: aliceblue;
+    width: var(--width-the);
+    height: var(--height-the);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.the1{
+    background: url(img/ha.png);
+}
+.the2{
+    background: url(img/ha.png);
+}
+.the3{
+    background: url(img/loc.png);
+}
+.the4{
+    background: url(img/nghia.png);
+}
+.the5{
+    background: url(img/nghia.png);
+}
+.the6{
+    background: url(img/nghia.png);
+}
+.the1, .the2, .the3, .the4, .the5, .the6{
+    background-size: cover;
+}
+.slide-the{
+    width: 40%;
+    height: var(--height-the);
+    background-color: rgba(29, 28, 28, 0.897);
+    transition-duration: 0.5s;
+}
+.name-the{
+    text-align: right;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 0 5px;
+}
+.icon-the > img{
+    width: 50px;
+    display: none;
+}
+.bg-the{
+    width: calc(var(--width-the) - (var(--width-the)*0.4));
+    height: var(--height-the);
+    transition-duration: 0.5s;
+}
+.slide-the:hover{
+    width: 100%;
+}
+.slide-the:hover ~ .bg-the{
+    width: 0%;
+}
+.bg-the:hover{
+    width: 100%;
+}
+.bg-the:hover ~ .slide-the{
+    width: 0%;
+}
+
