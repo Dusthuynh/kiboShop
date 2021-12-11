@@ -1,15 +1,14 @@
 :root{
     --width-the: 247.5px;
     --height-the: 350px;
-    /* 283, 400 */
 }
 @font-face {
     font-family: "mainfont-bold";
-    src: url("font/Lato\ Việt\ Hoá/Lato Bold.ttf");
+    src: url("../font/Lato\ Việt\ Hoá/Lato Bold.ttf");
 }
 main{
     padding: 5vh 0;
-    font-family: mainfont-bold;
+    font-family: "mainfont-bold","sans-serif";
     background-color: #da7c39;
 }
 .grid-gioithieu{
@@ -40,10 +39,10 @@ main{
     background: url(img/nghia.png);
 }
 .the5{
-    background: url(img/nghia.png);
+    background: url(img/vy.png);
 }
 .the6{
-    background: url(img/nghia.png);
+    background: url(img/nhat.png);
 }
 .the1, .the2, .the3, .the4, .the5, .the6{
     background-size: cover;
@@ -51,18 +50,31 @@ main{
 .slide-the{
     width: 40%;
     height: var(--height-the);
-    background-color: rgba(29, 28, 28, 0.897);
+    background-color: rgba(29, 28, 28, 0.788);
     transition-duration: 0.5s;
 }
 .name-the{
     text-align: right;
     color: aliceblue;
     font-weight: 900;
-    font-size: 2rem;
-    padding: 0 5px;
+    font-size: 1.5rem;
+    padding: 5px;
 }
-.icon-the > img{
+.content-the{
+    margin-top: 20%;
+    text-align: center;
+    width: var(--width-the);
+}
+.content-the > a > img{
     width: 50px;
+    padding: 0 3px;
+}
+.mssv-the{
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    color: #da7c39;
+}
+.content-the{
     display: none;
 }
 .bg-the{
@@ -70,16 +82,25 @@ main{
     height: var(--height-the);
     transition-duration: 0.5s;
 }
-.slide-the:hover{
-    width: 100%;
+
+
+@media screen and (max-width: 1000px) {
+    .grid-gioithieu{
+        grid-template-columns: repeat(2,var(--width-the));
+    }
 }
-.slide-the:hover ~ .bg-the{
-    width: 0%;
+
+@media screen and (max-width: 630px) {
+    :root{
+        --width-the: 150px;
+        --height-the: 212px;
+    }
 }
-.bg-the:hover{
-    width: 100%;
-}
-.bg-the:hover ~ .slide-the{
-    width: 0%;
+
+@media screen and (max-width: 370px) {
+    :root{
+        --width-the: 100px;
+        --height-the: 141px;
+    }
 }
 
