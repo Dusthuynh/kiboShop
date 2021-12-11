@@ -46,7 +46,7 @@
         <div class="keyboard"><a href="">Leopold</a></div>
     </div>
     <div class="footer footer-services">
-        <div class = "header services_header">SERVICES</div>
+        <div class = "header services_header">HƯỚNG DẪN</div>
         <div class="hr"></div>
         <div class = "services_p1"><a href="">Hướng dẫn mua hàng</a></div>
         <div class = "services_p2"><a href="">Hướng dẫn thanh toán</a></div>
