@@ -217,3 +217,19 @@ function linkToDetailPr() {
         }
     }
 }
+// Hàm thông báo khi mua sản phẩm
+function buyProduct(){
+    var name = document.getElementsByClassName("linkItem");
+    var type = document.getElementsByClassName("typeItemCart");
+    if(name[0] == undefined){
+        alert("Bạn chưa chọn sản phẩm");
+    }
+    else{
+        var s="Các sản phẩm đã chọn\n"
+        for(let i=0; i<name.length; i++){
+            s+=`${name[i].textContent} (${type[i].textContent})\n`;
+        }
+        s+="Chọn OK để xác nhận";
+        if(confirm(s)) alert("Chúc mừng bạn đã đặt hàng thành công.");
+    }
+}
