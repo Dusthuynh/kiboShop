@@ -171,6 +171,9 @@
     justify-content: space-around;
 }
 .order-box p {
+    position: absolute;
+    top: 354px;
+    left: 1070px;
     color: red;
     margin: 1px;
     display: none;
