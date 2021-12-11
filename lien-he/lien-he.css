@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "mainfont";
+    src: url("../font/Lato\ Việt\ Hoá/Lato Medium.ttf");
+}
+@font-face {
+    font-family: "mainfont-light";
+    src: url("../font/Lato\ Việt\ Hoá/Lato Light.ttf");
+}
+@font-face {
+    font-family: "mainfont-bold";
+    src: url("../font/Lato\ Việt\ Hoá/Lato Bold.ttf");
+}
+#main-page{
+    display: flex;
+    font-family: "mainfont", sans-serif;
+    padding: 50px;
+    text-align: center;
+    justify-content: space-around;
+}
+#main-form{
+    display: flex;
+    flex-direction: column;
+}
+.form-item{
+    font-family: "mainfont", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    border: 1px solid rgb(179, 106, 18);
+}
+.button-item{
+    color: white;
+    background: rgb(179, 106, 18);
+}
+.main-page-item{
+    margin: 20px;
+}
+.mpi1{
+    text-align: left;
+}
+.mpi2{
+    width: 400px;
+}
+@media only screen and (max-width: 900px) {
+    #main-page{
+        flex-direction: column;
+    }
+    .mpi2{
+        width: 90%;
+    }
+    .map{
+        width: 100%;
+    }
+}
