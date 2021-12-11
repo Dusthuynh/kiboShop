@@ -25,7 +25,7 @@ function getKey() {
 }
 function showCart() {
     getKey();
-    document.getElementsByClassName("cart_body-items")[0].innerHTML = "";
+    // document.getElementsByClassName("cart_body-items")[0].innerHTML = "";
     var ItemsClass = document.getElementsByClassName("cart_body-items")[0];
     if (ArrayProduct.length > 0) {
         ArrayProduct.forEach((element) => {
