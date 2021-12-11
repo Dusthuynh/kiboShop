@@ -11,7 +11,7 @@
     src: url("../font/Lato\ Việt\ Hoá/Lato Regular.ttf");
 }
 .cart {
-    padding: 1vw 9.9vw 1vw 9.9vw;
+    padding: 3vw 3vw 3vw 3vw;
     font-family: "mainfont-Regular";
 }
 
@@ -47,8 +47,8 @@
     column-gap: 2vw;
     background-color: rgba(228, 228, 228, 0.9);
     padding: 2vw;
-    box-shadow: rgb(38, 57, 77) 0px 12px 20px -10px;
-    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 10px 12px -10px;
+    border-radius: 5px;
 }
 /* --------------------------info 1 */
 .cart_body_item-info1 {
