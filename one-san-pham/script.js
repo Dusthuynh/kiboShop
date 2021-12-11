@@ -76,4 +76,6 @@ function addCart() {
        "switch": document.getElementById("select").value
     }
     localStorage.setItem(`addToCart ${name}`,JSON.stringify(product));
+    console.log("1")
+    document.getElementById("message").style.display = "block";
 }
