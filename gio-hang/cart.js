@@ -227,6 +227,8 @@ function buyProduct(){
     else{
         var s="Các sản phẩm đã chọn\n"
         for(let i=0; i<name.length; i++){
+            console.log(type[i].textContent);
+            if(type[i].textContent == "") type[i].textContent = "màu ngẫu nhiên";
             s+=`${name[i].textContent} (${type[i].textContent})\n`;
         }
         s+="Chọn OK để xác nhận";
