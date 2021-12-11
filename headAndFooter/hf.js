@@ -15,8 +15,8 @@
     </div>
 
     <div class="navigation">
-        <a href="../gio-hang/cart.html"><img class="icon-header cart" src="../media/icon/nav-cart-cam.png"></a>
-        <a href="#"><img class="icon-header user" src="../media/icon/nav-user-cam.png"></a>
+        <a href="../gio-hang/cart.html"><img class="icon-header" src="../media/icon/nav-cart-cam.png"></a>
+        <a href="#"><img class="icon-header" src="../media/icon/nav-user-cam.png"></a>
     </div>
     <a href="" id="btn-navLink"><i class="fas fa-chevron-circle-down rotate90deg" style="color:orange;"></i></a>
     <div class="nav-link1 hidden">
