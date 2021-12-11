@@ -62,7 +62,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4, calc(var(--img-width) + 30px));
     grid-template-rows: max-content;
-    row-gap: 10px;
+    row-gap: 30px;
     column-gap: 10px;
 }
 .hinh-sanpham{
@@ -71,10 +71,10 @@ body{
     height: calc(var(--img-height) + 20px);
 }
 
-.hinh-sanpham:hover{
-    transform: scale(1.05);
+.card:hover{
+    transform: scale(1.02);
     transition-duration: .3s;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 45px 45px, rgba(0, 0, 0, 0.12) 0px -12px 20px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 10px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 hr{
     border: 1px solid black;
@@ -131,7 +131,7 @@ hr{
     cursor:pointer
 }
 
-.fas{
+.icon{
     padding: 10px;
 }
 i{
