@@ -1,12 +1,16 @@
   $(document).ready(function(){
     addfile();
-    hlHeader();
+
+    var aNav = document.getElementsByClassName("a-navLink");
+    var aNav1 = document.getElementsByClassName("a-navLink1");
+    hlHeader(aNav);
+    hlHeader(aNav1);
     var btnnav = document.getElementById("btn-navLink");
     btnnav.onclick = tognav;
   });
   
   function addfile(){
-    $("header").html(`      <div class="logo-header" onclick="window.location.href='../index.html'"><img src="../media/icon_logo/icon_kibo-bla_org.png"></div>
+    $("header").html(`         <div class="logo-header" onclick="window.location.href='../index.html'"><img src="../media/icon_logo/icon_kibo-bla_org.png"></div>
     <div class="link-header">
         <a class="a-navLink a1" href="../index.html">Trang chủ</a>
         <a class="a-navLink a2" href="../san-pham/san-pham.html">Sản phẩm</a>
@@ -20,10 +24,10 @@
     </div>
     <a href="" id="btn-navLink"><i class="fas fa-chevron-circle-down rotate90deg" style="color:orange;"></i></a>
     <div class="nav-link1 hidden">
-        <a class="a-navLink1" href="">Trang chủ</a>
-        <a class="a-navLink1" href="san-pham/san-pham.html">Sản phẩm</a>
-        <a class="a-navLink1" href="../gioi-thieu/gioi-thieu.html">Giới thiệu</a>
-        <a class="a-navLink1" href="../lien-he/lien-he.html">Liên hệ</a>
+        <a class="a-navLink1 " href="../index.html">Trang chủ</a>
+        <a class="a-navLink1 " href="../san-pham/san-pham.html">Sản phẩm</a>
+        <a class="a-navLink1 " href="../gioi-thieu/gioi-thieu.html">Giới thiệu</a>
+        <a class="a-navLink1 " href="../lien-he/lien-he.html">Liên hệ</a>
     </div>
 `);
     $("footer").html(`        <div class="footer_container">
@@ -94,8 +98,7 @@
     }
   }
 
-  function hlHeader(){
-      var a = document.getElementsByClassName("a-navLink");
+  function hlHeader(a){
       for(let i=0;i<a.length;i++){
           if(document.title == a[i].innerHTML){
               a[i].style.color = "#DE9F1E";

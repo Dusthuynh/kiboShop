@@ -64,8 +64,13 @@ header {
 
 .nav-link1{
   top: 10vh;
-  background-color: #97979e;
+  background-color: rgb(34, 34, 34);
+  border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+
+.nav-link1 > a{
+  color: rgb(231, 231, 231);
 }
 
 #btn-navLink{
@@ -87,8 +92,8 @@ header {
   justify-content: space-between;
   height: fit-content;
   text-align:right;
-  font-size: 1.8rem;
-  border-right: 2px solid rgb(231, 174, 60);
+  font-size: 1.5rem;
+  border-right: 4px solid rgb(231, 174, 60);
 }
 
 .a-navLink1{
@@ -206,12 +211,15 @@ footer a {
     display: none;
   }
   .navigation{
-    margin-right: 10vw;
+    margin-right: 5vw;
   }
   #btn-navLink{
     display: block;
     padding: 0;
-    margin-right: 5vw;
+    margin-right: 2vw;
+  }
+  .nav-link1{
+    margin-right: 2vw;
   }
   /* footer */
   .footer_container {

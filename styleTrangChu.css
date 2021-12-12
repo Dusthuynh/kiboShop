@@ -15,7 +15,7 @@ body{
     background-image: url(media/banner/keyboard_main.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-color: aliceblue;
+    background-color: rgb(50,50,50);
     color: aliceblue;
     font-size: 2rem;
     font-family:'mainfont-light', Times, serif;
