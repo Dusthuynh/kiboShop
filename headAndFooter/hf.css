@@ -64,8 +64,13 @@ header {
 
 .nav-link1{
   top: 10vh;
-  background-color: #97979e;
+  background-color: #c9c9c9;
+  border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+
+.nav-link1 > a{
+  color: rgb(50, 50, 50);
 }
 
 #btn-navLink{
