@@ -348,6 +348,7 @@ header{
     display: flex;
     height: 41px;
   }
+
   .input-text input {
     color: #8f9196;
     background-color: #fff;
@@ -357,6 +358,7 @@ header{
     outline: none;
   }
   .input-button-header {
+    cursor: pointer;
     background-color: rgb(102, 102, 102);
     width: 100px;
     display: flex;
@@ -365,6 +367,9 @@ header{
     height: 23px;
     margin-top: 3px;
     padding: 1px;
+  }
+  .input-button-header:hover{
+    background-color: rgb(71, 71, 71);
   }
   .hr {
     height: 10px;
