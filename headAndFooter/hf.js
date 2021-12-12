@@ -10,7 +10,7 @@
   });
   
   function addfile(){
-    $("header").html(`         <div class="logo-header" onclick="window.location.href='../index.html'"><img src="../media/icon_logo/icon_kibo-bla_org.png"></div>
+    $("header").html(`            <div class="logo-header" onclick="window.location.href='../index.html'"><img src="../media/icon_logo/icon_kibo-bla_org.png"></div>
     <div class="link-header">
         <a class="a-navLink a1" href="../index.html">Trang chủ</a>
         <a class="a-navLink a2" href="../san-pham/san-pham.html">Sản phẩm</a>
@@ -20,7 +20,7 @@
 
     <div class="navigation">
         <a href="../gio-hang/cart.html"><img class="icon-header" src="../media/icon/nav-cart-cam.png"></a>
-        <a href="#"><img class="icon-header" src="../media/icon/nav-user-cam.png"></a>
+        <a href="../dang-nhap dang-ky/dangky.html"><img class="icon-header" src="../media/icon/nav-user-cam.png"></a>
     </div>
     <a href="" id="btn-navLink"><i class="fas fa-chevron-circle-down rotate90deg" style="color:orange;"></i></a>
     <div class="nav-link1 hidden">
@@ -29,25 +29,26 @@
         <a class="a-navLink1 " href="../gioi-thieu/gioi-thieu.html">Giới thiệu</a>
         <a class="a-navLink1 " href="../lien-he/lien-he.html">Liên hệ</a>
     </div>
+
 `);
-    $("footer").html(`        <div class="footer_container">
+    $("footer").html(`                                <div class="footer_container">
     <div class="footer footer-contacts">
-        <div class="contacts contacts_logo"><img src="../media/icon_logo/icon_kibo.png" width="100"> </div>     
+        <div class="contacts contacts_logo"><img src="../media\\icon_logo\\icon_kibo.png" width="100"> </div>     
         <div class="contacts contacts_add">3/2 Phường Xuân Khánh, Quận Ninh Kiều,<br> TP.Cần Thơ</div>
         <div class="contacts contacts_email"><span>Email: </span>kiboshop.@gmail.com</div>
         <div class="contacts contacts_others">
-            <a href=""><img src="../media/icon/fbLogo.png"></a>
-            <a href=""><img src="../media/icon/igLogo.png"></a> 
-            <a href=""><img src="../media/icon/ytLogo.png"></a> 
-            <a href=""><img src="../media/icon/gmailLogo.png"></a> 
+            <a href=""><img src="../media\\icon/fbLogo.png"></a>
+            <a href=""><img src="../media\\icon/igLogo.png"></a> 
+            <a href=""><img src="../media\\icon/ytLogo.png"></a> 
+            <a href=""><img src="../media\\icon/gmailLogo.png"></a> 
         </div>
     </div>
     <div class = "footer footer-keyboard">
         <div class="header keyboard_header">SẢN PHẨM</div>
         <div class="hr"></div>
-        <div class="keyboard"><a href="">Akko</a></div>
-        <div class="keyboard"><a href="">Keychron</a></div>
-        <div class="keyboard"><a href="">Leopold</a></div>
+        <div class="keyboard"><a href="../san-pham/san-pham.html">Akko</a></div>
+        <div class="keyboard"><a href="../san-pham/san-pham.html">Keychron</a></div>
+        <div class="keyboard"><a href="../san-pham/san-pham.html">Leopold</a></div>
     </div>
     <div class="footer footer-services">
         <div class = "header services_header">HƯỚNG DẪN</div>
@@ -64,13 +65,12 @@
         <div class="notify_p">Nhận thông tin sản phẩm mới nhất, tin khuyến mãi và nhiều hơn nữa.</div> 
         <div class="notify_input">
               
-            <div class="input-text"> 
-                <input type="text" name="contacts_email" value="" placeholder="Enter your email address">
-            </div> 
-            <div class = "input-button-header">Submit</div>
+            <div class="input-text"> <input type="text" name="contacts_email" value="" placeholder="Nhập email"></div> 
+            <div class = "input-button-header">Gửi</div>
         </div>
     </div>
-</div>`);
+</div>
+`);
 
     if(!document.getElementById('hf')) {
       var link = document.createElement('link');
