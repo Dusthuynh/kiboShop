@@ -75,7 +75,17 @@ function addCart() {
        "value": document.getElementById("soluong").value,
        "switch": document.getElementById("select").value
     }
-    localStorage.setItem(`addToCart ${name}`,JSON.stringify(product));
-    console.log("1")
-    document.getElementById("message").style.display = "block"; 
+    if (product["switch"] != "") {
+        localStorage.setItem(`addToCart ${name}`,JSON.stringify(product));
+        document.getElementById("message").style.display = "block";
+    } else alert("Chưa chọn switch.")
+}
+function check(n) {
+    var start = document.getElementsByClassName("far fa-star");
+    for (var i = 0; i < n; i++) {
+        start[i].classList.add("checked");
+    }
+    for (var i = n; i < start.length; i++) {
+        start[i].classList.remove("checked");
+    }
 }

@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "mainfont";
+    src: url("../font/Lato\ Việt\ Hoá/Lato Medium.ttf");
+}
+
+main{
+    font-family: "mainfont",sans-serif;
+    background-image: url(bwCut_Main.png);
+    background-size: cover;
+}
+
+.dangky{
+    width: 400px;
+    height: 400px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px ;
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.login{
+    padding-top: 77px;
+    width: 400px;
+    height: calc(400px - 77px);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px ;
+    text-align: center;
+    padding-bottom: 30px;
+    background-image: url(bwCut_Main.png);
+    background-size: cover;
+}
+
+.input{
+    font-family: "mainfont",sans-serif;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 7px;
+    background: rgb(218, 212, 212);
+}
+
+.button{
+    font-family: "mainfont",sans-serif;
+    cursor: pointer;
+    width: 365px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(179, 106, 18);
+    color: white;
+}
+
+.button:hover{
+    background-color: rgb(141, 84, 14);
+    font-size: 15px;
+}
+
+#container{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+    padding: 10vh 0;
+}
+
+.h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login > .tieude{
+    color: white;
+}
+
+
+
+
