@@ -156,6 +156,9 @@ footer a {
 }
 .footer div {
   line-height: 30px;
+  align-content: center;
+    display: flex;
+
 }
 .contacts_others {
   display: flex;
@@ -195,7 +198,6 @@ footer a {
   justify-content: center;
   align-items: center;
   height: 23px;
-  margin-top: 2px;
   padding: 1px;
 }
 .input-button-header:hover{

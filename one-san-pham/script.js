@@ -70,7 +70,6 @@ function getSrc(i) {
     return img.src;
 }
 function addCart() {
-
     var product = {
        "value": document.getElementById("soluong").value,
        "switch": document.getElementById("select").value
