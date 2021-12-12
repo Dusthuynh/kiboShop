@@ -25,7 +25,6 @@ function getKey() {
 }
 function showCart() {
     getKey();
-    document.getElementsByClassName("cart_body-items")[0].innerHTML = "";
     var ItemsClass = document.getElementsByClassName("cart_body-items")[0];
     if (ArrayProduct.length > 0) {
         ArrayProduct.forEach((element) => {
@@ -66,7 +65,6 @@ function showCart() {
             valOneTotalPr.classList.add("valTotal");
             var priceTemp = getFromData["Giá"].slice(0, getFromData["Giá"].search(" ₫")).replace(/\,/g, '');
             valOneTotalPr.textContent = formatter.format(parseInt(priceTemp) * valLocal.value);
-            // ItemsClass.append(valOneTotalPr);
 
             var divItem = document.createElement("div");
             divItem.classList.add("cart_body-item");
@@ -199,7 +197,6 @@ function resetOnLocal(Qty, namePr, typePr) {
             "value": Qty,
             "switch": typePr
         }
-        console.log("asd");
         window.localStorage.removeItem(`addToCart ${namePr}`);
         window.localStorage.setItem(`addToCart ${namePr}`, JSON.stringify(product));
     }
