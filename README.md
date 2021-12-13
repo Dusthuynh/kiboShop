@@ -15,7 +15,7 @@
 | Tên Thành Viên | [Vũ Thái Hà](https://github.com/ThaiHa279) | [Huỳnh Hữu Lộc](https://github.com/huynhhuuloc129) | [Huỳnh Minh Nghĩa](https://github.com/Dusthuynh) | [Lê Thảo Vy](https://github.com/lethaowe) | [Từ Lê Huỳnh Nhật](https://github.com/Tarykege) | 
 | :---: | :---: | :---: | :---: | :---: | :---: | 
 | MSSV | B2016960 | B2012110 | B2012232 | B2014635 | B2012238 | 
-| Công việc | Chi tiết sản phẩm <br/> Header and footer | Các sản phẩm <br/> Liên Hệ  | Trang chủ <br/> Giới thiệu | Đăng ký và đăng nhập | Giỏ hàng |
+| Công việc | - Chi tiết sản phẩm <br/> - Header and footer | - Các sản phẩm <br/> - Liên Hệ  | - Trang chủ <br/> - Giới thiệu | - Đăng ký và đăng nhập | - Giỏ hàng |
 
 
 ```javascript
