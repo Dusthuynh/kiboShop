@@ -14,9 +14,9 @@
         ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `#FFA500` <br/>
         ![#D4D4D4](https://via.placeholder.com/15/D4D4D4/000000?text=+) `#D4D4D4` <br/>
 1. HÌNH ẢNH:<br/>
-        ![icon](https://raw.githubusercontent.com/Dusthuynh/CTU/main/CT188_Nhap%20mon%20lap%20trinh%20Web/thuyettrinh/icon.png | width=100)
-        ![logo](https://raw.githubusercontent.com/Dusthuynh/CTU/main/CT188_Nhap%20mon%20lap%20trinh%20Web/thuyettrinh/logo.png | width=100)
-        ![banphim](https://raw.githubusercontent.com/Dusthuynh/CTU/main/CT188_Nhap%20mon%20lap%20trinh%20Web/thuyettrinh/banphim.png | width=100)
+        <img src="https://raw.githubusercontent.com/Dusthuynh/CTU/main/CT188_Nhap%20mon%20lap%20trinh%20Web/thuyettrinh/icon.png"  width="100">
+        <img src="https://raw.githubusercontent.com/Dusthuynh/CTU/main/CT188_Nhap%20mon%20lap%20trinh%20Web/thuyettrinh/logo.png"  width="100">
+        <img src="https://raw.githubusercontent.com/Dusthuynh/CTU/main/CT188_Nhap%20mon%20lap%20trinh%20Web/thuyettrinh/banphim.png"  width="100">
 ### CẤU TRÚC WEBSITE, CHỨC NĂNG
 >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 ### BỐ CỤC CÁC WEBSITE, VỊ TRÍ CÁC MODULE, THÀNH PHẦN
