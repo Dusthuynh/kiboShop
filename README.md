@@ -17,9 +17,9 @@
         <img src="https://raw.githubusercontent.com/Dusthuynh/CTU/main/CT188_Nhap%20mon%20lap%20trinh%20Web/thuyettrinh/logo.png"  width="100">
         <img src="https://raw.githubusercontent.com/Dusthuynh/CTU/main/CT188_Nhap%20mon%20lap%20trinh%20Web/thuyettrinh/banphim.png"  width="100">
 ### CẤU TRÚC WEBSITE, CHỨC NĂNG
-[Click vào đây để xem chi tiết](https://bom.so/Uo0SdQ)
+[Click vào đây để xem chi tiết](https://bom.so/ikqKpZ) `Trang 1`
 ### BỐ CỤC CÁC WEBSITE, VỊ TRÍ CÁC MODULE, THÀNH PHẦN
-[Click vào đây để xem chi tiết](https://bom.so/Uo0SdQ)
+[Click vào đây để xem chi tiết](https://bom.so/ikqKpZ) `Trang 2, 3`
 ### CÁC THÀNH VIÊN VÀ BẢNG PHÂN CÔNG THỰC HIỆN
 | Tên Thành Viên | [Vũ Thái Hà](https://github.com/ThaiHa279) | [Huỳnh Hữu Lộc](https://github.com/huynhhuuloc129) | [Huỳnh Minh Nghĩa](https://github.com/Dusthuynh) | [Lê Thảo Vy](https://github.com/lethaowe) | [Từ Lê Huỳnh Nhật](https://github.com/Tarykege) | 
 | :---: | :---: | :---: | :---: | :---: | :---: | 
