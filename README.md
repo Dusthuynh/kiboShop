@@ -7,11 +7,16 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dusthuynh&exclude_repo=CTU,frontendmentor,Dusthuynh,BTCT188,dusthuynh.github.io,nghiacutephomaique&layout=compact)](https://github.com/Dusthuynh/kiboShop)
 >Ngoài ra còn sử dụng thư viện Jquery và framework Bootstrap.
 ### CHỦ ĐỀ, MÀU SẮC, HÌNH ẢNH
-1. Chủ đề : Trang web bán các sản phẩm linh kiện bàn phím
-1. Màu sắc :- ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`
-            - ![#323232](https://via.placeholder.com/15/323232/000000?text=+) `#323232`
-            - ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `#FFA500`
-            - ![#D4D4D4](https://via.placeholder.com/15/D4D4D4/000000?text=+) `#D4D4D4`
+1. Chủ đề : <br/> Trang web bán các sản phẩm linh kiện bàn phím
+1. Màu sắc : <br/>
+        ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF` <br/>
+        ![#323232](https://via.placeholder.com/15/323232/000000?text=+) `#323232` <br/>
+        ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `#FFA500` <br/>
+        ![#D4D4D4](https://via.placeholder.com/15/D4D4D4/000000?text=+) `#D4D4D4` <br/>
+1. HÌNH ẢNH:<br/>
+        !(logo)[https://drive.google.com/open?id=1WYeEm_2wP5KQkIJUzrhH7twtnOUCS2Xs&authuser=huynhdust123%40gmail.com&usp=drive_fs] 
+        !(logo)[https://drive.google.com/open?id=1W_MYURlJU8jYtJDH-BwIY6ZXV60lKlk9&authuser=huynhdust123%40gmail.com&usp=drive_fs] 
+        !(các bàn phím)[https://drive.google.com/open?id=1WnzElvRM0IEROXnp1RX_m2ZhmJjnObXP&authuser=huynhdust123%40gmail.com&usp=drive_fs]
 ### CẤU TRÚC WEBSITE, CHỨC NĂNG
 >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 ### BỐ CỤC CÁC WEBSITE, VỊ TRÍ CÁC MODULE, THÀNH PHẦN
