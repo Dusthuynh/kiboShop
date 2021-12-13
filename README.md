@@ -9,9 +9,9 @@
 ### CHỦ ĐỀ, MÀU SẮC, HÌNH ẢNH
 1. Chủ đề : <br/> Trang web bán các sản phẩm linh kiện bàn phím
 1. Màu sắc : <br/>
-        ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`
-        ![#323232](https://via.placeholder.com/15/323232/000000?text=+) `#323232`
-        ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `#FFA500`
+        ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`;
+        ![#323232](https://via.placeholder.com/15/323232/000000?text=+) `#323232`;
+        ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `#FFA500`;
         ![#D4D4D4](https://via.placeholder.com/15/D4D4D4/000000?text=+) `#D4D4D4`
 1. HÌNH ẢNH:<br/>
         <img src="https://raw.githubusercontent.com/Dusthuynh/CTU/main/CT188_Nhap%20mon%20lap%20trinh%20Web/thuyettrinh/icon.png"  width="100">
