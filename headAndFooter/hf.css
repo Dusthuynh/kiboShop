@@ -156,6 +156,9 @@ footer a {
 }
 .footer div {
   line-height: 30px;
+  align-content: center;
+    display: flex;
+
 }
 .contacts_others {
   display: flex;
@@ -188,14 +191,17 @@ footer a {
   outline: none;
 }
 .input-button-header {
+  cursor: pointer;
   background-color: rgb(102, 102, 102);
   width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 23px;
-  margin-top: 3px;
   padding: 1px;
+}
+.input-button-header:hover{
+  background-color: rgb(71, 71, 71);
 }
 .hr {
   height: 10px;
