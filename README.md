@@ -1,27 +1,27 @@
-# DỰ ÁN WEB KIBOSHOP
+#  [DỰ ÁN WEB KIBOSHOP](https://dusthuynh.github.io/kiboShop/)
 ![BANNER](https://dusthuynh.github.io/kiboShop/media/icon_logo/icon_kibo1.png)
 ### THAM QUAN KIBO SHOP
-[Click vào đây để tham quan kiboShop](https://dusthuynh.github.io/kiboShop/)
-
-### NỘI DUNG DỰ ÁN
->Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-### NGUỒN DỮ LIỆU
-```javascript
-const data=
-{
-	"Akko": [
-		{
-			"Tên": "AKKO 5108 World Tour Tokyo R2 SP",
-			"Model": "Full size",
-			"Switch":"AKKO CS Switch",
-			"Hotswap":"YES",
-			"Kết nối": ["USB Type C"],
-			"Keycap": "PBT Dye-subbed",
-			"Profile": "OSA",
-			"Type": ["Lavender Purple", "Vintage White"],
-			"Giá": "2,199,000 ₫",
-			"Led": "RGB",
-			"Kích thước": "442x132x41 mm",
-			"Trọng lượng" :"1.2 kg"
-		},
-```
+[Click vào đây để đến kiboShop](https://dusthuynh.github.io/kiboShop/)
+### CÔNG NGHỆ SỬ DỤNG
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dusthuynh&exclude_repo=CTU,frontendmentor,Dusthuynh,BTCT188,dusthuynh.github.io,nghiacutephomaique&layout=compact)](https://github.com/Dusthuynh/kiboShop)
+>Ngoài ra còn sử dụng thư viện Jquery và framework Bootstrap.
+### CHỦ ĐỀ, MÀU SẮC, HÌNH ẢNH
+1. Chủ đề : <br/> Trang web bán các sản phẩm linh kiện bàn phím
+1. Màu sắc : <br/>
+        ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`;
+        ![#323232](https://via.placeholder.com/15/323232/000000?text=+) `#323232`;
+        ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `#FFA500`;
+        ![#D4D4D4](https://via.placeholder.com/15/D4D4D4/000000?text=+) `#D4D4D4`
+1. HÌNH ẢNH:<br/>
+        <img src="https://raw.githubusercontent.com/Dusthuynh/CTU/main/CT188_Nhap%20mon%20lap%20trinh%20Web/thuyettrinh/icon.png"  width="100">
+        <img src="https://raw.githubusercontent.com/Dusthuynh/CTU/main/CT188_Nhap%20mon%20lap%20trinh%20Web/thuyettrinh/logo.png"  width="100">
+        <img src="https://raw.githubusercontent.com/Dusthuynh/CTU/main/CT188_Nhap%20mon%20lap%20trinh%20Web/thuyettrinh/banphim.png"  width="100">
+### CẤU TRÚC WEBSITE, CHỨC NĂNG
+[Click vào đây để xem chi tiết](https://bom.so/ikqKpZ) `Trang 1`
+### BỐ CỤC CÁC WEBSITE, VỊ TRÍ CÁC MODULE, THÀNH PHẦN
+[Click vào đây để xem chi tiết](https://bom.so/ikqKpZ) `Trang 2, 3`
+### CÁC THÀNH VIÊN VÀ BẢNG PHÂN CÔNG THỰC HIỆN
+| Tên Thành Viên | [Vũ Thái Hà](https://github.com/ThaiHa279) | [Huỳnh Hữu Lộc](https://github.com/huynhhuuloc129) | [Huỳnh Minh Nghĩa](https://github.com/Dusthuynh) | [Lê Thảo Vy](https://github.com/lethaowe) | [Từ Lê Huỳnh Nhật](https://github.com/Tarykege) | 
+| :---: | :---: | :---: | :---: | :---: | :---: | 
+| MSSV | B2016960 | B2012110 | B2012232 | B2014635 | B2012238 | 
+| Công việc | Chi tiết sản phẩm <br/> Header and footer | Các sản phẩm <br/> Liên Hệ  | Trang chủ <br/> Giới thiệu | Đăng ký và đăng nhập | Giỏ hàng |
