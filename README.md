@@ -14,7 +14,7 @@
         ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `#FFA500` <br/>
         ![#D4D4D4](https://via.placeholder.com/15/D4D4D4/000000?text=+) `#D4D4D4` <br/>
 1. HÌNH ẢNH:<br/>
-        !(logo)[https://drive.google.com/open?id=1WYeEm_2wP5KQkIJUzrhH7twtnOUCS2Xs&authuser=huynhdust123%40gmail.com&usp=drive_fs] 
+        !(icon)[https://drive.google.com/file/d/1WYeEm_2wP5KQkIJUzrhH7twtnOUCS2Xs/view] 
         !(logo)[https://drive.google.com/open?id=1W_MYURlJU8jYtJDH-BwIY6ZXV60lKlk9&authuser=huynhdust123%40gmail.com&usp=drive_fs] 
         !(các bàn phím)[https://drive.google.com/open?id=1WnzElvRM0IEROXnp1RX_m2ZhmJjnObXP&authuser=huynhdust123%40gmail.com&usp=drive_fs]
 ### CẤU TRÚC WEBSITE, CHỨC NĂNG
