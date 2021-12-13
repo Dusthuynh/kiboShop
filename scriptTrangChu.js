@@ -4,9 +4,6 @@ window.onload = main;
 function main(){
     btnnav.onclick = tognav;
     highlightTitle();
-
-    // animaBanner();
-
     hotSP();
 }
 

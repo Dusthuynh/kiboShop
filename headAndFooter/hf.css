@@ -249,13 +249,6 @@ footer a {
     display: none;
   }
 }
-/* @media screen and (max-width: 1024px) {
-  .footer-keyboard,
-  .footer-services,
-  .footer-policy {
-    display: none;
-  }
-} */
 @media screen and (max-width: 426px) {
   .navigation{
     margin-right: 15vw;
