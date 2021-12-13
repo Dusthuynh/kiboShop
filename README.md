@@ -4,7 +4,7 @@
 [Click vào đây để đến kiboShop](https://dusthuynh.github.io/kiboShop/)
 
 ### CÔNG NGHỆ SỬ DỤNG
->Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dusthuynh&langs_count=8)](https://github.com/Dusthuynh/kiboShop)
 ### CHỦ ĐỀ, MÀU SẮC, HÌNH ẢNH
 >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 ### CẤU TRÚC WEBSITE, CHỨC NĂNG
@@ -15,7 +15,7 @@
 | Tên Thành Viên | [Vũ Thái Hà](https://github.com/ThaiHa279) | [Huỳnh Hữu Lộc](https://github.com/huynhhuuloc129) | [Huỳnh Minh Nghĩa](https://github.com/Dusthuynh) | [Lê Thảo Vy](https://github.com/lethaowe) | [Từ Lê Huỳnh Nhật](https://github.com/Tarykege) | 
 | :---: | :---: | :---: | :---: | :---: | :---: | 
 | MSSV | B2016960 | B2012110 | B2012232 | B2014635 | B2012238 | 
-| Công việc | - Chi tiết sản phẩm <br/> - Header and footer | - Các sản phẩm <br/> - Liên Hệ  | - Trang chủ <br/> - Giới thiệu | - Đăng ký và đăng nhập | - Giỏ hàng |
+| Công việc | Chi tiết sản phẩm <br/> Header and footer | Các sản phẩm <br/> Liên Hệ  | Trang chủ <br/> Giới thiệu | Đăng ký và đăng nhập | Giỏ hàng |
 
 
 ```javascript
