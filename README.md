@@ -1,8 +1,5 @@
-# DỰ ÁN WEB KIBOSHOP
+#  [DỰ ÁN WEB KIBOSHOP](https://dusthuynh.github.io/kiboShop/)
 ![BANNER](https://dusthuynh.github.io/kiboShop/media/icon_logo/icon_kibo1.png)
-### THAM QUAN KIBO SHOP
-[Click vào đây để đến kiboShop](https://dusthuynh.github.io/kiboShop/)
-
 ### CÔNG NGHỆ SỬ DỤNG
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dusthuynh&exclude_repo=CTU,frontendmentor,Dusthuynh,BTCT188,dusthuynh.github.io,nghiacutephomaique&layout=compact)](https://github.com/Dusthuynh/kiboShop)
 >Ngoài ra còn sử dụng thư viện Jquery và framework Bootstrap.
