@@ -51,14 +51,14 @@ function filter(e) {
   filterType = filterType.slice(filterType.indexOf('-') + 1, filterType.length);
   contentFilter = e.target.innerHTML;
   if (filterType == 'Hotswap') {
-    // loc hotswap
-    for (let i = 0; i < fulldata.length; i++) {
-      if (fulldata[i]['Hotswap'] == 'YES') {
-        array = array.concat(fulldata[i]);
-      }
-    }
-    passInfo(array);
-  } else if (filterType == 'Bluetooth') {
+    fetch('https://kiboshop-api.herokuapp.com/api/keyboards?Hotswap=YES')
+      .then((response) => response.json())
+      .then((dataHotswap) => {
+        passInfo(dataHotswap.data.keyboards);
+      });
+  }
+
+  if (filterType == 'Bluetooth') {
     //loc bluetooth
     for (let i = 0; i < fulldata.length; i++) {
       if (
@@ -84,19 +84,21 @@ function filter(e) {
     passInfo(newData);
   } else {
     //loc nhung cai con lai
-    for (let i = 0; i < fulldata.length; i++) {
-      if (fulldata[i][filterType].includes(contentFilter)) {
-        array = array.concat(fulldata[i]);
-      }
-    }
-    passInfo(array);
+    contentFilter = contentFilter.replace(' ', '+');
+    fetch(
+      `https://kiboshop-api.herokuapp.com/api/keyboards?${filterType}=${contentFilter}`
+    )
+      .then((response) => response.json())
+      .then((dataFilter) => {
+        passInfo(dataFilter.data.keyboards);
+      });
   }
 }
 
 function compareUp(a, b) {
   // ham so sanh de sap xep theo thu tu tang
-  let gia1 = Number.parseInt(a['Price'].match(/\d/g).join('')),
-    gia2 = Number.parseInt(b['Price'].match(/\d/g).join(''));
+  let gia1 = a.Price,
+    gia2 = b.Price;
   if (gia1 < gia2) {
     return -1;
   }
@@ -107,8 +109,8 @@ function compareUp(a, b) {
 }
 function compareDown(a, b) {
   // ham so sanh de sap xep theo thu tu giam
-  let gia1 = Number.parseInt(a['Price'].match(/\d/g).join('')),
-    gia2 = Number.parseInt(b['Price'].match(/\d/g).join(''));
+  let gia1 = a.Price,
+    gia2 = b.Price;
   if (gia1 > gia2) {
     return -1;
   }
@@ -155,7 +157,11 @@ function passInfo(Brand) {
     hinhsanpham.src =
       './san-pham-img/' + item['Name'] + '/' + item['Name'] + ' 1.jpg';
     tensanpham.innerHTML = item['Name'];
-    tiensanpham.innerHTML = item['Price'];
+    var formatter = new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'VND',
+    });
+    tiensanpham.innerHTML = formatter.format(item['Price']);
     modelsanpham.innerHTML = item['Model'];
     buttonsanpham.href = '#';
     buttonsanpham.innerHTML = 'Đặt hàng';
