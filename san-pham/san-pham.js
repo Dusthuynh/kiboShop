@@ -1,6 +1,6 @@
 const sortType = 1;
 var fulldata;
-fetch('https://kiboshop-api.herokuapp.com/api/keyboards')
+fetch('https://kiboshop-backend.onrender.com/api/keyboards')
   .then((response) => response.json())
   .then((data) => {
     fulldata = data.data.keyboards;
